@@ -1,7 +1,10 @@
 ---
-layout: default
+layout: post
 title:  "Gerando certificados SSL LetsEncrypt localmente no MacOS"
 date:   2019-02-12 15:29:45 -0300
+categories: blog
+author: Renato Monteiro Batista
+siteautor: renatomonteiro.gq
 ---
 
 # Gerando certificados SSL LetsEncrypt localmente no MacOS com o ZeroSSL

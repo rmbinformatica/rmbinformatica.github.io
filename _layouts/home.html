@@ -1,34 +1,44 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<!--
+	Ex Machina by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+<html lang="{{ page.lang | default: site.lang | default: "pt-br" }}">
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  {%- include head.html -%}
 
-  {{ content }}
+  <body class="homepage">
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+    {%- include header.html -%}
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+
+    <!-- Main -->
+		<div id="page">
+
+        {%- include marketing.html -%}
+        <!-- Main -->
+        <div id="main" class="container">
+          <div class="row">
+            <div class="12u">
+              <section>
+                <header>
+                  <h2>{{ page.title }}</h2>
+                  <span class="byline">{{ page.description }}</span>
+                </header>
+{{ content }}
+      </section>
+    </div>
+
+  </div>
+</div>
+<!-- Main -->
 
 </div>
+<!-- /Main -->
+    {%- include featured.html -%}
+    {%- include footer.html -%}
+
+	</body>
+</html>

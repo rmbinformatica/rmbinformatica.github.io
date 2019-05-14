@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+<html lang="{{ page.lang | default: site.lang | default: "pt-br" }}">
+
+  {%- include head.html -%}
+  {%- include header.html -%}
+  {%- assign date_format = site.minima.date_format | default: "%-d/%m/%Y %R" -%}
+	<div class="pb-5 pt-2" id="blog">
+		<h2 class="title-w3 text-bl my-3 font-weight-bold text-capitalize text-center">Blog da RMB Informática</h2>
+		<div class="container pb-xl-5 pb-lg-3 text-bl">
+			{%- if site.posts.size > 0 -%}
+			<ul class="style1">
+				{%- for post in site.posts -%}
+				<li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
+				{%- endfor -%}
+			</ul>
+			{%- endif -%}							
+		</div>
+	</div>
+	{%- include featured.inicial.html -%}
+  {%- include footer.html -%}
+
+	</body>
+</html>

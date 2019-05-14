@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<html lang="{{ page.lang | default: site.lang | default: "pt-br" }}">
+
+  {%- include head.html -%}
+  {%- include header.html -%}
+
+  <div class="pb-5 pt-2" id="price">
+		<div class="container pb-xl-5 pb-lg-3">
+        {%- if page.img -%}
+         <div class="text-center">
+         <img src="{{ page.img }}" alt="" class="img-fluid" />
+         </div>
+         {%- endif -%} 
+			<h3 class="title-w3 text-bl my-3 font-weight-bold text-capitalize text-center">{{ page.title }}</h3>
+			<p class="sub-tittle text-center">{{ page.description }}</p>
+         <p class="text-bl">{{ content }}</p>
+         {%- if page.btn_name -%}
+         <div class="text-center">
+         <a href="{{ page.btn_link }}" class="btn button-style mt-5">{{ page.btn_name }}</a>
+         </div>
+         {%- endif -%}
+		</div>
+	</div>
+  
+  {%- include footer.html -%}
+
+	</body>
+</html>

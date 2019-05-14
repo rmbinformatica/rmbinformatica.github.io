@@ -1,14 +1,10 @@
 ---
-layout: post
-title:  "Gerando certificados SSL LetsEncrypt localmente no MacOS"
-date:   2019-02-12 15:29:45 -0300
-categories: blog
-autor: renato
-btn_link: https://gist.github.com/renatomb/0df93907256c9aa35e89c139dfe3f99f
-btn_name: Download do Script
+layout: default
+title:  "Antivírus Kaspersky"
+categories: produtos
 ---
 
-# Gerando certificados SSL LetsEncrypt localmente no MacOS com o ZeroSSL
+# Adquira agora o antivírus Kaspersky para proteger sua rede
 
 Olá, neste artigo vamos abordar a geração de certificados SSL assinados pela [LetsEncrypt][letsen] num sistema MacOS, o objetivo é gerar os certificados na máquina de trabalho de um administrador que irá instalar esses certificados em um servidor remoto, para isso vamos usar uma versão leve do cliente LetsEncrypt chamada [ZeroSSL][zerossl].
 
@@ -85,7 +81,12 @@ O arquivo resultante, será o **domain.crt** que contém o certificado SSL segui
 
 # Script gist para facilitar o processo
 
-Para automatizar o processo, desenvolvi um pequeno script [gerarSSL.sh][gist] que opera de maneira interativa com o usuário perguntando o nome do arquivo resultante e o nome do domínio que será validado. Para executar basta salvar script em qualquer pasta os certificados gerados serão salvos na mesma pasta onde o script for executado.
+Para automatizar o processo, desenvolvi um pequeno script que opera de maneira interativa com o usuário perguntando o nome do arquivo resultante e o nome do domínio que será validado. Para executar basta salvar script em qualquer pasta os certificados gerados serão salvos na mesma pasta onde o script for executado.
+
+[gerarSSL.sh][gist]
+
+---
+Escrito por [Renato Monteiro Batista][renato] para o blog da [RMB Informática][rmb]. Reprodução permitida desde que seja mantida as informações de autoria.
 
 [rmb]: http://rmbinformatica.com
 [renato]: http://renatomonteiro.gq

@@ -1,44 +1,17 @@
 <!DOCTYPE HTML>
-<!--
-	Ex Machina by TEMPLATED
-    templated.co @templatedco
-    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html>
 <html lang="{{ page.lang | default: site.lang | default: "pt-br" }}">
 
   {%- include head.html -%}
-
-  <body class="homepage">
-
-    {%- include header.html -%}
-
-
-    <!-- Main -->
-		<div id="page">
-
-        {%- include marketing.html -%}
-        <!-- Main -->
-        <div id="main" class="container">
-          <div class="row">
-            <div class="12u">
-              <section>
-                <header>
-                  <h2>{{ page.title }}</h2>
-                  <span class="byline">{{ page.description }}</span>
-                </header>
-{{ content }}
-      </section>
-    </div>
-
-  </div>
-</div>
-<!-- Main -->
-
-</div>
-<!-- /Main -->
-    {%- include featured.html -%}
-    {%- include footer.html -%}
+  {%- include header.html -%}
+  {%- include banner.inicial.html -%}
+  {%- include featured.inicial.html -%}
+  {%- include middle.inicial.html -%}
+  {%- include destaques.inicial.html -%}
+  {%- include stats.html -%}
+  {%- include partners.html -%}
+  {%- include subscribe.html -%}
+  {%- include footer.html -%}
 
 	</body>
 </html>

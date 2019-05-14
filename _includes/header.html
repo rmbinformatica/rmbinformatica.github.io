@@ -1,29 +1,78 @@
-<!-- Header -->
-<div id="header">
-    <div class="container">
-        
-      <!-- Logo -->
-        <div id="logo">
-          <h1><a href="{{site.url}}"><img src="/images/logo_rmb_globo_binario.png"> <font color="0C3F63">RMB Informática</font> </a></h1>
-        </div>
-      
-      <!-- Nav -->
-        <nav id="nav">
-          <ul>
-            <li><a href="index.html">Homepage</a></li>
-            <li><a href="left-sidebar.html">Left Sidebar</a></li>
-            <li><a href="right-sidebar.html">Right Sidebar</a></li>
-            <li class="active"><a href="no-sidebar.html">No Sidebar</a></li>
-          </ul>
-        </nav>
-
+<body>
+	<!-- main banner -->
+	<div class="main-top" id="home">
+		<!-- header -->
+		<header>
+			<div class="container-fluid">
+				<div class="header d-lg-flex justify-content-between align-items-center py-3 px-sm-3">
+					<!-- logo -->
+					<div id="logo">
+						<h1><a href="{{site.url}}"><img src="/images/logo_rmb_globo_binario.png"> <font color="0C3F63">RMB Informática</font> </a></h1>
+					</div>
+					<!-- //logo -->
+					<!-- nav -->
+					<div class="nav_w3ls">
+						<nav>
+							<label for="drop" class="toggle">Menu</label>
+							<input type="checkbox" id="drop" />
+							<ul class="menu">
+								<li><a href="index.html" class="active">Home</a></li>
+								<li><a href="about.html">Serviços</a></li>
+                <li><a href="pricing.html">Produtos</a></li>
+                <!-- First Tier Drop Down
+								<li>
+									<label for="drop-2" class="toggle toogle-2">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span>
+									</label>
+									<a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+									<input type="checkbox" id="drop-2" />
+									<ul>
+										<li><a href="#services" class="drop-text">Services</a></li>
+										<li><a href="faq.html" class="drop-text">Faq's</a></li>
+										<li><a href="404.html" class="drop-text">404</a></li>
+										<li><a href="#stats" class="drop-text">Statistics</a></li>
+										<li><a href="about.html" class="drop-text">Why Choose Us?</a></li>
+										<li><a href="about.html" class="drop-text">Our Team</a></li>
+										<li><a href="#partners" class="drop-text">Partners</a></li>
+									</ul>
+                </li>
+                -->
+								<li><a href="/contato.html">Contato</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- //nav -->
+					<div class="d-flex mt-lg-1 mt-sm-2 mt-3 justify-content-center">
+						<!-- search -->
+						<div class="search-w3layouts mr-3">
+						<!-- Pesquisa por form
+              	<form action="#" method="post" class="search-bottom-wthree d-flex">
+								<input class="search" type="search" placeholder="Pesquisar..." required="">
+								<button class="form-control btn" type="submit"><span class="fa fa-search"></span></button>
+              </form>
+            -->  
+						</div>
+						<!-- //search -->
+						<!-- download -->
+						<a class="dwn-w3ls btn" href="https://download.teamviewer.com/download/TeamViewerQS.exe" target="_blank">
+							<span class="far fa-life-ring"></span>
+						</a>
+						<!-- //download -->
+					</div>
+				</div>
+			</div>
+		</header>
+    <!-- //header -->
+  {%- if page.title -%}    
+    <!-- banner -->
+		<div class="banner_w3lspvt-2">
+        <ol class="breadcrumb">
+          {%- if page.categories -%}  
+          <li class="breadcrumb-item"><a href="index.html" class="font-weight-bold">{{ page.categories | default: "" }}</a></li>
+          {%- endif -%}
+          <li class="breadcrumb-item" aria-current="page">{{ page.title }}</li>
+        </ol>
     </div>
+    <!-- //banner -->
+  {%- endif -%}
   </div>
-<!-- Header -->
-  
-<!-- Banner -->
-  <div id="banner">
-    <div class="container">
-    </div>
-  </div>
-<!-- /Banner -->
+  <!-- //main banner -->

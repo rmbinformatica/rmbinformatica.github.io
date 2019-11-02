@@ -1,0 +1,130 @@
+<!DOCTYPE HTML>
+<html>
+<html lang="{{ page.lang | default: site.lang | default: "pt-br" }}">
+
+  {%- include head.html -%}
+  {%- include header.html -%}
+  {{ content }}
+  	<!-- price -->
+	<div class="price-sec py-5">
+			<div class="container py-xl-5 py-lg-3">
+				<div class="inner_sec_info_w3_info mt-3">
+					<div class="row price-grid-main">
+  {% for produtos in site.data.prices[page.pricetable] %}
+  {% assign item = produtos[1] %}
+  <div class="col-lg-3 col-sm-6 price-info">
+		<div class="prices p-4">
+			<div class="prices-top">
+				<h3 class="text-center text-wh rounded-circle"><span><font size="-3">R$</font></span>{{ item.preco }}</h3>
+			</div>
+			<div class="prices-bottom text-center">
+				<div class="prices-h border-bottom p-4">
+					<h4>{{ item.nome }}</h4>
+				</div>
+				<ul class="mt-4">
+					{% for caracteristica in item.detalhes %}
+					{% assign det = caracteristica[1] %}
+					<li>{{ det }}</li>
+					{% endfor %}
+				</ul>
+				<a href="{{ item.link }}" class="btn button-style mt-4">{{ item.comprar }}</a>
+			</div>
+		</div>
+	</div>
+  {% endfor %}
+					</div>
+				</div>
+			</div>
+		</div>
+
+  	<!--
+	<div class="price-sec py-5">
+		<div class="container py-xl-5 py-lg-3">
+			<div class="inner_sec_info_w3_info mt-3">
+				<div class="row price-grid-main">
+					<div class="col-lg-3 col-sm-6 price-info">
+						<div class="prices p-4">
+							<div class="prices-top">
+								<h3 class="text-center text-wh rounded-circle">Pro</h3>
+							</div>
+							<div class="prices-bottom text-center">
+								<div class="prices-h border-bottom p-4">
+									<h4>Standard</h4>
+								</div>
+								<ul class="mt-4">
+									<li>Community Access</li>
+									<li>Annual Reports</li>
+									<li>Free Support</li>
+									<li>Expert Reviews</li>
+								</ul>
+								<a href="#" class="btn button-style mt-4">Purchase</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6  price-info price-mkres-2">
+						<div class="prices p-4 active">
+							<div class="prices-top">
+								<h3 class="text-center text-wh rounded-circle">Biz</h3>
+							</div>
+							<div class="prices-bottom text-center">
+								<div class="prices-h border-bottom p-4">
+									<h4>Premium</h4>
+								</div>
+								<ul class="mt-4">
+									<li>Limitless Concepts</li>
+									<li>Annual Reports</li>
+									<li>Free Support</li>
+									<li>Expert Reviews</li>
+								</ul>
+								<a href="#" class="btn button-style mt-4">Purchase</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6  price-info price-mkres">
+						<div class="prices p-4">
+							<div class="prices-top">
+								<h3 class="text-center text-wh rounded-circle"><i class="fab fa-google"></i></h3>
+							</div>
+							<div class="prices-bottom text-center">
+								<div class="prices-h border-bottom p-4">
+									<h4>Golden</h4>
+								</div>
+								<ul class="mt-4">
+									<li>Community Access</li>
+									<li>Annual Reports</li>
+									<li>Free Support</li>
+									<li>Expert Reviews</li>
+								</ul>
+								<a href="#" class="btn button-style mt-4">Purchase</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-sm-6  price-info price-mkres">
+						<div class="prices p-4 active">
+							<div class="prices-top">
+								<h3 class="text-center text-wh rounded-circle">$30</h3>
+							</div>
+							<div class="prices-bottom text-center">
+								<div class="prices-h border-bottom p-4">
+									<h4>Ultimate</h4>
+								</div>
+								<ul class="mt-4">
+									<li>Limitless Concepts</li>
+									<li>Annual Reports</li>
+									<li>Free Support</li>
+									<li>Expert Reviews</li>
+								</ul>
+								<a href="#" class="btn button-style mt-4">Purchase</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	 //price -->
+  {%- include footer.html -%}
+
+	</body>
+</html>  
+

@@ -88,7 +88,7 @@ O arquivo resultante, será o **domain.crt** que contém o certificado SSL segui
 Para automatizar o processo, desenvolvi um pequeno script [gerarSSL.sh][gist] que opera de maneira interativa com o usuário perguntando o nome do arquivo resultante e o nome do domínio que será validado. Para executar basta salvar script em qualquer pasta os certificados gerados serão salvos na mesma pasta onde o script for executado.
 
 [rmb]: http://rmbinformatica.com
-[renato]: http://renatomonteiro.gq
+[renato]: http://renato.ovh
 [letsen]: https://letsencrypt.org/
 [certbot]: https://certbot.eff.org/
 [docker-mac]: https://docs.docker.com/docker-for-mac/install/

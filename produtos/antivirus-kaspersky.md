@@ -89,7 +89,7 @@ Para automatizar o processo, desenvolvi um pequeno script que opera de maneira i
 Escrito por [Renato Monteiro Batista][renato] para o blog da [RMB Informática][rmb]. Reprodução permitida desde que seja mantida as informações de autoria.
 
 [rmb]: http://rmbinformatica.com
-[renato]: http://renatomonteiro.gq
+[renato]: http://renato.ovh
 [letsen]: https://letsencrypt.org/
 [certbot]: https://certbot.eff.org/
 [docker-mac]: https://docs.docker.com/docker-for-mac/install/

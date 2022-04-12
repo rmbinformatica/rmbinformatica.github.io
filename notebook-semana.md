@@ -5,11 +5,11 @@ productimage: "https://images-shoptime.b2w.io/produtos/4260810552/imagens/notebo
 memory: "8GB RAM"
 disk: "SSD 256GB"
 operatingsystem: "Microsoft Windows 10"
-price: "3.119,20 + 106,06 (frete)"
-store: "Shoptime"
-link: https://tidd.ly/37uq82s
+price: "3.197,18 + 106,06 (frete)"
+store: "Americanas"
+link: https://tidd.ly/3rjjiUB
 keywords: "Notebook asus, X515JF-EJ360T, asus X515JF, notebook core i5 8gb ssd, notebook com ssd recomendação de notebook, notebook da semana, indicação de notebook, oferta de notebook, melhor notebook, notebook custo benefício, qual notebook comprar, notebook barato, notebook bom e barato, notebook preço bom, notebook boa configuração, opção de notebook, notebook bom, notebook bacana, laptop com ssd, recomendação de laptop, laptop da semana, indicação de laptop, oerta de laptop, melhor laptop, laptop custo benefício, qual laptop comprar, laptop barato, laptop bom e barato, laptop preço bom, laptop boa configuração, opção de laptop, laptop bom, laptop bacana"
-date:   2022-04-09 10:15:00 -0300
+date:   2022-04-12 07:54:00 -0300
 autor: renato
 layout: nbksemana
 permalink: /notebook-da-semana/

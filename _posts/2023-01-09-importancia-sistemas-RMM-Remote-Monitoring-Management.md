@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Entenda a importância de sistemas de RMM (Remote Monitoring and Management) ou Monitoramento e Gerenciamento Remoto"
-date:   2019-02-12 15:29:45 -0300
+date:   2023-01-09 21:01:45 -0300
 categories: blog
 autor: renato
 btn_link: https://rmbinformatica.com/contato.html

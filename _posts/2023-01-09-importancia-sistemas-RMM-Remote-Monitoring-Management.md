@@ -4,8 +4,8 @@ title:  "Entenda a importância de sistemas de RMM (Remote Monitoring and Manage
 date:   2019-02-12 15:29:45 -0300
 categories: blog
 autor: renato
-btn_link: https://gist.github.com/renatomb/0df93907256c9aa35e89c139dfe3f99f
-btn_name: Download do Script
+btn_link: https://rmbinformatica.com/contato.html
+btn_name: Entre em contato conosco
 ---
 
 # Entenda o que são sistemas de RMM (Remote Monitoring and Management)

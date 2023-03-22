@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Softwares recomendados para profissionais de TI"
-date:  2023-01-10 07:50:44 -0300
+date:  2023-01-10 16:00:00 -0300
 categories: blog
 autor: renato
 ---

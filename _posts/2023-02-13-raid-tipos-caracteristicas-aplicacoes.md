@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Entenda o que é VPN e como ela pode ajudar sua empresa"
+title:  "Entenda o que é RAID quais os tipos e características de cada um"
 date:  2023-01-15 22:13:12 -0300
 categories: blog
 autor: renato

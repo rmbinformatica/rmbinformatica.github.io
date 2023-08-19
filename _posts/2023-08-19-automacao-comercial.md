@@ -86,4 +86,4 @@ Ofereçemos 15 dias para você testar o sistema gratuitamente, com limitação d
 
 ## Contrate agora
 
-[Entre em contato conosco](/contato/) e solicite um orçamento.
+[Entre em contato conosco](/contato.html) e solicite um orçamento.

@@ -5,6 +5,8 @@ date:  2023-08-19 18:22:08 -0300
 categories: SGBr
 permalink: /automacao-comercial/
 autor: renato
+btn_link: https://rmbinformatica.com.br/pedido-automacao-comercial.php
+btn_name: Solicite um orçamento
 ---
 
 ## Controle as finanças, estoque e muito mais com um sistema completo e confiável
@@ -86,4 +88,4 @@ Ofereçemos 15 dias para você testar o sistema gratuitamente, com limitação d
 
 ## Contrate agora
 
-[Entre em contato conosco](/contato.html) e solicite um orçamento.
+[Entre em contato conosco](/contato.html) ou [solicite um orçamento](https://rmbinformatica.com.br/pedido-automacao-comercial.php).

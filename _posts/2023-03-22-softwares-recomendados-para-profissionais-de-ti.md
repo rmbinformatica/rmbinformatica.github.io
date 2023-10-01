@@ -95,7 +95,17 @@ Rufus é uma ferramenta gratuita de criação de mídia de inicialização que p
 ShredOS é uma pequena distribuição Linux inicializável por USB (BIOS Legacy CSM ou UEFI) com o único propósito de apagar completamente o conteúdo dos seus discos com segurança, usando o programa nwipe. Se você está familiarizado com o dwipe do DBAN, então se sentirá em casa com o ShredOS e o nwipe. O desenvolvimento do DBAN parou em 2015 e parou de receber atualizações desde então. O ShredOS surge como uma versão melhorada que originalmente era um fork do dwipe, mas continuou a ter melhorias e correções de bugs e agora está disponível em muitas distribuições Linux. O ShredOS, com sorte, sempre fornecerá o nwipe mais recente em um kernel Linux atualizado para que ele suporte hardware moderno.
 
 ## [VVV - Virtual Volumes View](https://vvvapp.sourceforge.net/)
+
 O VVV (Virtual Volumes View) é um software muito útil para profissionais de TI que precisam gerenciar grandes quantidades de dados em diferentes mídias e formatos. Pois se trata de um programa que cataloga o conteúdo de volumes removíveis - tais como: CDs, DVDs, pendrive, hd externo, etc - e para facilitar a localização de arquivos por meio de uma ferramenta de busca offline, ou seja: não é necessário que a mídia esteja conectada/montada para pesquisar os arquivos. Ele também permite organizar arquivos e pastas em um único sistema de arquivos virtual, que pode conter as informações do conteúdo de vários discos. Além disso, ele armazena informações de metadados de arquivos de áudio, como autor, título, álbum e assim por diante.
 
 ## [Crystal Disk info](https://crystalmark.info/en/download/#CrystalDiskInfo)
+
 Crystal Disk Info é um software que permite monitorar o estado dos discos rígidos e SSDs de um computador. Ele exibe informações como a temperatura, o tempo de uso, a taxa de transferência e os atributos SMART. Esses dados são úteis para profissionais de TI que precisam diagnosticar problemas de desempenho, prevenir falhas e otimizar o armazenamento dos dispositivos.
+
+## [Sysinternals Suite](https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite)
+
+O Sysinternals Suite é um conjunto de ferramentas de diagnóstico e solução de problemas desenvolvido pela Microsoft. [Leia nosso artigo dedicado ao Sysinternals Suite](https://rmbinformatica.com/blog/sysinternalssuite).
+
+## [RegistryChangesView](https://www.nirsoft.net/utils/registry_changes_view.html)
+
+RegistryChangesView é uma ferramenta para windows que permite tirar uma "fotografia" (snapshot) do Registro do Windows e compara-lo futuramente com outros snapshots. Ao realizar essa comparação é possível identificar todas as modificações no registro realizadas entre os dois momentos. Também há a opção de exportar as modificações para um arquivo `.reg` que pode ser facilmente importado em outro windows.

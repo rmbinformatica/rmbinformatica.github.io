@@ -34,6 +34,7 @@ Essa é uma pergunta recorrente, mas não existe uma resposta definitiva, pois d
 - Ao apresentar algum defeito em garantia é necessário enviar todo o equipamento para a assistência técnica, ficando sem o equipamento por alguns dias
 - Seus arquivos pessoais ficarão expostos ao técnico da assistência técnica sempre que precisar envia-lo para conserto
 - Há menos tecnicos especializados em notebooks do que em desktops
+- Os processadores dos notebooks têm seus recursos limitados para economizar energia, por isso o desempenho deles será sempre inferior comparado ao mesmo modelo de processador (série/família/geração) de um desktop
 - Uma hora vai tornar-se obsoleto
 
 ## Desktop
@@ -51,6 +52,7 @@ Essa é uma pergunta recorrente, mas não existe uma resposta definitiva, pois d
 - Se o desktop for montado adquirindo as peças separadamente, ao necessitar de alguma garantia é possível enviar somente a peça defeituosa para a assistência técnica, não sendo necessário enviar todo o equipamento
 - Não haverá exposição dos seus arquivos pessoais ao técnico da assistência técnica quando você precisar enviar somente algum componente para garantia (fonte, placa mãe, memória, etc)
 - Há mais técnicos capazes de oferecer manutenção em desktops do que em notebooks
+- Os processadores de desktop tem um desempenho superior aos processadores de notebook, considerando-se a mesma série/família/geração
 
 ### Desvantagens
 

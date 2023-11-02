@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Notebook ou Desktop? Qual o melhor? Qual escolher?"
-date:  2023-11/01 14:37:31 -0300
+date:  2023-11-01 14:37:31 -0300
 categories: blog
 autor: renato
 ---

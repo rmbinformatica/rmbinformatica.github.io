@@ -28,6 +28,7 @@ markdown: kramdown
 theme: minima
 permalink: /:categories/:title
 plugins:
+  - jekyll-sitemap
   - jekyll-feed
 
 # Exclude from processing.

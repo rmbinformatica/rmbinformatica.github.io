@@ -1,2 +1,5 @@
 # Implementação visual — primeira etapa
 Novo Design System em assets/css/rmb.css, seletor de tema em assets/js/theme.js, layout independente rmb-v2 e homepage rmb-home. O protótipo usa temporariamente o símbolo histórico já presente no repositório; não confundir com o kit v1.1 aprovado. As fontes têm fallback de sistema até a incorporação das fontes licenciadas. Os layouts antigos e suas dependências permanecem intactos. O protótipo está em /preview-v2/ com sitemap:false e noindex; não publicar em master. Navegação e texto provisórios em português. Internacionalização, páginas comerciais definitivas, kit visual e testes visuais permanecem pendentes.
+
+## Internacionalização — protótipo
+Interface localizada nos seis idiomas; seletor de equivalentes existentes e hreflang apenas para páginas indexáveis. Cinco versões estrangeiras resumidas em /preview-v2/{lang}/ são rascunhos não indexáveis para validar navegação e layout; não constituem traduções finais da página inicial. Links para conteúdo legado em português são identificados. Nenhuma tradução publicada em produção. Kit v1.1 disponível localmente, incorporação pendente.

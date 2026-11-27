@@ -1,0 +1,14 @@
+{% if page.translation_key %}
+<nav class="rmb-languages" aria-label="{{ ui.language | escape }}">
+  {% for entry in site.data.rmb_languages %}
+    {% assign code = entry[0] %}
+    {% assign label = entry[1].name %}
+    {% assign equivalent = translations | where: "lang", code | first %}
+    {% if equivalent %}
+      {% if page.noindex or equivalent.noindex != true %}
+        {% if code == locale %}<span lang="{{ code }}" aria-current="page">{{ label | escape }}</span>{% else %}<a lang="{{ code }}" hreflang="{{ code }}" href="{{ equivalent.url | relative_url }}">{{ label | escape }}</a>{% endif %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</nav>
+{% endif %}

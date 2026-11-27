@@ -36,3 +36,5 @@ p{margin:0 0 1rem}code,pre{font-family:var(--mono)}pre{overflow:auto}
 .rmb-content{max-width:48rem;margin-inline:auto;padding:3rem 1rem}.rmb-content h2{margin-top:2rem}
 @media(min-width:55rem){.rmb-hero-inner{grid-template-columns:1.65fr 1fr}.rmb-header-inner{flex-wrap:nowrap}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+.rmb-languages{display:flex;flex-wrap:wrap;gap:.3rem .65rem;font-size:.8rem;align-items:center}.rmb-languages [aria-current=page]{font-weight:750}.rmb-languages a{display:inline-flex;min-height:32px;align-items:center}.rmb-header-inner{flex-wrap:wrap}

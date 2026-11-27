@@ -1,0 +1,7 @@
+---
+layout: rmb-v2
+---
+{% assign copy = site.data.rmb_preview_home[page.lang] %}
+<section class="rmb-hero"><div class="rmb-container"><p class="rmb-eyebrow">{{ copy.eyebrow | escape }}</p><h1>{{ copy.headline | escape }}</h1><p>{{ copy.intro | escape }}</p><div class="rmb-actions"><a class="rmb-button" href="{{ '/contato.html' | relative_url }}">{{ copy.cta | escape }} ({{ site.data.rmb_languages[page.lang].portuguese | escape }})</a><a class="rmb-button rmb-button-secondary" href="#services">{{ copy.explore | escape }}</a></div></div></section>
+<section class="rmb-section" id="services"><div class="rmb-container"><h2>{{ copy.services | escape }}</h2><p class="rmb-section-intro">{{ copy.services_intro | escape }}</p><div class="rmb-grid">{% for item in copy.solutions %}<article class="rmb-card"><h3>{{ item.title | escape }}</h3><p>{{ item.description | escape }}</p></article>{% endfor %}</div></div></section>
+<section class="rmb-section"><div class="rmb-container rmb-cta"><h2>{{ copy.ai_title | escape }}</h2><p>{{ copy.ai_text | escape }}</p></div></section>

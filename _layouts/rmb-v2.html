@@ -1,3 +1,18 @@
+{%- assign locale = page.lang | default: site.lang | default: 'pt-BR' -%}
+{%- assign ui = site.data.rmb_languages[locale] -%}
+{%- assign all_documents = site.pages | concat: site.servicos -%}
+{%- if page.translation_key -%}
+  {%- assign translations = all_documents | where: "translation_key", page.translation_key -%}
+  {%- assign home_url = '/' -%}
+  {%- if page.noindex -%}
+    {%- assign local_home = all_documents | where: "translation_key", "preview-home" | where: "lang", locale | first -%}
+    {%- if local_home -%}{%- assign home_url = local_home.url -%}{%- endif -%}
+  {%- elsif locale != 'pt-BR' -%}
+    {%- assign home_url = '/' | append: locale | append: '/' -%}
+  {%- endif -%}
+{%- else -%}
+  {%- assign home_url = '/' -%}
+{%- endif -%}
 <!doctype html>
 <html lang="{{ page.lang | default: site.lang | default: 'pt-BR' | escape }}">
 <head>
@@ -6,6 +21,17 @@
   <title>{{ page.title | default: site.title | escape }}{% if page.title and page.title != site.title %} | {{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.description | default: site.description | strip_html | normalize_whitespace | escape }}">
   <link rel="canonical" href="{{ page.url | absolute_url | escape }}">
+  {% unless page.noindex %}
+    {% if page.translation_key %}
+      {% assign published_translations = translations | where_exp: "item", "item.noindex != true" | where_exp: "item", "item.sitemap != false" %}
+      {% if published_translations.size > 1 %}
+        {% for item in published_translations %}
+          <link rel="alternate" hreflang="{{ item.lang | escape }}" href="{{ item.url | absolute_url | escape }}">
+          {% if item.lang == 'pt-BR' %}<link rel="alternate" hreflang="x-default" href="{{ item.url | absolute_url | escape }}">{% endif %}
+        {% endfor %}
+      {% endif %}
+    {% endif %}
+  {% endunless %}
   {% if page.noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
   <meta name="verification" content="14ac57deb189f910924274fb9ee7fb2a">
   <meta name="lomadee-verification" content="23082398">
@@ -16,32 +42,33 @@
   {% unless page.noindex %}{% include google-analytics.html %}{% endunless %}
 </head>
 <body>
-  <a class="rmb-skip" href="#conteudo">Ir para o conteúdo</a>
+  <a class="rmb-skip" href="#conteudo">{{ ui.skip | escape }}</a>
   <header class="rmb-header">
     <div class="rmb-container rmb-header-inner">
-      <a class="rmb-logo" href="{{ '/' | relative_url }}"><img src="{{ '/images/logo_rmb_globo_binario.png' | relative_url }}" alt="" width="48" height="48"><span>RMB Informática</span></a>
-      <nav class="rmb-nav" aria-label="Navegação principal">
-        <a href="{{ '/#services' | relative_url }}">Serviços</a>
-        <a href="{{ '/blog/' | relative_url }}">Blog</a>
-        <a href="https://ajuda.rmbinformatica.com.br/">Ajuda</a>
-        <a href="{{ '/contato.html' | relative_url }}">Contato</a>
+      <a class="rmb-logo" href="{{ home_url | relative_url }}"><img src="{{ '/images/logo_rmb_globo_binario.png' | relative_url }}" alt="" width="48" height="48"><span>RMB Informática</span></a>
+      <nav class="rmb-nav" aria-label="{{ ui.nav | escape }}">
+        <a href="{{ home_url | relative_url }}#services">{{ ui.services | escape }}</a>
+        <a href="{{ '/blog/' | relative_url }}">{{ ui.blog | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
+        <a href="https://ajuda.rmbinformatica.com.br/">{{ ui.help | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
+        <a href="{{ '/contato.html' | relative_url }}">{{ ui.contact | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
       </nav>
-      <label class="rmb-theme" for="rmb-theme">Tema
+      <label class="rmb-theme" for="rmb-theme">{{ ui.theme | escape }}
         <select id="rmb-theme">
-          <option value="system">Sistema</option><option value="light">Claro</option><option value="dark">Escuro</option>
+          <option value="system">{{ ui.system | escape }}</option><option value="light">{{ ui.light | escape }}</option><option value="dark">{{ ui.dark | escape }}</option>
         </select>
       </label>
+      {% include rmb-language-switcher.html %}
     </div>
   </header>
   <main id="conteudo">{{ content }}</main>
   <footer class="rmb-footer">
     <div class="rmb-container">
-      <p><strong>RMB Informática</strong> · Natal/RN, Brasil</p>
-      <nav class="rmb-footer-links" aria-label="Links do rodapé">
-        <a href="{{ '/contato.html' | relative_url }}">Contato</a>
+      <p><strong>RMB Informática</strong> · Natal/RN, {{ ui.country | escape }}</p>
+      <nav class="rmb-footer-links" aria-label="{{ ui.footer | escape }}">
+        <a href="{{ '/contato.html' | relative_url }}">{{ ui.contact | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
         <a href="{{ '/blog/' | relative_url }}">Blog</a>
-        <a href="https://ajuda.rmbinformatica.com.br/">Portal de ajuda</a>
-        <a href="https://rmbinformatica.com.br/">Ferramentas online</a>
+        <a href="https://ajuda.rmbinformatica.com.br/">{{ ui.help_portal | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
+        <a href="https://rmbinformatica.com.br/">{{ ui.tools | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
       </nav>
     </div>

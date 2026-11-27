@@ -1,0 +1,187 @@
+{
+  "en": {
+    "eyebrow": "Computer engineering and IT services",
+    "headline": "Technology that helps your business work better.",
+    "intro": "Infrastructure, software and technical support with clear communication.",
+    "cta": "Talk about my project",
+    "explore": "Explore services",
+    "services": "How can we help?",
+    "services_intro": "You do not need to know the technical name for your solution.",
+    "solutions": [
+      {
+        "title": "Reliable IT",
+        "description": "Infrastructure, networks and support."
+      },
+      {
+        "title": "Hosting",
+        "description": "Hosting for systems and email."
+      },
+      {
+        "title": "Data protection",
+        "description": "Backup, security and continuity."
+      },
+      {
+        "title": "Automation",
+        "description": "Software and process integration."
+      },
+      {
+        "title": "Slow or difficult systems",
+        "description": "Diagnosis and optimisation."
+      },
+      {
+        "title": "Built something with AI?",
+        "description": "Evaluation and preparation for professional use."
+      }
+    ],
+    "ai_title": "You know your business. We know software engineering.",
+    "ai_text": "Created a spreadsheet, automation or application with AI? We can assess what is needed for professional use by your team and customers."
+  },
+  "es": {
+    "eyebrow": "Ingeniería informática y servicios de TI",
+    "headline": "Tecnología para que tu negocio funcione mejor.",
+    "intro": "Infraestructura, software y asistencia técnica con una comunicación clara.",
+    "cta": "Hablar de mi proyecto",
+    "explore": "Conocer los servicios",
+    "services": "¿Cómo podemos ayudarte?",
+    "services_intro": "No necesitas conocer el nombre técnico de la solución.",
+    "solutions": [
+      {
+        "title": "TI fiable",
+        "description": "Infraestructura, redes y soporte."
+      },
+      {
+        "title": "Alojamiento",
+        "description": "Alojamiento de sistemas y correo electrónico."
+      },
+      {
+        "title": "Protección de datos",
+        "description": "Copias de seguridad, seguridad y continuidad."
+      },
+      {
+        "title": "Automatización",
+        "description": "Software e integración de procesos."
+      },
+      {
+        "title": "Sistemas lentos o difíciles de mantener",
+        "description": "Diagnóstico y optimización."
+      },
+      {
+        "title": "¿Has creado algo con IA?",
+        "description": "Evaluación y preparación para uso profesional."
+      }
+    ],
+    "ai_title": "Tú conoces tu negocio. Nosotros conocemos la ingeniería de software.",
+    "ai_text": "¿Has creado una hoja de cálculo, automatización o aplicación con IA? Podemos evaluar qué necesitas para que tu equipo y tus clientes la utilicen profesionalmente."
+  },
+  "it": {
+    "eyebrow": "Ingegneria informatica e servizi IT",
+    "headline": "Tecnologia per far funzionare meglio la tua attività.",
+    "intro": "Infrastrutture, software e assistenza tecnica con una comunicazione chiara.",
+    "cta": "Parliamo del mio progetto",
+    "explore": "Scopri i servizi",
+    "services": "Come possiamo aiutarti?",
+    "services_intro": "Non devi conoscere il nome tecnico della soluzione.",
+    "solutions": [
+      {
+        "title": "IT affidabile",
+        "description": "Infrastrutture, reti e assistenza."
+      },
+      {
+        "title": "Hosting",
+        "description": "Hosting di sistemi e posta elettronica."
+      },
+      {
+        "title": "Protezione dei dati",
+        "description": "Backup, sicurezza e continuità."
+      },
+      {
+        "title": "Automazione",
+        "description": "Software e integrazione dei processi."
+      },
+      {
+        "title": "Sistemi lenti o difficili da mantenere",
+        "description": "Diagnosi e ottimizzazione."
+      },
+      {
+        "title": "Hai creato qualcosa con l’IA?",
+        "description": "Valutazione e preparazione all’uso professionale."
+      }
+    ],
+    "ai_title": "Tu conosci la tua attività. Noi conosciamo l’ingegneria del software.",
+    "ai_text": "Hai creato un foglio di calcolo, un’automazione o un’app con l’IA? Possiamo valutare cosa serve per l’utilizzo professionale da parte del tuo team e dei clienti."
+  },
+  "fr": {
+    "eyebrow": "Ingénierie informatique et services IT",
+    "headline": "Des technologies pour mieux faire fonctionner votre entreprise.",
+    "intro": "Infrastructure, logiciels et assistance technique avec une communication claire.",
+    "cta": "Parler de mon projet",
+    "explore": "Découvrir les services",
+    "services": "Comment pouvons-nous vous aider ?",
+    "services_intro": "Vous n’avez pas besoin de connaître le nom technique de la solution.",
+    "solutions": [
+      {
+        "title": "Informatique fiable",
+        "description": "Infrastructure, réseaux et assistance."
+      },
+      {
+        "title": "Hébergement",
+        "description": "Hébergement de systèmes et de messagerie."
+      },
+      {
+        "title": "Protection des données",
+        "description": "Sauvegarde, sécurité et continuité."
+      },
+      {
+        "title": "Automatisation",
+        "description": "Logiciels et intégration des processus."
+      },
+      {
+        "title": "Systèmes lents ou difficiles à maintenir",
+        "description": "Diagnostic et optimisation."
+      },
+      {
+        "title": "Vous avez créé une solution avec l’IA ?",
+        "description": "Évaluation et préparation à un usage professionnel."
+      }
+    ],
+    "ai_title": "Vous connaissez votre métier. Nous connaissons l’ingénierie logicielle.",
+    "ai_text": "Vous avez créé un tableur, une automatisation ou une application avec l’IA ? Nous pouvons évaluer les besoins pour un usage professionnel par vos équipes et clients."
+  },
+  "de": {
+    "eyebrow": "Computer Engineering und IT-Dienstleistungen",
+    "headline": "Technologie, damit Ihr Unternehmen besser funktioniert.",
+    "intro": "Infrastruktur, Software und technischer Support mit klarer Kommunikation.",
+    "cta": "Über mein Projekt sprechen",
+    "explore": "Leistungen entdecken",
+    "services": "Wie können wir helfen?",
+    "services_intro": "Sie müssen den technischen Namen der Lösung nicht kennen.",
+    "solutions": [
+      {
+        "title": "Zuverlässige IT",
+        "description": "Infrastruktur, Netzwerke und Support."
+      },
+      {
+        "title": "Hosting",
+        "description": "Hosting von Systemen und E-Mails."
+      },
+      {
+        "title": "Datenschutz und Datensicherung",
+        "description": "Backup, Sicherheit und Betriebskontinuität."
+      },
+      {
+        "title": "Automatisierung",
+        "description": "Software und Prozessintegration."
+      },
+      {
+        "title": "Langsame oder schwer wartbare Systeme",
+        "description": "Diagnose und Optimierung."
+      },
+      {
+        "title": "Mit KI etwas entwickelt?",
+        "description": "Bewertung und Vorbereitung für den professionellen Einsatz."
+      }
+    ],
+    "ai_title": "Sie kennen Ihr Geschäft. Wir kennen Software-Engineering.",
+    "ai_text": "Haben Sie eine Tabelle, Automatisierung oder Anwendung mit KI erstellt? Wir können beurteilen, was für den professionellen Einsatz durch Teams und Kunden erforderlich ist."
+  }
+}

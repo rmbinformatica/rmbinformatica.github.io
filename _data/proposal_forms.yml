@@ -655,6 +655,53 @@
       }
     },
     {
+      "id": "current_status",
+      "type": "select",
+      "label": {
+        "pt-BR": "Já utiliza Cloudflare?",
+        "en": "Do you already use Cloudflare?",
+        "es": "¿Ya utiliza Cloudflare?",
+        "it": "Utilizza già Cloudflare?",
+        "fr": "Utilisez-vous déjà Cloudflare ?",
+        "de": "Nutzen Sie bereits Cloudflare?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "pt-BR": "Sim",
+            "en": "Yes",
+            "es": "Sí",
+            "it": "Sì",
+            "fr": "Oui",
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "pt-BR": "Não",
+            "en": "No",
+            "es": "No",
+            "it": "No",
+            "fr": "Non",
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
       "id": "need",
       "type": "select",
       "label": {
@@ -666,6 +713,39 @@
         "de": "Hauptbedarf"
       },
       "options": [
+        {
+          "value": "deployment",
+          "label": {
+            "pt-BR": "Implantar Cloudflare",
+            "en": "Set up Cloudflare",
+            "es": "Implantar Cloudflare",
+            "it": "Configurare Cloudflare",
+            "fr": "Mettre en place Cloudflare",
+            "de": "Cloudflare einrichten"
+          }
+        },
+        {
+          "value": "performance",
+          "label": {
+            "pt-BR": "Melhorar velocidade",
+            "en": "Improve performance",
+            "es": "Mejorar velocidad",
+            "it": "Migliorare la velocità",
+            "fr": "Améliorer la vitesse",
+            "de": "Geschwindigkeit verbessern"
+          }
+        },
+        {
+          "value": "ddos",
+          "label": {
+            "pt-BR": "Mitigar ataques DDoS",
+            "en": "Mitigate DDoS attacks",
+            "es": "Mitigar ataques DDoS",
+            "it": "Mitigare attacchi DDoS",
+            "fr": "Atténuer les attaques DDoS",
+            "de": "DDoS-Angriffe abwehren"
+          }
+        },
         {
           "value": "dns",
           "label": {
@@ -1359,6 +1439,136 @@
         "fr": "Ville et région d’installation",
         "de": "Ort und Region der Installation"
       }
+    }
+  ],
+  "domain-registration": [
+    {
+      "id": "desired_domain",
+      "type": "text",
+      "label": {
+        "pt-BR": "Nome de domínio desejado (se definido)",
+        "en": "Desired domain name (if known)",
+        "es": "Nombre de dominio deseado (si se conoce)",
+        "it": "Nome di dominio desiderato (se definito)",
+        "fr": "Nom de domaine souhaité (si connu)",
+        "de": "Gewünschter Domainname (falls bekannt)"
+      }
+    },
+    {
+      "id": "extension",
+      "type": "select",
+      "label": {
+        "pt-BR": "Extensão desejada",
+        "en": "Desired extension",
+        "es": "Extensión deseada",
+        "it": "Estensione desiderata",
+        "fr": "Extension souhaitée",
+        "de": "Gewünschte Endung"
+      },
+      "options": [
+        {
+          "value": "br",
+          "label": {
+            "pt-BR": ".br / .com.br",
+            "en": ".br / .com.br",
+            "es": ".br / .com.br",
+            "it": ".br / .com.br",
+            "fr": ".br / .com.br",
+            "de": ".br / .com.br"
+          }
+        },
+        {
+          "value": "international",
+          "label": {
+            "pt-BR": "Internacional (.com, .net, etc.)",
+            "en": "International (.com, .net, etc.)",
+            "es": "Internacional (.com, .net, etc.)",
+            "it": "Internazionale (.com, .net, ecc.)",
+            "fr": "Internationale (.com, .net, etc.)",
+            "de": "International (.com, .net usw.)"
+          }
+        },
+        {
+          "value": "both",
+          "label": {
+            "pt-BR": "Nacional e internacional",
+            "en": "National and international",
+            "es": "Nacional e internacional",
+            "it": "Nazionale e internazionale",
+            "fr": "Nationale et internationale",
+            "de": "National und international"
+          }
+        },
+        {
+          "value": "help",
+          "label": {
+            "pt-BR": "Ajude-me a escolher",
+            "en": "Help me choose",
+            "es": "Ayúdame a elegir",
+            "it": "Aiutami a scegliere",
+            "fr": "Aidez-moi à choisir",
+            "de": "Helfen Sie mir bei der Auswahl"
+          }
+        }
+      ]
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "register",
+          "label": {
+            "pt-BR": "Novo registro",
+            "en": "New registration",
+            "es": "Nuevo registro",
+            "it": "Nuova registrazione",
+            "fr": "Nouvel enregistrement",
+            "de": "Neue Registrierung"
+          }
+        },
+        {
+          "value": "transfer",
+          "label": {
+            "pt-BR": "Transferência",
+            "en": "Transfer",
+            "es": "Transferencia",
+            "it": "Trasferimento",
+            "fr": "Transfert",
+            "de": "Transfer"
+          }
+        },
+        {
+          "value": "renew",
+          "label": {
+            "pt-BR": "Renovação ou titularidade",
+            "en": "Renewal or ownership",
+            "es": "Renovación o titularidad",
+            "it": "Rinnovo o titolarità",
+            "fr": "Renouvellement ou titularité",
+            "de": "Verlängerung oder Inhaberschaft"
+          }
+        },
+        {
+          "value": "help",
+          "label": {
+            "pt-BR": "Orientação",
+            "en": "Advice",
+            "es": "Asesoramiento",
+            "it": "Consulenza",
+            "fr": "Conseil",
+            "de": "Beratung"
+          }
+        }
+      ]
     }
   ]
 }

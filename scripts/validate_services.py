@@ -2,7 +2,7 @@ from pathlib import Path
 from xml.etree import ElementTree as ET
 import sys
 root=Path(sys.argv[1])
-slugs=["hospedagem-de-sites","hospedagem-email","hospedagem-de-sistemas","gerenciamento-cpanel","consultoria-cloudflare"]
+slugs=["hospedagem-de-sites","hospedagem-email","hospedagem-de-sistemas","gerenciamento-cpanel","consultoria-cloudflare","assessoria-registro-de-dominios"]
 urls={n.text for n in ET.parse(root/'sitemap.xml').iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
 for slug in slugs:
     route='/servicos/'+slug
@@ -15,7 +15,7 @@ for slug in slugs:
 category=(root/'servicos/hospedagem-e-nuvem/index.html').read_text(encoding='utf-8')
 for slug in slugs:
     assert 'href="/servicos/'+slug+'"' in category, slug
-print('Five service pages and category validated')
+print('Six service pages and category validated')
 
 # Exercise actual HTTP requests with the same local preview server distributed in ZIP.
 from threading import Thread
@@ -35,4 +35,4 @@ finally:
     server.shutdown()
     server.server_close()
     thread.join()
-print('HTTP smoke test passed for seven routes')
+print('HTTP smoke test passed for eight routes')

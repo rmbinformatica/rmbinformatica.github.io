@@ -1,4 +1,5 @@
 ---
+proposal_form: email-hosting
 layout: "rmb-service"
 page_id: "service-hospedagem-email"
 translation_key: "service-hospedagem-email"

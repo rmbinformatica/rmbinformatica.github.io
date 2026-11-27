@@ -1,0 +1,25 @@
+{% assign form_locale = page.lang | default: 'pt-BR' %}
+{% assign form_ui = site.data.proposal_ui %}
+{% assign questions = site.data.proposal_forms[page.proposal_form] %}
+{% if questions %}
+<section id="proposal" class="rmb-section"><div class="rmb-container"><div class="rmb-cta rmb-proposal">
+<h2>{{ form_ui.title[form_locale] | escape }}</h2><p>{{ form_ui.intro[form_locale] | escape }}</p>
+<p id="proposal-status" role="status">{{ form_ui.preview[form_locale] | escape }}</p>
+<form class="rmb-proposal-form" data-proposal-form="{{ page.proposal_form | escape }}" data-page-id="{{ page.page_id | escape }}" data-service-ids="{{ page.service_ids | join: ',' | escape }}" data-locale="{{ form_locale | escape }}" autocomplete="off">
+<p>{{ form_ui.required[form_locale] | escape }}</p>
+<div class="rmb-form-grid">
+{% assign common = "name,email,phone,company" | split: "," %}
+{% for key in common %}
+<label for="proposal-{{ key }}">{{ form_ui[key][form_locale] | escape }}{% unless key == 'company' %} *{% endunless %}
+<input id="proposal-{{ key }}" name="{{ key }}" type="{% if key == 'email' %}email{% elsif key == 'phone' %}tel{% else %}text{% endif %}" maxlength="{% if key == 'phone' %}40{% else %}254{% endif %}" {% unless key == 'company' %}required{% endunless %} autocomplete="{% case key %}{% when 'name' %}name{% when 'email' %}email{% when 'phone' %}tel{% when 'company' %}organization{% endcase %}"></label>
+{% endfor %}
+{% for question in questions %}
+<label for="proposal-q-{{ question.id }}">{{ question.label[form_locale] | escape }}
+{% if question.type == 'select' %}<select id="proposal-q-{{ question.id }}" name="answer_{{ question.id }}"><option value="">{{ form_ui.choose[form_locale] | escape }}</option>{% for option in question.options %}<option value="{{ option.value | escape }}">{{ option.label[form_locale] | escape }}</option>{% endfor %}</select>{% else %}<input id="proposal-q-{{ question.id }}" name="answer_{{ question.id }}" type="text" maxlength="254">{% endif %}</label>
+{% endfor %}
+</div><label for="proposal-notes">{{ form_ui.notes[form_locale] | escape }}<textarea id="proposal-notes" name="notes" rows="4" maxlength="2000" aria-describedby="proposal-privacy"></textarea></label>
+<p id="proposal-privacy">{{ form_ui.privacy[form_locale] | escape }}</p>
+<button class="rmb-button" type="submit" disabled>{{ form_ui.send[form_locale] | escape }}</button>
+</form></div></div></section>
+<script src="{{ '/assets/js/proposal.js' | relative_url }}" defer></script>
+{% endif %}

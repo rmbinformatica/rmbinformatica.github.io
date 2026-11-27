@@ -1,0 +1,1364 @@
+{
+  "site-hosting": [
+    {
+      "id": "domain",
+      "type": "text",
+      "label": {
+        "pt-BR": "Domínio ou endereço do site (se houver)",
+        "en": "Domain or website address (if any)",
+        "es": "Dominio o dirección web (si existe)",
+        "it": "Dominio o indirizzo del sito (se presente)",
+        "fr": "Domaine ou adresse du site (le cas échéant)",
+        "de": "Domain oder Website-Adresse (falls vorhanden)"
+      }
+    },
+    {
+      "id": "technology",
+      "type": "select",
+      "label": {
+        "pt-BR": "Tecnologia do site",
+        "en": "Website technology",
+        "es": "Tecnología del sitio",
+        "it": "Tecnologia del sito",
+        "fr": "Technologie du site",
+        "de": "Website-Technologie"
+      },
+      "options": [
+        {
+          "value": "wordpress",
+          "label": {
+            "pt-BR": "WordPress",
+            "en": "WordPress",
+            "es": "WordPress",
+            "it": "WordPress",
+            "fr": "WordPress",
+            "de": "WordPress"
+          }
+        },
+        {
+          "value": "static",
+          "label": {
+            "pt-BR": "Site estático",
+            "en": "Static site",
+            "es": "Sitio estático",
+            "it": "Sito statico",
+            "fr": "Site statique",
+            "de": "Statische Website"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "pt-BR": "Outro",
+            "en": "Other",
+            "es": "Otro",
+            "it": "Altro",
+            "fr": "Autre",
+            "de": "Sonstiges"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "status",
+      "type": "select",
+      "label": {
+        "pt-BR": "Situação do site",
+        "en": "Website status",
+        "es": "Estado del sitio",
+        "it": "Stato del sito",
+        "fr": "État du site",
+        "de": "Website-Status"
+      },
+      "options": [
+        {
+          "value": "existing",
+          "label": {
+            "pt-BR": "Já está no ar",
+            "en": "Already online",
+            "es": "Ya está publicado",
+            "it": "Già online",
+            "fr": "Déjà en ligne",
+            "de": "Bereits online"
+          }
+        },
+        {
+          "value": "new",
+          "label": {
+            "pt-BR": "Novo site",
+            "en": "New website",
+            "es": "Nuevo sitio",
+            "it": "Nuovo sito",
+            "fr": "Nouveau site",
+            "de": "Neue Website"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "email-hosting": [
+    {
+      "id": "domain",
+      "type": "text",
+      "label": {
+        "pt-BR": "Domínio ou endereço do site (se houver)",
+        "en": "Domain or website address (if any)",
+        "es": "Dominio o dirección web (si existe)",
+        "it": "Dominio o indirizzo del sito (se presente)",
+        "fr": "Domaine ou adresse du site (le cas échéant)",
+        "de": "Domain oder Website-Adresse (falls vorhanden)"
+      }
+    },
+    {
+      "id": "mailbox_count",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de caixas postais",
+        "en": "Number of mailboxes",
+        "es": "Número de buzones",
+        "it": "Numero di caselle",
+        "fr": "Nombre de boîtes mail",
+        "de": "Anzahl der Postfächer"
+      },
+      "options": [
+        {
+          "value": "1-5",
+          "label": {
+            "pt-BR": "1–5",
+            "en": "1–5",
+            "es": "1–5",
+            "it": "1–5",
+            "fr": "1–5",
+            "de": "1–5"
+          }
+        },
+        {
+          "value": "6-20",
+          "label": {
+            "pt-BR": "6–20",
+            "en": "6–20",
+            "es": "6–20",
+            "it": "6–20",
+            "fr": "6–20",
+            "de": "6–20"
+          }
+        },
+        {
+          "value": "21-50",
+          "label": {
+            "pt-BR": "21–50",
+            "en": "21–50",
+            "es": "21–50",
+            "it": "21–50",
+            "fr": "21–50",
+            "de": "21–50"
+          }
+        },
+        {
+          "value": "51-100",
+          "label": {
+            "pt-BR": "51–100",
+            "en": "51–100",
+            "es": "51–100",
+            "it": "51–100",
+            "fr": "51–100",
+            "de": "51–100"
+          }
+        },
+        {
+          "value": "101+",
+          "label": {
+            "pt-BR": "100+",
+            "en": "100+",
+            "es": "100+",
+            "it": "100+",
+            "fr": "100+",
+            "de": "100+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "current_provider",
+      "type": "select",
+      "label": {
+        "pt-BR": "Provedor atual",
+        "en": "Current provider",
+        "es": "Proveedor actual",
+        "it": "Provider attuale",
+        "fr": "Fournisseur actuel",
+        "de": "Aktueller Anbieter"
+      },
+      "options": [
+        {
+          "value": "microsoft365",
+          "label": {
+            "pt-BR": "Microsoft 365 / Exchange",
+            "en": "Microsoft 365 / Exchange",
+            "es": "Microsoft 365 / Exchange",
+            "it": "Microsoft 365 / Exchange",
+            "fr": "Microsoft 365 / Exchange",
+            "de": "Microsoft 365 / Exchange"
+          }
+        },
+        {
+          "value": "google",
+          "label": {
+            "pt-BR": "Google Workspace / Gmail",
+            "en": "Google Workspace / Gmail",
+            "es": "Google Workspace / Gmail",
+            "it": "Google Workspace / Gmail",
+            "fr": "Google Workspace / Gmail",
+            "de": "Google Workspace / Gmail"
+          }
+        },
+        {
+          "value": "imap",
+          "label": {
+            "pt-BR": "Outro provedor IMAP",
+            "en": "Other IMAP provider",
+            "es": "Otro proveedor IMAP",
+            "it": "Altro provider IMAP",
+            "fr": "Autre fournisseur IMAP",
+            "de": "Anderer IMAP-Anbieter"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "pt-BR": "Outro",
+            "en": "Other",
+            "es": "Otro",
+            "it": "Altro",
+            "fr": "Autre",
+            "de": "Sonstiges"
+          }
+        },
+        {
+          "value": "none",
+          "label": {
+            "pt-BR": "Ainda não tenho",
+            "en": "None yet",
+            "es": "Todavía no tengo",
+            "it": "Nessuno al momento",
+            "fr": "Aucun pour le moment",
+            "de": "Noch keiner"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "system-hosting": [
+    {
+      "id": "system_type",
+      "type": "select",
+      "label": {
+        "pt-BR": "Tipo de sistema",
+        "en": "System type",
+        "es": "Tipo de sistema",
+        "it": "Tipo di sistema",
+        "fr": "Type de système",
+        "de": "Systemtyp"
+      },
+      "options": [
+        {
+          "value": "erp",
+          "label": {
+            "pt-BR": "ERP",
+            "en": "ERP",
+            "es": "ERP",
+            "it": "ERP",
+            "fr": "ERP",
+            "de": "ERP"
+          }
+        },
+        {
+          "value": "web",
+          "label": {
+            "pt-BR": "Aplicação web",
+            "en": "Web application",
+            "es": "Aplicación web",
+            "it": "Applicazione web",
+            "fr": "Application web",
+            "de": "Webanwendung"
+          }
+        },
+        {
+          "value": "windows",
+          "label": {
+            "pt-BR": "Windows",
+            "en": "Windows",
+            "es": "Windows",
+            "it": "Windows",
+            "fr": "Windows",
+            "de": "Windows"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "pt-BR": "Outro",
+            "en": "Other",
+            "es": "Otro",
+            "it": "Altro",
+            "fr": "Autre",
+            "de": "Sonstiges"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "concurrent_users",
+      "type": "select",
+      "label": {
+        "pt-BR": "Usuários simultâneos (aproximado)",
+        "en": "Concurrent users (approx.)",
+        "es": "Usuarios simultáneos (aprox.)",
+        "it": "Utenti simultanei (circa)",
+        "fr": "Utilisateurs simultanés (env.)",
+        "de": "Gleichzeitige Nutzer (ca.)"
+      },
+      "options": [
+        {
+          "value": "1-5",
+          "label": {
+            "pt-BR": "1–5",
+            "en": "1–5",
+            "es": "1–5",
+            "it": "1–5",
+            "fr": "1–5",
+            "de": "1–5"
+          }
+        },
+        {
+          "value": "6-20",
+          "label": {
+            "pt-BR": "6–20",
+            "en": "6–20",
+            "es": "6–20",
+            "it": "6–20",
+            "fr": "6–20",
+            "de": "6–20"
+          }
+        },
+        {
+          "value": "21-50",
+          "label": {
+            "pt-BR": "21–50",
+            "en": "21–50",
+            "es": "21–50",
+            "it": "21–50",
+            "fr": "21–50",
+            "de": "21–50"
+          }
+        },
+        {
+          "value": "51-100",
+          "label": {
+            "pt-BR": "51–100",
+            "en": "51–100",
+            "es": "51–100",
+            "it": "51–100",
+            "fr": "51–100",
+            "de": "51–100"
+          }
+        },
+        {
+          "value": "101+",
+          "label": {
+            "pt-BR": "100+",
+            "en": "100+",
+            "es": "100+",
+            "it": "100+",
+            "fr": "100+",
+            "de": "100+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "current_environment",
+      "type": "select",
+      "label": {
+        "pt-BR": "Onde funciona atualmente?",
+        "en": "Where does it run now?",
+        "es": "¿Dónde funciona actualmente?",
+        "it": "Dove funziona attualmente?",
+        "fr": "Où fonctionne-t-il actuellement ?",
+        "de": "Wo läuft das System derzeit?"
+      },
+      "options": [
+        {
+          "value": "local",
+          "label": {
+            "pt-BR": "Servidor local",
+            "en": "Local server",
+            "es": "Servidor local",
+            "it": "Server locale",
+            "fr": "Serveur local",
+            "de": "Lokaler Server"
+          }
+        },
+        {
+          "value": "cloud",
+          "label": {
+            "pt-BR": "Cloud",
+            "en": "Cloud",
+            "es": "Cloud",
+            "it": "Cloud",
+            "fr": "Cloud",
+            "de": "Cloud"
+          }
+        },
+        {
+          "value": "new",
+          "label": {
+            "pt-BR": "Ainda não está em operação",
+            "en": "Not operational yet",
+            "es": "Aún no está operativo",
+            "it": "Non ancora operativo",
+            "fr": "Pas encore en service",
+            "de": "Noch nicht in Betrieb"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "pt-BR": "Outro",
+            "en": "Other",
+            "es": "Otro",
+            "it": "Altro",
+            "fr": "Autre",
+            "de": "Sonstiges"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "cpanel": [
+    {
+      "id": "server_count",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de servidores",
+        "en": "Number of servers",
+        "es": "Número de servidores",
+        "it": "Numero di server",
+        "fr": "Nombre de serveurs",
+        "de": "Anzahl der Server"
+      },
+      "options": [
+        {
+          "value": "1-5",
+          "label": {
+            "pt-BR": "1–5",
+            "en": "1–5",
+            "es": "1–5",
+            "it": "1–5",
+            "fr": "1–5",
+            "de": "1–5"
+          }
+        },
+        {
+          "value": "6-20",
+          "label": {
+            "pt-BR": "6–20",
+            "en": "6–20",
+            "es": "6–20",
+            "it": "6–20",
+            "fr": "6–20",
+            "de": "6–20"
+          }
+        },
+        {
+          "value": "21-50",
+          "label": {
+            "pt-BR": "21–50",
+            "en": "21–50",
+            "es": "21–50",
+            "it": "21–50",
+            "fr": "21–50",
+            "de": "21–50"
+          }
+        },
+        {
+          "value": "51-100",
+          "label": {
+            "pt-BR": "51–100",
+            "en": "51–100",
+            "es": "51–100",
+            "it": "51–100",
+            "fr": "51–100",
+            "de": "51–100"
+          }
+        },
+        {
+          "value": "101+",
+          "label": {
+            "pt-BR": "100+",
+            "en": "100+",
+            "es": "100+",
+            "it": "100+",
+            "fr": "100+",
+            "de": "100+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "management",
+          "label": {
+            "pt-BR": "Administração recorrente",
+            "en": "Ongoing administration",
+            "es": "Administración continua",
+            "it": "Gestione continuativa",
+            "fr": "Administration régulière",
+            "de": "Laufende Administration"
+          }
+        },
+        {
+          "value": "incident",
+          "label": {
+            "pt-BR": "Resolver um problema",
+            "en": "Resolve an issue",
+            "es": "Resolver un problema",
+            "it": "Risolvere un problema",
+            "fr": "Résoudre un problème",
+            "de": "Problem beheben"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "pt-BR": "Outro",
+            "en": "Other",
+            "es": "Otro",
+            "it": "Altro",
+            "fr": "Autre",
+            "de": "Sonstiges"
+          }
+        }
+      ]
+    }
+  ],
+  "cloudflare": [
+    {
+      "id": "domain",
+      "type": "text",
+      "label": {
+        "pt-BR": "Domínio ou endereço do site (se houver)",
+        "en": "Domain or website address (if any)",
+        "es": "Dominio o dirección web (si existe)",
+        "it": "Dominio o indirizzo del sito (se presente)",
+        "fr": "Domaine ou adresse du site (le cas échéant)",
+        "de": "Domain oder Website-Adresse (falls vorhanden)"
+      }
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "dns",
+          "label": {
+            "pt-BR": "DNS",
+            "en": "DNS",
+            "es": "DNS",
+            "it": "DNS",
+            "fr": "DNS",
+            "de": "DNS"
+          }
+        },
+        {
+          "value": "cdn",
+          "label": {
+            "pt-BR": "CDN / Cache",
+            "en": "CDN / Cache",
+            "es": "CDN / Cache",
+            "it": "CDN / Cache",
+            "fr": "CDN / Cache",
+            "de": "CDN / Cache"
+          }
+        },
+        {
+          "value": "security",
+          "label": {
+            "pt-BR": "Segurança",
+            "en": "Security",
+            "es": "Seguridad",
+            "it": "Sicurezza",
+            "fr": "Sécurité",
+            "de": "Sicherheit"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "pt-BR": "Outro",
+            "en": "Other",
+            "es": "Otro",
+            "it": "Altro",
+            "fr": "Autre",
+            "de": "Sonstiges"
+          }
+        },
+        {
+          "value": "help",
+          "label": {
+            "pt-BR": "Ajude-me a escolher",
+            "en": "Help me choose",
+            "es": "Ayúdame a elegir",
+            "it": "Aiutami a scegliere",
+            "fr": "Aidez-moi à choisir",
+            "de": "Helfen Sie mir bei der Auswahl"
+          }
+        }
+      ]
+    }
+  ],
+  "email-migration": [
+    {
+      "id": "source_provider",
+      "type": "select",
+      "label": {
+        "pt-BR": "Provedor de origem",
+        "en": "Source provider",
+        "es": "Proveedor de origen",
+        "it": "Provider di origine",
+        "fr": "Fournisseur source",
+        "de": "Quellanbieter"
+      },
+      "options": [
+        {
+          "value": "microsoft365",
+          "label": {
+            "pt-BR": "Microsoft 365 / Exchange",
+            "en": "Microsoft 365 / Exchange",
+            "es": "Microsoft 365 / Exchange",
+            "it": "Microsoft 365 / Exchange",
+            "fr": "Microsoft 365 / Exchange",
+            "de": "Microsoft 365 / Exchange"
+          }
+        },
+        {
+          "value": "google",
+          "label": {
+            "pt-BR": "Google Workspace / Gmail",
+            "en": "Google Workspace / Gmail",
+            "es": "Google Workspace / Gmail",
+            "it": "Google Workspace / Gmail",
+            "fr": "Google Workspace / Gmail",
+            "de": "Google Workspace / Gmail"
+          }
+        },
+        {
+          "value": "imap",
+          "label": {
+            "pt-BR": "Outro provedor IMAP",
+            "en": "Other IMAP provider",
+            "es": "Otro proveedor IMAP",
+            "it": "Altro provider IMAP",
+            "fr": "Autre fournisseur IMAP",
+            "de": "Anderer IMAP-Anbieter"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "pt-BR": "Outro",
+            "en": "Other",
+            "es": "Otro",
+            "it": "Altro",
+            "fr": "Autre",
+            "de": "Sonstiges"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "destination_provider",
+      "type": "select",
+      "label": {
+        "pt-BR": "Provedor de destino",
+        "en": "Destination provider",
+        "es": "Proveedor de destino",
+        "it": "Provider di destinazione",
+        "fr": "Fournisseur cible",
+        "de": "Zielanbieter"
+      },
+      "options": [
+        {
+          "value": "microsoft365",
+          "label": {
+            "pt-BR": "Microsoft 365 / Exchange",
+            "en": "Microsoft 365 / Exchange",
+            "es": "Microsoft 365 / Exchange",
+            "it": "Microsoft 365 / Exchange",
+            "fr": "Microsoft 365 / Exchange",
+            "de": "Microsoft 365 / Exchange"
+          }
+        },
+        {
+          "value": "google",
+          "label": {
+            "pt-BR": "Google Workspace / Gmail",
+            "en": "Google Workspace / Gmail",
+            "es": "Google Workspace / Gmail",
+            "it": "Google Workspace / Gmail",
+            "fr": "Google Workspace / Gmail",
+            "de": "Google Workspace / Gmail"
+          }
+        },
+        {
+          "value": "imap",
+          "label": {
+            "pt-BR": "Outro provedor IMAP",
+            "en": "Other IMAP provider",
+            "es": "Otro proveedor IMAP",
+            "it": "Altro provider IMAP",
+            "fr": "Autre fournisseur IMAP",
+            "de": "Anderer IMAP-Anbieter"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "pt-BR": "Outro",
+            "en": "Other",
+            "es": "Otro",
+            "it": "Altro",
+            "fr": "Autre",
+            "de": "Sonstiges"
+          }
+        },
+        {
+          "value": "help",
+          "label": {
+            "pt-BR": "Ajude-me a escolher",
+            "en": "Help me choose",
+            "es": "Ayúdame a elegir",
+            "it": "Aiutami a scegliere",
+            "fr": "Aidez-moi à choisir",
+            "de": "Helfen Sie mir bei der Auswahl"
+          }
+        }
+      ]
+    },
+    {
+      "id": "mailbox_count",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de caixas postais",
+        "en": "Number of mailboxes",
+        "es": "Número de buzones",
+        "it": "Numero di caselle",
+        "fr": "Nombre de boîtes mail",
+        "de": "Anzahl der Postfächer"
+      },
+      "options": [
+        {
+          "value": "1-5",
+          "label": {
+            "pt-BR": "1–5",
+            "en": "1–5",
+            "es": "1–5",
+            "it": "1–5",
+            "fr": "1–5",
+            "de": "1–5"
+          }
+        },
+        {
+          "value": "6-20",
+          "label": {
+            "pt-BR": "6–20",
+            "en": "6–20",
+            "es": "6–20",
+            "it": "6–20",
+            "fr": "6–20",
+            "de": "6–20"
+          }
+        },
+        {
+          "value": "21-50",
+          "label": {
+            "pt-BR": "21–50",
+            "en": "21–50",
+            "es": "21–50",
+            "it": "21–50",
+            "fr": "21–50",
+            "de": "21–50"
+          }
+        },
+        {
+          "value": "51-100",
+          "label": {
+            "pt-BR": "51–100",
+            "en": "51–100",
+            "es": "51–100",
+            "it": "51–100",
+            "fr": "51–100",
+            "de": "51–100"
+          }
+        },
+        {
+          "value": "101+",
+          "label": {
+            "pt-BR": "100+",
+            "en": "100+",
+            "es": "100+",
+            "it": "100+",
+            "fr": "100+",
+            "de": "100+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "largest_mailbox",
+      "type": "select",
+      "label": {
+        "pt-BR": "Tamanho da maior caixa postal",
+        "en": "Largest mailbox size",
+        "es": "Tamaño del buzón mayor",
+        "it": "Dimensione della casella più grande",
+        "fr": "Taille de la plus grande boîte",
+        "de": "Größe des größten Postfachs"
+      },
+      "options": [
+        {
+          "value": "le5",
+          "label": {
+            "pt-BR": "≤5 GB",
+            "en": "≤5 GB",
+            "es": "≤5 GB",
+            "it": "≤5 GB",
+            "fr": "≤5 GB",
+            "de": "≤5 GB"
+          }
+        },
+        {
+          "value": "5-25",
+          "label": {
+            "pt-BR": "5–25 GB",
+            "en": "5–25 GB",
+            "es": "5–25 GB",
+            "it": "5–25 GB",
+            "fr": "5–25 GB",
+            "de": "5–25 GB"
+          }
+        },
+        {
+          "value": "25-50",
+          "label": {
+            "pt-BR": "25–50 GB",
+            "en": "25–50 GB",
+            "es": "25–50 GB",
+            "it": "25–50 GB",
+            "fr": "25–50 GB",
+            "de": "25–50 GB"
+          }
+        },
+        {
+          "value": "50-100",
+          "label": {
+            "pt-BR": "50–100 GB",
+            "en": "50–100 GB",
+            "es": "50–100 GB",
+            "it": "50–100 GB",
+            "fr": "50–100 GB",
+            "de": "50–100 GB"
+          }
+        },
+        {
+          "value": "gt100",
+          "label": {
+            "pt-BR": ">100 GB",
+            "en": ">100 GB",
+            "es": ">100 GB",
+            "it": ">100 GB",
+            "fr": ">100 GB",
+            "de": ">100 GB"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "structured-cabling": [
+    {
+      "id": "category",
+      "type": "select",
+      "label": {
+        "pt-BR": "Categoria do cabeamento",
+        "en": "Cable category",
+        "es": "Categoría del cableado",
+        "it": "Categoria del cablaggio",
+        "fr": "Catégorie de câblage",
+        "de": "Kabelkategorie"
+      },
+      "options": [
+        {
+          "value": "cat5e",
+          "label": {
+            "pt-BR": "CAT5e",
+            "en": "CAT5e",
+            "es": "CAT5e",
+            "it": "CAT5e",
+            "fr": "CAT5e",
+            "de": "CAT5e"
+          }
+        },
+        {
+          "value": "cat6",
+          "label": {
+            "pt-BR": "CAT6",
+            "en": "CAT6",
+            "es": "CAT6",
+            "it": "CAT6",
+            "fr": "CAT6",
+            "de": "CAT6"
+          }
+        },
+        {
+          "value": "cat6a",
+          "label": {
+            "pt-BR": "CAT6A",
+            "en": "CAT6A",
+            "es": "CAT6A",
+            "it": "CAT6A",
+            "fr": "CAT6A",
+            "de": "CAT6A"
+          }
+        },
+        {
+          "value": "help",
+          "label": {
+            "pt-BR": "Ajude-me a escolher",
+            "en": "Help me choose",
+            "es": "Ayúdame a elegir",
+            "it": "Aiutami a scegliere",
+            "fr": "Aidez-moi à choisir",
+            "de": "Helfen Sie mir bei der Auswahl"
+          }
+        }
+      ]
+    },
+    {
+      "id": "points",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade aproximada de pontos de rede",
+        "en": "Approximate number of network outlets",
+        "es": "Número aproximado de puntos de red",
+        "it": "Numero indicativo di prese di rete",
+        "fr": "Nombre approximatif de prises réseau",
+        "de": "Ungefähre Anzahl der Netzwerkanschlüsse"
+      },
+      "options": [
+        {
+          "value": "1-5",
+          "label": {
+            "pt-BR": "1–5",
+            "en": "1–5",
+            "es": "1–5",
+            "it": "1–5",
+            "fr": "1–5",
+            "de": "1–5"
+          }
+        },
+        {
+          "value": "6-20",
+          "label": {
+            "pt-BR": "6–20",
+            "en": "6–20",
+            "es": "6–20",
+            "it": "6–20",
+            "fr": "6–20",
+            "de": "6–20"
+          }
+        },
+        {
+          "value": "21-50",
+          "label": {
+            "pt-BR": "21–50",
+            "en": "21–50",
+            "es": "21–50",
+            "it": "21–50",
+            "fr": "21–50",
+            "de": "21–50"
+          }
+        },
+        {
+          "value": "51-100",
+          "label": {
+            "pt-BR": "51–100",
+            "en": "51–100",
+            "es": "51–100",
+            "it": "51–100",
+            "fr": "51–100",
+            "de": "51–100"
+          }
+        },
+        {
+          "value": "101+",
+          "label": {
+            "pt-BR": "100+",
+            "en": "100+",
+            "es": "100+",
+            "it": "100+",
+            "fr": "100+",
+            "de": "100+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "floors",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de andares atendidos",
+        "en": "Number of floors served",
+        "es": "Número de plantas atendidas",
+        "it": "Numero di piani interessati",
+        "fr": "Nombre d’étages concernés",
+        "de": "Anzahl der betroffenen Etagen"
+      },
+      "options": [
+        {
+          "value": "1",
+          "label": {
+            "pt-BR": "1",
+            "en": "1",
+            "es": "1",
+            "it": "1",
+            "fr": "1",
+            "de": "1"
+          }
+        },
+        {
+          "value": "2",
+          "label": {
+            "pt-BR": "2",
+            "en": "2",
+            "es": "2",
+            "it": "2",
+            "fr": "2",
+            "de": "2"
+          }
+        },
+        {
+          "value": "3",
+          "label": {
+            "pt-BR": "3",
+            "en": "3",
+            "es": "3",
+            "it": "3",
+            "fr": "3",
+            "de": "3"
+          }
+        },
+        {
+          "value": "4+",
+          "label": {
+            "pt-BR": "4+",
+            "en": "4+",
+            "es": "4+",
+            "it": "4+",
+            "fr": "4+",
+            "de": "4+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "building",
+      "type": "select",
+      "label": {
+        "pt-BR": "Situação do imóvel",
+        "en": "Building status",
+        "es": "Estado del inmueble",
+        "it": "Stato dell’immobile",
+        "fr": "État du bâtiment",
+        "de": "Gebäudestatus"
+      },
+      "options": [
+        {
+          "value": "construction",
+          "label": {
+            "pt-BR": "Em construção",
+            "en": "Under construction",
+            "es": "En construcción",
+            "it": "In costruzione",
+            "fr": "En construction",
+            "de": "Im Bau"
+          }
+        },
+        {
+          "value": "renovation",
+          "label": {
+            "pt-BR": "Em reforma",
+            "en": "Under renovation",
+            "es": "En reforma",
+            "it": "In ristrutturazione",
+            "fr": "En rénovation",
+            "de": "In Renovierung"
+          }
+        },
+        {
+          "value": "operating",
+          "label": {
+            "pt-BR": "Em funcionamento",
+            "en": "In use",
+            "es": "En funcionamiento",
+            "it": "In uso",
+            "fr": "En activité",
+            "de": "In Betrieb"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "pt-BR": "Outro",
+            "en": "Other",
+            "es": "Otro",
+            "it": "Altro",
+            "fr": "Autre",
+            "de": "Sonstiges"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pathways",
+      "type": "select",
+      "label": {
+        "pt-BR": "Existe infraestrutura para passagem de cabos?",
+        "en": "Are cable pathways available?",
+        "es": "¿Hay infraestructura para pasar cables?",
+        "it": "Sono presenti canalizzazioni?",
+        "fr": "Des passages de câbles existent-ils ?",
+        "de": "Sind Kabelwege vorhanden?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "pt-BR": "Sim",
+            "en": "Yes",
+            "es": "Sí",
+            "it": "Sì",
+            "fr": "Oui",
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "partial",
+          "label": {
+            "pt-BR": "Parcialmente",
+            "en": "Partly",
+            "es": "Parcialmente",
+            "it": "Parzialmente",
+            "fr": "Partiellement",
+            "de": "Teilweise"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "pt-BR": "Não",
+            "en": "No",
+            "es": "No",
+            "it": "No",
+            "fr": "Non",
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "location",
+      "type": "text",
+      "label": {
+        "pt-BR": "Cidade/UF ou região da instalação",
+        "en": "Installation city and region",
+        "es": "Ciudad y región de instalación",
+        "it": "Città e regione dell’installazione",
+        "fr": "Ville et région d’installation",
+        "de": "Ort und Region der Installation"
+      }
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "title": {
+    "pt-BR": "Solicitar proposta comercial",
+    "en": "Request a proposal",
+    "es": "Solicitar una propuesta",
+    "it": "Richiedi un preventivo",
+    "fr": "Demander un devis",
+    "de": "Angebot anfragen"
+  },
+  "intro": {
+    "pt-BR": "Conte-nos o essencial para começarmos a conversar.",
+    "en": "Tell us the essentials to get started.",
+    "es": "Cuéntanos lo esencial para empezar.",
+    "it": "Indicaci le informazioni essenziali.",
+    "fr": "Indiquez-nous les informations essentielles.",
+    "de": "Nennen Sie uns die wichtigsten Informationen."
+  },
+  "name": {
+    "pt-BR": "Nome",
+    "en": "Name",
+    "es": "Nombre",
+    "it": "Nome",
+    "fr": "Nom",
+    "de": "Name"
+  },
+  "email": {
+    "pt-BR": "E-mail",
+    "en": "Email",
+    "es": "Correo electrónico",
+    "it": "E-mail",
+    "fr": "E-mail",
+    "de": "E-Mail"
+  },
+  "phone": {
+    "pt-BR": "Telefone com código de área",
+    "en": "Phone with country/area code",
+    "es": "Teléfono con prefijo",
+    "it": "Telefono con prefisso",
+    "fr": "Téléphone avec indicatif",
+    "de": "Telefon mit Vorwahl"
+  },
+  "company": {
+    "pt-BR": "Empresa",
+    "en": "Company",
+    "es": "Empresa",
+    "it": "Azienda",
+    "fr": "Entreprise",
+    "de": "Unternehmen"
+  },
+  "notes": {
+    "pt-BR": "Informações adicionais",
+    "en": "Additional information",
+    "es": "Información adicional",
+    "it": "Informazioni aggiuntive",
+    "fr": "Informations complémentaires",
+    "de": "Weitere Informationen"
+  },
+  "choose": {
+    "pt-BR": "Selecione",
+    "en": "Select",
+    "es": "Seleccione",
+    "it": "Seleziona",
+    "fr": "Sélectionnez",
+    "de": "Auswählen"
+  },
+  "unknown": {
+    "pt-BR": "Não sei informar",
+    "en": "Not sure",
+    "es": "No lo sé",
+    "it": "Non lo so",
+    "fr": "Je ne sais pas",
+    "de": "Weiß ich nicht"
+  },
+  "other": {
+    "pt-BR": "Outro",
+    "en": "Other",
+    "es": "Otro",
+    "it": "Altro",
+    "fr": "Autre",
+    "de": "Sonstiges"
+  },
+  "help": {
+    "pt-BR": "Ajude-me a escolher",
+    "en": "Help me choose",
+    "es": "Ayúdame a elegir",
+    "it": "Aiutami a scegliere",
+    "fr": "Aidez-moi à choisir",
+    "de": "Helfen Sie mir bei der Auswahl"
+  },
+  "required": {
+    "pt-BR": "Campos com * são obrigatórios.",
+    "en": "Fields marked * are required.",
+    "es": "Los campos con * son obligatorios.",
+    "it": "I campi con * sono obbligatori.",
+    "fr": "Les champs avec * sont obligatoires.",
+    "de": "Mit * markierte Felder sind Pflichtfelder."
+  },
+  "preview": {
+    "pt-BR": "Formulário em homologação. O envio ainda não está disponível; não insira dados reais.",
+    "en": "Preview form. Submission is not available yet; do not enter real data.",
+    "es": "Formulario de prueba. El envío aún no está disponible; no introduzcas datos reales.",
+    "it": "Modulo di prova. Invio non disponibile; non inserire dati reali.",
+    "fr": "Formulaire de test. Envoi indisponible ; ne saisissez pas de données réelles.",
+    "de": "Testformular. Versand noch nicht verfügbar; keine echten Daten eingeben."
+  },
+  "send": {
+    "pt-BR": "Enviar solicitação",
+    "en": "Send request",
+    "es": "Enviar solicitud",
+    "it": "Invia richiesta",
+    "fr": "Envoyer la demande",
+    "de": "Anfrage senden"
+  },
+  "invalid": {
+    "pt-BR": "Confira os campos obrigatórios.",
+    "en": "Check the required fields.",
+    "es": "Revisa los campos obligatorios.",
+    "it": "Controlla i campi obbligatori.",
+    "fr": "Vérifiez les champs obligatoires.",
+    "de": "Prüfen Sie die Pflichtfelder."
+  },
+  "privacy": {
+    "pt-BR": "Não informe senhas ou credenciais.",
+    "en": "Do not enter passwords or credentials.",
+    "es": "No introduzcas contraseñas ni credenciales.",
+    "it": "Non inserire password o credenziali.",
+    "fr": "Ne saisissez pas de mots de passe ni d’identifiants secrets.",
+    "de": "Keine Passwörter oder Zugangsdaten eingeben."
+  }
+}

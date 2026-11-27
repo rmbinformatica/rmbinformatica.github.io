@@ -1,4 +1,5 @@
 ---
+proposal_form: cpanel
 layout: "rmb-service"
 page_id: "service-gerenciamento-cpanel"
 translation_key: "service-gerenciamento-cpanel"

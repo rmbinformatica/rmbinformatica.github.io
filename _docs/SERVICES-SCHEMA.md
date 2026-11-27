@@ -19,3 +19,5 @@ O service_id identifica o serviço, não a página. Para novas páginas, usar pa
 
 ## Implementação inicial
 Layout rmb-service, service_ids como lista de strings, category_id referenciando _data/rmb_categories.yml (IDs semânticos estáveis). Páginas podem residir em _servicos/pt-br/ ou em arquivo legado para preservar rota. Campos editoriais headline, intro, situations, scope, process, faq, related e delivery. A categoria inicial cloud usa /servicos/hospedagem-e-nuvem/. Preços legados exigem revisão antes de exibição. Não exportar maturidade ou matriz privada.
+
+Cada landing page deve declarar proposal_form (chave estável em _data/proposal_forms.yml) e FAQ específico. IDs de campos e valores de opções independem do idioma. Dados de contato e respostas livres não devem ser traduzidos ou limitados ao português. Não divulgar preços nesta fase.

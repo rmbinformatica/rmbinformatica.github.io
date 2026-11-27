@@ -6,7 +6,7 @@ layout: rmb-v2
   <nav class="rmb-breadcrumb" aria-label="Localização"><a href="{{ '/preview-v2/' | relative_url }}">Início</a> / <a href="{{ '/servicos/hospedagem-e-nuvem/' | relative_url }}">{{ category.labels[page.lang] | escape }}</a></nav>
   <p class="rmb-eyebrow">{{ page.title | escape }}</p>
   <h1>{{ page.headline | escape }}</h1><p>{{ page.intro | escape }}</p>
-  <a class="rmb-button" href="{{ '/contato.html' | relative_url }}">Solicitar proposta comercial</a>
+  <a class="rmb-button" href="#proposal">Solicitar proposta comercial</a>
 </div></section>
 <section class="rmb-section"><div class="rmb-container rmb-service-grid">
  <article class="rmb-card"><h2>Quando podemos ajudar</h2><ul>{% for item in page.situations %}<li>{{ item | escape }}</li>{% endfor %}</ul></article>
@@ -14,6 +14,7 @@ layout: rmb-v2
 </div></section>
 <section class="rmb-section"><div class="rmb-container"><h2>Como funciona a contratação</h2><ol class="rmb-process">{% for item in page.process %}<li class="rmb-card">{{ item | escape }}</li>{% endfor %}</ol><p>Atendimento remoto. Valores, prazos e responsabilidades são definidos na proposta comercial.</p></div></section>
 <section class="rmb-section"><div class="rmb-container"><h2>Perguntas frequentes</h2>{% for item in page.faq %}<details class="rmb-faq"><summary>{{ item.q | escape }}</summary><p>{{ item.a | escape }}</p></details>{% endfor %}</div></section>
-<section class="rmb-section"><div class="rmb-container rmb-cta"><h2>Vamos conversar sobre sua necessidade?</h2><p>Conte-nos sobre seu ambiente e o que precisa resolver.</p><a class="rmb-button" href="{{ '/contato.html' | relative_url }}">Entrar em contato</a></div></section>
+<section class="rmb-section"><div class="rmb-container rmb-cta"><h2>Vamos conversar sobre sua necessidade?</h2><p>Conte-nos sobre seu ambiente e o que precisa resolver.</p><a class="rmb-button" href="#proposal">Solicitar proposta comercial</a></div></section>
+{% include rmb-proposal-form.html %}
 {% assign documents = site.pages | concat: site.servicos %}
 <section class="rmb-section"><div class="rmb-container"><h2>Serviços relacionados</h2><div class="rmb-grid">{% for route in page.related %}{% assign item = documents | where: "url", route | first %}{% if item %}<a class="rmb-card" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>{% endif %}{% endfor %}</div></div></section>

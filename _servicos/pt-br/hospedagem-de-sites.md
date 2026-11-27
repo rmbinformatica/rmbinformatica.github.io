@@ -1,4 +1,5 @@
 ---
+proposal_form: site-hosting
 layout: "rmb-service"
 page_id: "service-hospedagem-de-sites"
 translation_key: "service-hospedagem-de-sites"

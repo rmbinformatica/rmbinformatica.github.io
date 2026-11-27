@@ -6,5 +6,5 @@ lang: "pt-BR"
 category_id: "servers"
 translation_key: "category-servers"
 permalink: "/servicos/sistemas-e-servidores/"
-services: ["/servicos/servidores-em-natal","/servicos/windows-server","/servicos/servidores-linux","/servicos/virtualizacao-de-servidores","/servicos/dba-remoto","/servicos/gerenciamento-de-servidores"]
+services: ["/servicos/servidores-em-natal","/servicos/windows-server","/servicos/servidores-linux","/servicos/virtualizacao-de-servidores","/servicos/dba-remoto","/servicos/gerenciamento-de-servidores","/servicos/hospedagem-email"]
 ---

@@ -6,5 +6,5 @@ lang: "pt-BR"
 category_id: "open"
 translation_key: "category-open"
 permalink: "/servicos/open-source-e-self-hosted/"
-services: ["/servicos/solucoes-open-source","/servicos/nextcloud-empresarial"]
+services: ["/servicos/solucoes-open-source","/servicos/nextcloud-empresarial","/servicos/bots-e-notificacoes"]
 ---

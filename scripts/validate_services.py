@@ -27,11 +27,11 @@ for slug in cloud_slugs:
 msp=(root/'servicos/servicos-gerenciados-ti/index.html').read_text(encoding='utf-8')
 for slug in msp_slugs:
     assert 'href="/servicos/'+slug+'"' in msp, slug
-for category_slug, category_slugs in [('sistemas-e-servidores', ["servidores-em-natal","windows-server","servidores-linux","virtualizacao-de-servidores","dba-remoto","gerenciamento-de-servidores"]), ('infraestrutura-empresarial', ["redes-corporativas-natal","cabeamento-estruturado-natal","wifi-corporativo-natal"])]:
+for category_slug, category_slugs in [('sistemas-e-servidores', ["servidores-em-natal","windows-server","servidores-linux","virtualizacao-de-servidores","dba-remoto","gerenciamento-de-servidores","hospedagem-email"]), ('infraestrutura-empresarial', ["redes-corporativas-natal","cabeamento-estruturado-natal","wifi-corporativo-natal"])]:
     category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug
-for category_slug, category_slugs in [('seguranca-e-conectividade', ["firewall-corporativo","vpn-empresarial","redundancia-de-internet-natal","suporte-de-ti-para-empresas"]), ('backup-e-continuidade', ["backup-corporativo"])]:
+for category_slug, category_slugs in [('seguranca-e-conectividade', ["firewall-corporativo","vpn-empresarial","redundancia-de-internet-natal","suporte-de-ti-para-empresas","wifi-corporativo-natal"]), ('backup-e-continuidade', ["backup-corporativo"])]:
     category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug
@@ -39,7 +39,7 @@ for category_slug, category_slugs in [('migracao-e-processamento-de-emails', ["m
     category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug
-for category_slug, category_slugs in [["open-source-e-self-hosted",["solucoes-open-source","nextcloud-empresarial"]],["consultoria-e-treinamento",["consultoria-de-ti-natal","documentacao-de-ti","implantacao-service-desk"]],["engenharia-de-dados",["dba-remoto","relatorios-personalizados"]]]:
+for category_slug, category_slugs in [["open-source-e-self-hosted",["solucoes-open-source","nextcloud-empresarial","bots-e-notificacoes"]],["consultoria-e-treinamento",["consultoria-de-ti-natal","documentacao-de-ti","implantacao-service-desk"]],["engenharia-de-dados",["dba-remoto","relatorios-personalizados"]]]:
     category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug

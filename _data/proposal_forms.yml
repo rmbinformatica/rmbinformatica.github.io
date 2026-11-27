@@ -290,6 +290,53 @@
           }
         }
       ]
+    },
+    {
+      "id": "hosting_type",
+      "type": "select",
+      "label": {
+        "pt-BR": "Tipo de solução desejada",
+        "en": "Desired solution type",
+        "es": "Tipo de solución deseada",
+        "it": "Tipo di soluzione desiderata",
+        "fr": "Type de solution souhaité",
+        "de": "Gewünschte Lösungsart"
+      },
+      "options": [
+        {
+          "value": "hosted",
+          "label": {
+            "pt-BR": "Hospedagem contratada",
+            "en": "Hosted email",
+            "es": "Correo alojado",
+            "it": "Hosting e-mail",
+            "fr": "Messagerie hébergée",
+            "de": "Gehostete E-Mail"
+          }
+        },
+        {
+          "value": "selfhosted",
+          "label": {
+            "pt-BR": "Servidor próprio",
+            "en": "Self-hosted server",
+            "es": "Servidor propio",
+            "it": "Server proprio",
+            "fr": "Serveur propre",
+            "de": "Eigener Server"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
     }
   ],
   "system-hosting": [
@@ -1439,6 +1486,64 @@
         "fr": "Ville et région d’installation",
         "de": "Ort und Region der Installation"
       }
+    },
+    {
+      "id": "rack_need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Necessidade relacionada a racks",
+        "en": "Rack requirements",
+        "es": "Necesidad de racks",
+        "it": "Esigenza relativa ai rack",
+        "fr": "Besoin concernant les baies",
+        "de": "Anforderungen an Racks"
+      },
+      "options": [
+        {
+          "value": "new",
+          "label": {
+            "pt-BR": "Montagem de rack novo",
+            "en": "New rack assembly",
+            "es": "Montaje de rack nuevo",
+            "it": "Montaggio nuovo rack",
+            "fr": "Montage de baie neuve",
+            "de": "Neuen Rack montieren"
+          }
+        },
+        {
+          "value": "reorganize",
+          "label": {
+            "pt-BR": "Reorganização de rack",
+            "en": "Rack reorganisation",
+            "es": "Reorganización de rack",
+            "it": "Riorganizzazione rack",
+            "fr": "Réorganisation de baie",
+            "de": "Rack neu organisieren"
+          }
+        },
+        {
+          "value": "none",
+          "label": {
+            "pt-BR": "Não se aplica",
+            "en": "Not applicable",
+            "es": "No aplica",
+            "it": "Non applicabile",
+            "fr": "Sans objet",
+            "de": "Nicht zutreffend"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
     }
   ],
   "domain-registration": [
@@ -3849,6 +3954,17 @@
             "fr": "Je ne sais pas",
             "de": "Weiß ich nicht"
           }
+        },
+        {
+          "value": "portal",
+          "label": {
+            "pt-BR": "Portal de acesso para visitantes",
+            "en": "Guest access portal",
+            "es": "Portal de acceso para invitados",
+            "it": "Portale di accesso ospiti",
+            "fr": "Portail d’accès visiteurs",
+            "de": "Gästezugangsportal"
+          }
         }
       ]
     }
@@ -4474,6 +4590,75 @@
           }
         }
       ]
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "setup",
+          "label": {
+            "pt-BR": "Implantação",
+            "en": "Setup",
+            "es": "Implantación",
+            "it": "Installazione",
+            "fr": "Mise en place",
+            "de": "Einrichtung"
+          }
+        },
+        {
+          "value": "managed",
+          "label": {
+            "pt-BR": "Gerenciamento recorrente",
+            "en": "Ongoing management",
+            "es": "Gestión continua",
+            "it": "Gestione continuativa",
+            "fr": "Gestion régulière",
+            "de": "Laufende Verwaltung"
+          }
+        },
+        {
+          "value": "offsite",
+          "label": {
+            "pt-BR": "Backup externo",
+            "en": "Off-site backup",
+            "es": "Copia externa",
+            "it": "Backup esterno",
+            "fr": "Sauvegarde externe",
+            "de": "Externes Backup"
+          }
+        },
+        {
+          "value": "snapshots",
+          "label": {
+            "pt-BR": "Snapshots",
+            "en": "Snapshots",
+            "es": "Snapshots",
+            "it": "Snapshots",
+            "fr": "Snapshots",
+            "de": "Snapshots"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
     }
   ],
   "email-automation": [
@@ -4989,6 +5174,64 @@
             "it": "Entrambi",
             "fr": "Les deux",
             "de": "Beides"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Tipo de solução",
+        "en": "Solution type",
+        "es": "Tipo de solución",
+        "it": "Tipo di soluzione",
+        "fr": "Type de solution",
+        "de": "Lösungsart"
+      },
+      "options": [
+        {
+          "value": "alerts",
+          "label": {
+            "pt-BR": "Alertas e notificações",
+            "en": "Alerts and notifications",
+            "es": "Alertas y notificaciones",
+            "it": "Avvisi e notifiche",
+            "fr": "Alertes et notifications",
+            "de": "Alarme und Benachrichtigungen"
+          }
+        },
+        {
+          "value": "bot",
+          "label": {
+            "pt-BR": "Bot personalizado",
+            "en": "Custom bot",
+            "es": "Bot personalizado",
+            "it": "Bot personalizzato",
+            "fr": "Bot personnalisé",
+            "de": "Individueller Bot"
+          }
+        },
+        {
+          "value": "server",
+          "label": {
+            "pt-BR": "Servidor de notificações",
+            "en": "Notification server",
+            "es": "Servidor de notificaciones",
+            "it": "Server di notifiche",
+            "fr": "Serveur de notifications",
+            "de": "Benachrichtigungsserver"
           }
         },
         {

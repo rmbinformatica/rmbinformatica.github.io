@@ -6,5 +6,5 @@ lang: "pt-BR"
 category_id: "security"
 translation_key: "category-security"
 permalink: "/servicos/seguranca-e-conectividade/"
-services: ["/servicos/firewall-corporativo","/servicos/vpn-empresarial","/servicos/redundancia-de-internet-natal","/servicos/suporte-de-ti-para-empresas"]
+services: ["/servicos/firewall-corporativo","/servicos/vpn-empresarial","/servicos/redundancia-de-internet-natal","/servicos/suporte-de-ti-para-empresas","/servicos/wifi-corporativo-natal"]
 ---

@@ -6,5 +6,5 @@ lang: pt-BR
 translation_key: category-cloud
 category_id: cloud
 permalink: /servicos/hospedagem-e-nuvem/
-services: ["/servicos/hospedagem-de-sites","/servicos/hospedagem-email","/servicos/hospedagem-de-sistemas","/servicos/gerenciamento-cpanel","/servicos/consultoria-cloudflare","/servicos/assessoria-registro-de-dominios"]
+services: ["/servicos/hospedagem-de-sites","/servicos/hospedagem-email","/servicos/hospedagem-de-sistemas","/servicos/gerenciamento-cpanel","/servicos/consultoria-cloudflare","/servicos/assessoria-registro-de-dominios","/servicos/vps-gerenciado"]
 ---

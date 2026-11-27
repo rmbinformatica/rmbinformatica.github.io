@@ -14,6 +14,7 @@ final_slugs=["padronizacao-de-estacoes","solucoes-open-source","nextcloud-empres
 slugs+=msp_slugs+server_slugs+infra_slugs+security_slugs+backup_slugs+development_slugs+final_slugs
 slugs+=["plano-de-contingencia","conversores-de-arquivos","integracao-de-sistemas-api","modernizacao-de-sistemas-legados","engenharia-de-dados-etl","otimizacao-de-banco-de-dados"]
 slugs+=["atendimento-online","criacao-de-sites","criacao-de-landing-pages","base-de-conhecimento","treinamento-de-ti"]
+slugs+=["vps-gerenciado","consultoria-n8n","organizacao-de-arquivos-digitais","adequacao-cnpj-alfanumerico"]
 urls={n.text for n in ET.parse(root/'sitemap.xml').iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
 for slug in slugs:
     route='/servicos/'+slug
@@ -50,6 +51,10 @@ for category_slug, category_slugs in [["backup-e-continuidade",["backup-corporat
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug
 for category_slug, category_slugs in [["open-source-e-self-hosted",["solucoes-open-source","nextcloud-empresarial","bots-e-notificacoes","atendimento-online"]],["consultoria-e-treinamento",["consultoria-de-ti-natal","documentacao-de-ti","implantacao-service-desk","treinamento-de-ti"]],["desenvolvimento-web",["criacao-de-sites","criacao-de-landing-pages","base-de-conhecimento","software-sob-medida"]]]:
+    category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
+    for slug in category_slugs:
+        assert 'href="/servicos/'+slug+'"' in category_html, slug
+for category_slug, category_slugs in [["hospedagem-e-nuvem",["hospedagem-de-sites","hospedagem-email","hospedagem-de-sistemas","gerenciamento-cpanel","consultoria-cloudflare","assessoria-registro-de-dominios","vps-gerenciado"]],["automacao-de-processos",["automacao-de-infraestrutura","automacao-de-emails","bots-e-notificacoes","relatorios-personalizados","gerenciamento-de-servidores","padronizacao-de-estacoes","software-sob-medida","consultoria-n8n"]],["engenharia-de-dados",["dba-remoto","relatorios-personalizados","engenharia-de-dados-etl","otimizacao-de-banco-de-dados","organizacao-de-arquivos-digitais","adequacao-cnpj-alfanumerico"]]]:
     category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug

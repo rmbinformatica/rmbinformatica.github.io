@@ -6790,5 +6790,295 @@
         "de": "Welches Problem möchten Sie lösen?"
       }
     }
+  ],
+  "vps": [
+    {
+      "id": "management",
+      "type": "select",
+      "label": {
+        "pt-BR": "Modalidade desejada",
+        "en": "Desired management type",
+        "es": "Modalidad deseada",
+        "it": "Modalità desiderata",
+        "fr": "Mode de gestion souhaité",
+        "de": "Gewünschte Verwaltungsart"
+      },
+      "options": [
+        {
+          "value": "managed",
+          "label": {
+            "pt-BR": "Gerenciado",
+            "en": "Managed",
+            "es": "Gestionado",
+            "it": "Gestito",
+            "fr": "Géré",
+            "de": "Managed"
+          }
+        },
+        {
+          "value": "unmanaged",
+          "label": {
+            "pt-BR": "Não gerenciado",
+            "en": "Unmanaged",
+            "es": "No gestionado",
+            "it": "Non gestito",
+            "fr": "Non géré",
+            "de": "Unmanaged"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "application",
+      "type": "text",
+      "label": {
+        "pt-BR": "Aplicação ou serviço a hospedar",
+        "en": "Application or service to host",
+        "es": "Aplicación o servicio a alojar",
+        "it": "Applicazione o servizio da ospitare",
+        "fr": "Application ou service à héberger",
+        "de": "Zu hostende Anwendung oder Dienst"
+      }
+    },
+    {
+      "id": "resources",
+      "type": "text",
+      "label": {
+        "pt-BR": "Recursos desejados (CPU, RAM, disco), se souber",
+        "en": "Desired resources (CPU, RAM, disk), if known",
+        "es": "Recursos deseados (CPU, RAM, disco), si los conoce",
+        "it": "Risorse desiderate (CPU, RAM, disco), se note",
+        "fr": "Ressources souhaitées (CPU, RAM, disque), si connues",
+        "de": "Gewünschte Ressourcen (CPU, RAM, Speicher), falls bekannt"
+      }
+    }
+  ],
+  "n8n": [
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    },
+    {
+      "id": "technology",
+      "type": "text",
+      "label": {
+        "pt-BR": "Tecnologia ou plataforma atual (se souber)",
+        "en": "Current technology or platform (if known)",
+        "es": "Tecnología o plataforma actual (si la conoce)",
+        "it": "Tecnologia o piattaforma attuale (se nota)",
+        "fr": "Technologie ou plateforme actuelle (si connue)",
+        "de": "Aktuelle Technologie oder Plattform (falls bekannt)"
+      }
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "ongoing",
+          "label": {
+            "pt-BR": "Administração recorrente",
+            "en": "Ongoing administration",
+            "es": "Administración continua",
+            "it": "Gestione continuativa",
+            "fr": "Administration régulière",
+            "de": "Laufende Administration"
+          }
+        },
+        {
+          "value": "setup",
+          "label": {
+            "pt-BR": "Implantação ou reorganização",
+            "en": "Setup or reorganisation",
+            "es": "Implantación o reorganización",
+            "it": "Installazione o riorganizzazione",
+            "fr": "Mise en place ou réorganisation",
+            "de": "Einrichtung oder Neuorganisation"
+          }
+        },
+        {
+          "value": "incident",
+          "label": {
+            "pt-BR": "Resolver um problema",
+            "en": "Resolve an issue",
+            "es": "Resolver un problema",
+            "it": "Risolvere un problema",
+            "fr": "Résoudre un problème",
+            "de": "Problem beheben"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "file-organization": [
+    {
+      "id": "data_volume",
+      "type": "select",
+      "label": {
+        "pt-BR": "Volume aproximado de dados",
+        "en": "Approximate data volume",
+        "es": "Volumen aproximado de datos",
+        "it": "Volume indicativo dei dati",
+        "fr": "Volume approximatif de données",
+        "de": "Ungefähres Datenvolumen"
+      },
+      "options": [
+        {
+          "value": "lt100",
+          "label": {
+            "pt-BR": "< 100 GB",
+            "en": "< 100 GB",
+            "es": "< 100 GB",
+            "it": "< 100 GB",
+            "fr": "< 100 GB",
+            "de": "< 100 GB"
+          }
+        },
+        {
+          "value": "100-999",
+          "label": {
+            "pt-BR": "100–999 GB",
+            "en": "100–999 GB",
+            "es": "100–999 GB",
+            "it": "100–999 GB",
+            "fr": "100–999 GB",
+            "de": "100–999 GB"
+          }
+        },
+        {
+          "value": "1-5tb",
+          "label": {
+            "pt-BR": "1–5 TB",
+            "en": "1–5 TB",
+            "es": "1–5 TB",
+            "it": "1–5 TB",
+            "fr": "1–5 TB",
+            "de": "1–5 TB"
+          }
+        },
+        {
+          "value": "gt5tb",
+          "label": {
+            "pt-BR": "> 5 TB",
+            "en": "> 5 TB",
+            "es": "> 5 TB",
+            "it": "> 5 TB",
+            "fr": "> 5 TB",
+            "de": "> 5 TB"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "source",
+      "type": "text",
+      "label": {
+        "pt-BR": "Localização dos arquivos (tipo de armazenamento)",
+        "en": "File location (storage type)",
+        "es": "Ubicación de archivos (tipo de almacenamiento)",
+        "it": "Posizione dei file (tipo di archiviazione)",
+        "fr": "Emplacement des fichiers (type de stockage)",
+        "de": "Dateispeicherort (Speichertyp)"
+      }
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    }
+  ],
+  "cnpj": [
+    {
+      "id": "technology",
+      "type": "text",
+      "label": {
+        "pt-BR": "Tecnologia ou plataforma atual (se souber)",
+        "en": "Current technology or platform (if known)",
+        "es": "Tecnología o plataforma actual (si la conoce)",
+        "it": "Tecnologia o piattaforma attuale (se nota)",
+        "fr": "Technologie ou plateforme actuelle (si connue)",
+        "de": "Aktuelle Technologie oder Plattform (falls bekannt)"
+      }
+    },
+    {
+      "id": "systems",
+      "type": "text",
+      "label": {
+        "pt-BR": "Sistemas ou integrações afetadas",
+        "en": "Affected systems or integrations",
+        "es": "Sistemas o integraciones afectados",
+        "it": "Sistemi o integrazioni interessati",
+        "fr": "Systèmes ou intégrations concernés",
+        "de": "Betroffene Systeme oder Integrationen"
+      }
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    }
   ]
 }

@@ -1149,6 +1149,53 @@
           }
         }
       ]
+    },
+    {
+      "id": "project_type",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "mailboxes",
+          "label": {
+            "pt-BR": "Migrar caixas postais",
+            "en": "Migrate mailboxes",
+            "es": "Migrar buzones",
+            "it": "Migrare caselle",
+            "fr": "Migrer les boîtes mail",
+            "de": "Postfächer migrieren"
+          }
+        },
+        {
+          "value": "files",
+          "label": {
+            "pt-BR": "Converter arquivos de e-mail",
+            "en": "Convert email files",
+            "es": "Convertir archivos de correo",
+            "it": "Convertire file e-mail",
+            "fr": "Convertir des fichiers e-mail",
+            "de": "E-Mail-Dateien konvertieren"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
     }
   ],
   "structured-cabling": [
@@ -2773,6 +2820,17 @@
             "fr": "Je ne sais pas",
             "de": "Weiß ich nicht"
           }
+        },
+        {
+          "value": "sdn",
+          "label": {
+            "pt-BR": "SDN",
+            "en": "SDN",
+            "es": "SDN",
+            "it": "SDN",
+            "fr": "SDN",
+            "de": "SDN"
+          }
         }
       ]
     }
@@ -2970,6 +3028,17 @@
             "it": "Non lo so",
             "fr": "Je ne sais pas",
             "de": "Weiß ich nicht"
+          }
+        },
+        {
+          "value": "deploy",
+          "label": {
+            "pt-BR": "Automação de deploy",
+            "en": "Deployment automation",
+            "es": "Automatización de despliegue",
+            "it": "Automazione del deploy",
+            "fr": "Automatisation du déploiement",
+            "de": "Deployment-Automatisierung"
           }
         }
       ]
@@ -4820,6 +4889,17 @@
             "fr": "Traiter les messages",
             "de": "Nachrichten verarbeiten"
           }
+        },
+        {
+          "value": "attachments",
+          "label": {
+            "pt-BR": "Extrair anexos",
+            "en": "Extract attachments",
+            "es": "Extraer adjuntos",
+            "it": "Estrarre allegati",
+            "fr": "Extraire les pièces jointes",
+            "de": "Anhänge extrahieren"
+          }
         }
       ]
     },
@@ -5561,6 +5641,17 @@
             "fr": "Je ne sais pas",
             "de": "Weiß ich nicht"
           }
+        },
+        {
+          "value": "network_install",
+          "label": {
+            "pt-BR": "Instalação pela rede",
+            "en": "Network installation",
+            "es": "Instalación por red",
+            "it": "Installazione via rete",
+            "fr": "Installation par réseau",
+            "de": "Netzwerkinstallation"
+          }
         }
       ]
     }
@@ -5633,6 +5724,75 @@
             "it": "Risolvere un problema",
             "fr": "Résoudre un problème",
             "de": "Problem beheben"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "solution_type",
+      "type": "select",
+      "label": {
+        "pt-BR": "Tipo de solução desejada",
+        "en": "Desired solution type",
+        "es": "Tipo de solución deseada",
+        "it": "Tipo di soluzione desiderata",
+        "fr": "Type de solution souhaité",
+        "de": "Gewünschter Lösungstyp"
+      },
+      "options": [
+        {
+          "value": "deploy",
+          "label": {
+            "pt-BR": "Plataforma privada de deploy",
+            "en": "Private deployment platform",
+            "es": "Plataforma privada de despliegue",
+            "it": "Piattaforma privata di deploy",
+            "fr": "Plateforme privée de déploiement",
+            "de": "Private Deployment-Plattform"
+          }
+        },
+        {
+          "value": "schedule",
+          "label": {
+            "pt-BR": "Agendamento online",
+            "en": "Online scheduling",
+            "es": "Citas en línea",
+            "it": "Prenotazione appuntamenti online",
+            "fr": "Prise de rendez-vous en ligne",
+            "de": "Online-Terminplanung"
+          }
+        },
+        {
+          "value": "hotel",
+          "label": {
+            "pt-BR": "Reservas hoteleiras",
+            "en": "Hotel reservations",
+            "es": "Reservas hoteleras",
+            "it": "Prenotazioni alberghiere",
+            "fr": "Réservations hôtelières",
+            "de": "Hotelreservierungen"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "pt-BR": "Outra solução",
+            "en": "Other solution",
+            "es": "Otra solución",
+            "it": "Altra soluzione",
+            "fr": "Autre solution",
+            "de": "Andere Lösung"
           }
         },
         {
@@ -6171,6 +6331,17 @@
             "it": "Non lo so",
             "fr": "Je ne sais pas",
             "de": "Weiß ich nicht"
+          }
+        },
+        {
+          "value": "legacy",
+          "label": {
+            "pt-BR": "API para sistema legado",
+            "en": "API for legacy system",
+            "es": "API para sistema heredado",
+            "it": "API per sistema legacy",
+            "fr": "API pour système historique",
+            "de": "API für Altsystem"
           }
         }
       ]
@@ -6944,6 +7115,17 @@
             "fr": "Je ne sais pas",
             "de": "Weiß ich nicht"
           }
+        },
+        {
+          "value": "managed",
+          "label": {
+            "pt-BR": "Avaliar hospedagem gerenciada",
+            "en": "Assess managed hosting",
+            "es": "Evaluar alojamiento gestionado",
+            "it": "Valutare hosting gestito",
+            "fr": "Évaluer l’hébergement géré",
+            "de": "Managed Hosting prüfen"
+          }
         }
       ]
     }
@@ -7117,6 +7299,53 @@
         "fr": "Quel problème souhaitez-vous résoudre ?",
         "de": "Welches Problem möchten Sie lösen?"
       }
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "pix",
+          "label": {
+            "pt-BR": "Pix",
+            "en": "Pix",
+            "es": "Pix",
+            "it": "Pix",
+            "fr": "Pix",
+            "de": "Pix"
+          }
+        },
+        {
+          "value": "bank_api",
+          "label": {
+            "pt-BR": "Outra API bancária",
+            "en": "Other banking API",
+            "es": "Otra API bancaria",
+            "it": "Altra API bancaria",
+            "fr": "Autre API bancaire",
+            "de": "Andere Bank-API"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
     }
   ],
   "bank-return": [
@@ -7190,6 +7419,64 @@
         "fr": "Système d’entreprise concerné",
         "de": "Betroffenes Unternehmenssystem"
       }
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "return",
+          "label": {
+            "pt-BR": "Leitura de retorno",
+            "en": "Read return files",
+            "es": "Lectura de retorno",
+            "it": "Lettura file di ritorno",
+            "fr": "Lecture de fichiers retour",
+            "de": "Rücklaufdateien lesen"
+          }
+        },
+        {
+          "value": "remittance",
+          "label": {
+            "pt-BR": "Geração de remessa",
+            "en": "Generate remittance files",
+            "es": "Generar remesas",
+            "it": "Generare file di invio",
+            "fr": "Générer des fichiers de remise",
+            "de": "Einreichungsdateien erzeugen"
+          }
+        },
+        {
+          "value": "convert",
+          "label": {
+            "pt-BR": "Conversão de arquivos financeiros",
+            "en": "Financial file conversion",
+            "es": "Conversión de archivos financieros",
+            "it": "Conversione di file finanziari",
+            "fr": "Conversion de fichiers financiers",
+            "de": "Finanzdateien konvertieren"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
     }
   ],
   "bank-statement": [
@@ -7249,6 +7536,53 @@
             "it": "Periodica",
             "fr": "Périodique",
             "de": "Regelmäßig"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "convert",
+          "label": {
+            "pt-BR": "Conversão de extratos",
+            "en": "Statement conversion",
+            "es": "Conversión de extractos",
+            "it": "Conversione estratti conto",
+            "fr": "Conversion de relevés",
+            "de": "Kontoauszüge konvertieren"
+          }
+        },
+        {
+          "value": "reconcile",
+          "label": {
+            "pt-BR": "Automação de conciliação",
+            "en": "Reconciliation automation",
+            "es": "Automatización de conciliación",
+            "it": "Automazione riconciliazione",
+            "fr": "Automatisation du rapprochement",
+            "de": "Abgleich automatisieren"
           }
         },
         {

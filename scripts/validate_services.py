@@ -16,6 +16,7 @@ slugs+=["plano-de-contingencia","conversores-de-arquivos","integracao-de-sistema
 slugs+=["atendimento-online","criacao-de-sites","criacao-de-landing-pages","base-de-conhecimento","treinamento-de-ti"]
 slugs+=["vps-gerenciado","consultoria-n8n","organizacao-de-arquivos-digitais","adequacao-cnpj-alfanumerico"]
 slugs+=["integracao-pix-e-apis-bancarias","integracao-bancaria-cnab","conciliacao-bancaria","automacao-de-documentos-fiscais","revisao-arquitetura-software-ia","preparacao-aplicacoes-ia-producao"]
+slugs+=["plano-de-recuperacao-de-desastres","auditoria-de-codigo-ia","recuperacao-projetos-vibe-coding","consultoria-desenvolvimento-com-ia"]
 urls={n.text for n in ET.parse(root/'sitemap.xml').iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
 for slug in slugs:
     route='/servicos/'+slug
@@ -60,6 +61,10 @@ for category_slug, category_slugs in [["hospedagem-e-nuvem",["hospedagem-de-site
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug
 for category_slug, category_slugs in [["integracao-bancaria-e-financeira",["integracao-pix-e-apis-bancarias","integracao-bancaria-cnab","conciliacao-bancaria","automacao-de-documentos-fiscais","software-sob-medida"]],["engenharia-de-solucoes-com-ia",["revisao-arquitetura-software-ia","preparacao-aplicacoes-ia-producao"]]]:
+    category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
+    for slug in category_slugs:
+        assert 'href="/servicos/'+slug+'"' in category_html, slug
+for category_slug, category_slugs in [["backup-e-continuidade",["backup-corporativo","plano-de-contingencia","plano-de-recuperacao-de-desastres"]],["engenharia-de-solucoes-com-ia",["revisao-arquitetura-software-ia","preparacao-aplicacoes-ia-producao","auditoria-de-codigo-ia","recuperacao-projetos-vibe-coding","consultoria-desenvolvimento-com-ia"]]]:
     category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug

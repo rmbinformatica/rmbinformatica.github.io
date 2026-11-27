@@ -6,5 +6,5 @@ lang: "pt-BR"
 category_id: "ai"
 translation_key: "category-ai"
 permalink: "/servicos/engenharia-de-solucoes-com-ia/"
-services: ["/servicos/revisao-arquitetura-software-ia","/servicos/preparacao-aplicacoes-ia-producao"]
+services: ["/servicos/revisao-arquitetura-software-ia","/servicos/preparacao-aplicacoes-ia-producao","/servicos/auditoria-de-codigo-ia","/servicos/recuperacao-projetos-vibe-coding","/servicos/consultoria-desenvolvimento-com-ia"]
 ---

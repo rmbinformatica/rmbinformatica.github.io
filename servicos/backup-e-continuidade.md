@@ -6,5 +6,5 @@ lang: "pt-BR"
 category_id: "backup"
 translation_key: "category-backup"
 permalink: "/servicos/backup-e-continuidade/"
-services: ["/servicos/backup-corporativo","/servicos/plano-de-contingencia"]
+services: ["/servicos/backup-corporativo","/servicos/plano-de-contingencia","/servicos/plano-de-recuperacao-de-desastres"]
 ---

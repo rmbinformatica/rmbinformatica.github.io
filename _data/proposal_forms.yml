@@ -7712,5 +7712,318 @@
         "de": "Zielinfrastruktur (falls bekannt)"
       }
     }
+  ],
+  "disaster-recovery": [
+    {
+      "id": "location",
+      "type": "text",
+      "label": {
+        "pt-BR": "Cidade/UF ou região do atendimento",
+        "en": "Service city and region",
+        "es": "Ciudad y región del servicio",
+        "it": "Città e regione del servizio",
+        "fr": "Ville et région d’intervention",
+        "de": "Ort und Region der Leistung"
+      }
+    },
+    {
+      "id": "critical_services",
+      "type": "text",
+      "label": {
+        "pt-BR": "Sistemas ou serviços críticos",
+        "en": "Critical systems or services",
+        "es": "Sistemas o servicios críticos",
+        "it": "Sistemi o servizi critici",
+        "fr": "Systèmes ou services critiques",
+        "de": "Kritische Systeme oder Dienste"
+      }
+    },
+    {
+      "id": "recovery_objectives",
+      "type": "text",
+      "label": {
+        "pt-BR": "Objetivos de recuperação (se definidos)",
+        "en": "Recovery objectives (if defined)",
+        "es": "Objetivos de recuperación (si están definidos)",
+        "it": "Obiettivi di ripristino (se definiti)",
+        "fr": "Objectifs de reprise (si définis)",
+        "de": "Wiederherstellungsziele (falls definiert)"
+      }
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    }
+  ],
+  "ai-code-checkup": [
+    {
+      "id": "project",
+      "type": "text",
+      "label": {
+        "pt-BR": "Descrição do projeto (sem credenciais)",
+        "en": "Project description (no credentials)",
+        "es": "Descripción del proyecto (sin credenciales)",
+        "it": "Descrizione del progetto (senza credenziali)",
+        "fr": "Description du projet (sans identifiants)",
+        "de": "Projektbeschreibung (ohne Zugangsdaten)"
+      }
+    },
+    {
+      "id": "technology",
+      "type": "text",
+      "label": {
+        "pt-BR": "Tecnologia ou plataforma atual (se souber)",
+        "en": "Current technology or platform (if known)",
+        "es": "Tecnología o plataforma actual (si la conoce)",
+        "it": "Tecnologia o piattaforma attuale (se nota)",
+        "fr": "Technologie ou plateforme actuelle (si connue)",
+        "de": "Aktuelle Technologie oder Plattform (falls bekannt)"
+      }
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "code",
+          "label": {
+            "pt-BR": "Revisão de código",
+            "en": "Code review",
+            "es": "Revisión de código",
+            "it": "Revisione del codice",
+            "fr": "Revue de code",
+            "de": "Code-Review"
+          }
+        },
+        {
+          "value": "security",
+          "label": {
+            "pt-BR": "Avaliação de segurança",
+            "en": "Security assessment",
+            "es": "Evaluación de seguridad",
+            "it": "Valutazione della sicurezza",
+            "fr": "Évaluation de sécurité",
+            "de": "Sicherheitsbewertung"
+          }
+        },
+        {
+          "value": "docs",
+          "label": {
+            "pt-BR": "Documentação técnica",
+            "en": "Technical documentation",
+            "es": "Documentación técnica",
+            "it": "Documentazione tecnica",
+            "fr": "Documentation technique",
+            "de": "Technische Dokumentation"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "ai-project-rescue": [
+    {
+      "id": "project",
+      "type": "text",
+      "label": {
+        "pt-BR": "Descrição do projeto (sem credenciais)",
+        "en": "Project description (no credentials)",
+        "es": "Descripción del proyecto (sin credenciales)",
+        "it": "Descrizione del progetto (senza credenziali)",
+        "fr": "Description du projet (sans identifiants)",
+        "de": "Projektbeschreibung (ohne Zugangsdaten)"
+      }
+    },
+    {
+      "id": "technology",
+      "type": "text",
+      "label": {
+        "pt-BR": "Tecnologia ou plataforma atual (se souber)",
+        "en": "Current technology or platform (if known)",
+        "es": "Tecnología o plataforma actual (si la conoce)",
+        "it": "Tecnologia o piattaforma attuale (se nota)",
+        "fr": "Technologie ou plateforme actuelle (si connue)",
+        "de": "Aktuelle Technologie oder Plattform (falls bekannt)"
+      }
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "rescue",
+          "label": {
+            "pt-BR": "Recuperação e correção",
+            "en": "Recovery and fixes",
+            "es": "Recuperación y corrección",
+            "it": "Recupero e correzione",
+            "fr": "Récupération et correction",
+            "de": "Wiederherstellung und Fehlerkorrektur"
+          }
+        },
+        {
+          "value": "refactor",
+          "label": {
+            "pt-BR": "Refatoração",
+            "en": "Refactoring",
+            "es": "Refactorización",
+            "it": "Refactoring",
+            "fr": "Refactorisation",
+            "de": "Refactoring"
+          }
+        },
+        {
+          "value": "performance",
+          "label": {
+            "pt-BR": "Desempenho",
+            "en": "Performance",
+            "es": "Rendimiento",
+            "it": "Prestazioni",
+            "fr": "Performance",
+            "de": "Leistung"
+          }
+        },
+        {
+          "value": "migration",
+          "label": {
+            "pt-BR": "Migração de plataforma",
+            "en": "Platform migration",
+            "es": "Migración de plataforma",
+            "it": "Migrazione di piattaforma",
+            "fr": "Migration de plateforme",
+            "de": "Plattformmigration"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "ai-engineering-oversight": [
+    {
+      "id": "tools",
+      "type": "text",
+      "label": {
+        "pt-BR": "Ferramentas de IA utilizadas",
+        "en": "AI tools in use",
+        "es": "Herramientas de IA utilizadas",
+        "it": "Strumenti IA utilizzati",
+        "fr": "Outils IA utilisés",
+        "de": "Verwendete KI-Werkzeuge"
+      }
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "consulting",
+          "label": {
+            "pt-BR": "Consultoria técnica",
+            "en": "Technical consulting",
+            "es": "Consultoría técnica",
+            "it": "Consulenza tecnica",
+            "fr": "Conseil technique",
+            "de": "Technische Beratung"
+          }
+        },
+        {
+          "value": "oversight",
+          "label": {
+            "pt-BR": "Supervisão de agentes",
+            "en": "Agent oversight",
+            "es": "Supervisión de agentes",
+            "it": "Supervisione degli agenti",
+            "fr": "Supervision des agents",
+            "de": "Agentenaufsicht"
+          }
+        },
+        {
+          "value": "mentoring",
+          "label": {
+            "pt-BR": "Mentoria técnica",
+            "en": "Technical mentoring",
+            "es": "Mentoría técnica",
+            "it": "Mentoring tecnico",
+            "fr": "Mentorat technique",
+            "de": "Technisches Mentoring"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
   ]
 }

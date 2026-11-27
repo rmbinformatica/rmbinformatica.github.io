@@ -1,0 +1,3 @@
+# Parcerias
+Oferta pública: retaguarda técnica especializada para MSPs, agências, provedores e software houses. White label, co-branding ou indicação são modelos distintos. Projetos por escopo, banco de horas e capacidade reservada sujeitos à contratação.
+Atendimento presencial em Natal/RN, remoto nacional e internacional; deslocamento no Brasil e exterior mediante acordo específico, viabilidade e requisitos legais. Não divulgar parceiros ou clientes sem autorização. Confidencialidade, responsabilidades e tratamento de dados definidos contratualmente. Não prometer SLA ou cobertura não acordados.

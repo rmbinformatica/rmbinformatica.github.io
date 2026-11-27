@@ -1,0 +1,11 @@
+# RMB Informática — instruções de desenvolvimento
+- Trabalhar em branches independentes; não alterar master nem publicar sem aprovação expressa.
+- Consultar _docs/ antes de mudanças arquiteturais. Distinguir decisões aprovadas de propostas.
+- Preservar URLs existentes, identidade visual aprovada, artigos e domínio.
+- Jekyll/Liquid, HTML semântico, CSS próprio, JS vanilla; evitar dependências desnecessárias.
+- Idiomas pt-BR, en, es, it, fr, de. Não publicar traduções não revisadas.
+- Não inventar experiência, certificações, casos, garantias ou disponibilidade.
+- Nunca inserir dados internos da matriz comercial, credenciais, dados de clientes ou ferramentas secretas no repositório público. Exclusão do build não equivale a privacidade.
+- AGENTS.md e _docs/ devem estar explicitamente excluídos do build. Validar o diretório _site antes de publicar.
+- Não anunciar atendimento 24/7 ou fluência não confirmada. Atendimento presencial fora da base mediante acordo; exterior sujeito à viabilidade e requisitos legais.
+- Testar build, URLs, acessibilidade, idioma, canonical e hreflang antes de integrar.

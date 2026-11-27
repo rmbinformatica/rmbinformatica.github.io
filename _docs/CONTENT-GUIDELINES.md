@@ -1,0 +1,3 @@
+# Conteúdo
+Página de serviço: problema, público, escopo, entregáveis, exclusões, modalidade, processo em nível comercial, FAQ e CTA. Nunca revelar ferramentas ou procedimentos internos confidenciais.
+Categoria de engenharia e supervisão de soluções desenvolvidas com IA: reconhecer o conhecimento de domínio de contadores, advogados, engenheiros e outros profissionais; apoiar a preparação de suas soluções para uso profissional. Mensagem: Você conhece seu negócio. Nós conhecemos a engenharia de software. Segurança e confiabilidade são objetivos de engenharia, não garantias absolutas. Não anunciar cases não autorizados.

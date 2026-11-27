@@ -1,0 +1,29 @@
+name: Validate Jekyll redesign
+on:
+  push:
+    branches: [redesign-v2]
+  pull_request:
+    branches: [master]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+      - name: Build
+        run: bundle exec jekyll build
+      - name: Reject developer documentation in generated site
+        shell: bash
+        run: |
+          set -eu
+          test -d _site
+          leaked="$(find _site -iname 'AGENTS.md' -o -name '_docs' -o -iname 'ARCHITECTURE.md' -o -iname 'DESIGN-SYSTEM.md' -o -iname 'INTERNATIONALIZATION.md' -o -iname 'SEO-GUIDELINES.md' -o -iname 'CONTENT-GUIDELINES.md' -o -iname 'SERVICES-SCHEMA.md' -o -iname 'PARTNERS.md' -o -iname 'CONTRIBUTING.md')"
+          if [ -n "$leaked" ]; then
+            printf '%s\n' "$leaked"
+            exit 1
+          fi

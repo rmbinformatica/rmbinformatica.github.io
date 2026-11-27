@@ -53,3 +53,12 @@ jobs:
         with:
           name: cloudflare-bulk-redirects
           path: ${{ runner.temp }}/redirects.csv
+      - name: Validate multilingual preview
+        run: python3 scripts/validate_preview.py _site
+      - name: Upload compiled site for local review
+        uses: actions/upload-artifact@v4
+        with:
+          name: rmb-v2-preview
+          path: _site/
+          if-no-files-found: error
+          retention-days: 14

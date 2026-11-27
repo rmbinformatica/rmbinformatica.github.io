@@ -3,3 +3,6 @@ Novo Design System em assets/css/rmb.css, seletor de tema em assets/js/theme.js,
 
 ## Internacionalização — protótipo
 Interface localizada nos seis idiomas; seletor de equivalentes existentes e hreflang apenas para páginas indexáveis. Cinco versões estrangeiras resumidas em /preview-v2/{lang}/ são rascunhos não indexáveis para validar navegação e layout; não constituem traduções finais da página inicial. Links para conteúdo legado em português são identificados. Nenhuma tradução publicada em produção. Kit v1.1 disponível localmente, incorporação pendente.
+
+## Homologação local
+O pipeline disponibiliza o site compilado como artefato rmb-v2-preview (14 dias), sem deployment. Descompactar em uma pasta e executar nela python3 -m http.server 8080 --bind 127.0.0.1; abrir http://127.0.0.1:8080/preview-v2/. Não abrir via file://, pois os caminhos são relativos à raiz HTTP. Os testes verificam seis versões de prévia, lang, noindex, ausência de alternates SEO e Analytics nas prévias, links de idiomas, recursos e exclusão do sitemap. Homologação pública independente ainda não configurada. O artefato contém também páginas legadas; limitar acesso ao servidor local e não enviar dados reais pelo formulário.

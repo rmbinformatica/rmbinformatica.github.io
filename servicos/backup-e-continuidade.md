@@ -1,7 +1,7 @@
 ---
 layout: "rmb-category"
 title: "Backup, contingência e continuidade de negócios"
-description: "Planejamento e implantação de cópias de segurança e testes de recuperação conforme as necessidades da empresa."
+description: "Planejamos e implantamos cópias de segurança e planos de recuperação para que sua empresa consiga se restabelecer com mais rapidez e segurança em caso de falha, ataque ou incidente."
 lang: "pt-BR"
 category_id: "backup"
 translation_key: "category-backup"

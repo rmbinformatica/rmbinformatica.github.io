@@ -1,7 +1,7 @@
 ---
 layout: "rmb-category"
 title: "Automação de processos e infraestrutura"
-description: "Automatização de rotinas administrativas, processamento de mensagens e notificações de sistemas."
+description: "Automatizamos rotinas administrativas, processamentos e notificações para reduzir trabalho manual e diminuir a chance de erros na operação da empresa."
 lang: "pt-BR"
 category_id: "automation"
 translation_key: "category-automation"

@@ -9,10 +9,10 @@ lang: "pt-BR"
 audience: "mixed"
 search_intent: "Solicitar proposta de Desenvolvimento de software sob medida"
 title: "Desenvolvimento de software sob medida"
-description: "Desenvolvemos aplicações personalizadas quando ferramentas prontas não atendem adequadamente ao processo, às regras ou aos requisitos da empresa."
+description: "Desenvolvemos aplicações personalizadas quando ferramentas prontas não atendem adequadamente ao processo ou às regras do negócio."
 permalink: "/servicos/software-sob-medida"
 headline: "Um sistema desenvolvido para as necessidades reais do seu negócio."
-intro: "Desenvolvemos aplicações personalizadas quando ferramentas prontas não atendem adequadamente ao processo, às regras ou aos requisitos da empresa."
+intro: "Desenvolvemos aplicações personalizadas quando ferramentas prontas não atendem adequadamente ao processo ou às regras do negócio."
 situations: ["Minha empresa depende de planilhas e controles manuais que já não atendem às necessidades.","Preciso de um sistema para um processo específico do negócio.","As soluções disponíveis no mercado exigem adaptações excessivas na minha operação.","Quero transformar uma ideia em uma aplicação utilizável.","Preciso gerar documentos PDF automaticamente.","Quero automatizar o processamento de arquivos de áudio ou vídeo.","Preciso de uma calculadora financeira personalizada ou ferramenta web para uma tarefa específica."]
 scope: ["Levantamento de requisitos funcionais e não funcionais.","Definição de arquitetura, interfaces e regras de negócio.","Desenvolvimento e validação incremental conforme escopo.","Documentação, entrega e condições de manutenção definidas na proposta.","Geração automatizada de documentos PDF conforme modelos e dados autorizados.","Automação de processamento de áudio e vídeo conforme formatos, volume e regras definidos.","Desenvolvimento de calculadoras financeiras e ferramentas web personalizadas, com validação das fórmulas e regras fornecidas."]
 process: ["Entendemos o problema, usuários e objetivos.","Definimos requisitos, escopo e critérios de aceitação.","Desenvolvemos, validamos e entregamos as funcionalidades acordadas."]

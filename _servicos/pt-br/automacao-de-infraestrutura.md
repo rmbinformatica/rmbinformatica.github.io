@@ -9,10 +9,10 @@ lang: "pt-BR"
 audience: "mixed"
 search_intent: "Solicitar proposta de Automação de infraestrutura e desenvolvimento de scripts"
 title: "Automação de infraestrutura e desenvolvimento de scripts"
-description: "Desenvolvemos scripts e automações para rotinas administrativas em Linux e Windows, considerando segurança, repetibilidade e compatibilidade com o ambiente."
+description: "Desenvolvemos scripts e automações para rotinas administrativas em Linux e Windows, reduzindo tarefas manuais repetitivas e aumentando a consistência do ambiente."
 permalink: "/servicos/automacao-de-infraestrutura"
 headline: "Reduza tarefas repetitivas e padronize a operação de TI."
-intro: "Desenvolvemos scripts e automações para rotinas administrativas em Linux e Windows, considerando segurança, repetibilidade e compatibilidade com o ambiente."
+intro: "Desenvolvemos scripts e automações para rotinas administrativas em Linux e Windows, reduzindo tarefas manuais repetitivas e aumentando a consistência do ambiente."
 situations: ["Minha equipe repete manualmente as mesmas tarefas em servidores ou estações.","Preciso automatizar configurações, verificações ou rotinas administrativas.","Quero padronizar procedimentos em vários computadores.","Preciso de um script personalizado em PowerShell ou outra tecnologia compatível."]
 scope: ["Levantamento das rotinas e condições de execução.","Desenvolvimento de scripts personalizados para Linux e Windows.","Automação de verificações, configurações e tarefas administrativas.","Validação de resultados, tratamento de erros e documentação de uso."]
 process: ["Mapeamos tarefas, ambientes e riscos da automação.","Definimos entradas, saídas e critérios de execução.","Desenvolvemos e testamos a solução em condições acordadas."]

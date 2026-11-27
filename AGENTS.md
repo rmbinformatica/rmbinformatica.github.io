@@ -19,3 +19,5 @@
 - Fornecimento de equipamentos: página brasileira com proposta comercial como CTA principal e loja InfinitePay como secundário. Não criar Seleção RMB ou vitrine genérica de afiliados sem nova aprovação.
 
 - Validar rotas de preview com requisições HTTP reais usando o servidor local distribuído no ZIP; manter permalinks históricos sem extensão. Não recomendar http.server simples para URLs limpas.
+
+- Diretriz editorial aprovada na homologação: priorizar benefícios concretos e linguagem comercial natural. Introduções de categorias devem explicar como a RMB ajuda o cliente; descrições de serviços devem combinar o que fazemos com o benefício quando pertinente. Evitar repetir ressalvas como “conforme contrato/escopo/ambiente” em todos os cards; manter condições técnicas, de segurança, licenciamento e viabilidade nos pontos em que são necessárias. Em listas de situações, manter uma mesma pessoa verbal dentro de cada página; preferir segunda pessoa (você/sua empresa) quando o conjunto estiver nessa voz. Não transformar benefícios em garantias absolutas. Preservar a cobertura dos IDs e serviços já existentes ao revisar textos e traduções.

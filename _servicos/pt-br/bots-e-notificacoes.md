@@ -9,10 +9,10 @@ lang: "pt-BR"
 audience: "mixed"
 search_intent: "Solicitar proposta de Integração de sistemas com Telegram e notificações"
 title: "Bots personalizados, integração com Telegram e servidores de notificações"
-description: "Desenvolvemos integrações entre sistemas e Telegram para encaminhar informações e alertas conforme os eventos e regras definidos pela empresa."
+description: "Desenvolvemos bots e integrações para encaminhar informações e alertas no Telegram e em sistemas de notificações, conforme os eventos e regras definidos pela empresa."
 permalink: "/servicos/bots-e-notificacoes"
 headline: "Receba informações importantes sem depender de consultas manuais."
-intro: "Desenvolvemos integrações entre sistemas e Telegram para encaminhar informações e alertas conforme os eventos e regras definidos pela empresa."
+intro: "Desenvolvemos bots e integrações para encaminhar informações e alertas no Telegram e em sistemas de notificações, conforme os eventos e regras definidos pela empresa."
 situations: ["Quero receber alertas quando um evento importante ocorre no meu sistema.","Preciso enviar notificações automatizadas para minha equipe.","Minha operação depende de consultas manuais para acompanhar ocorrências.","Quero integrar um sistema existente ao Telegram.","Preciso de um bot personalizado que responda a comandos ou execute fluxos autorizados.","Quero implantar um servidor de notificações sob meu controle.","Preciso de um sistema de notificações automáticas com regras de envio e múltiplos eventos."]
 scope: ["Levantamento dos eventos e destinatários autorizados.","Desenvolvimento de integração com Telegram conforme interfaces disponíveis.","Formatação de mensagens, regras de envio e tratamento de falhas.","Testes e documentação conforme escopo.","Desenvolvimento de bots personalizados conforme regras e permissões.","Implantação de servidores de notificações conforme infraestrutura e requisitos.","Desenvolvimento de sistemas de notificações automatizadas, com regras, destinatários autorizados e tratamento de falhas."]
 process: ["Identificamos a origem dos eventos e os resultados esperados.","Definimos regras, destinatários e permissões.","Implementamos e validamos o fluxo de notificações."]

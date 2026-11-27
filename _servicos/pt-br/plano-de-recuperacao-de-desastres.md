@@ -9,10 +9,10 @@ lang: "pt-BR"
 audience: "mixed"
 search_intent: "Solicitar avaliação de Plano de recuperação de desastres de TI (DRP)"
 title: "Plano de recuperação de desastres de TI (DRP)"
-description: "Avaliamos a elaboração de um plano de recuperação de desastres conforme a infraestrutura, dependências, riscos e objetivos de recuperação da empresa."
+description: "Elaboramos e ajudamos a implantar um plano de recuperação de desastres alinhado à infraestrutura, aos riscos e aos objetivos de recuperação da empresa."
 permalink: "/servicos/plano-de-recuperacao-de-desastres"
 headline: "Planeje a recuperação dos sistemas diante de incidentes graves."
-intro: "Avaliamos a elaboração de um plano de recuperação de desastres conforme a infraestrutura, dependências, riscos e objetivos de recuperação da empresa."
+intro: "Elaboramos e ajudamos a implantar um plano de recuperação de desastres alinhado à infraestrutura, aos riscos e aos objetivos de recuperação da empresa."
 situations: ["Quero planejar a recuperação após perda de servidores ou instalações.","Preciso definir prioridades e objetivos de recuperação dos sistemas.","Quero avaliar a capacidade de recuperação a partir das cópias de segurança."]
 scope: ["Levantamento de serviços críticos e cenários de desastre.","Avaliação de objetivos de tempo e ponto de recuperação (RTO e RPO).","Proposta de procedimentos, responsáveis e dependências de recuperação.","Planejamento de testes e revisão do plano conforme viabilidade."]
 process: ["Identificamos riscos e requisitos de recuperação.","Avaliamos infraestrutura, capacidade e dependências antes de assumir o projeto.","Definimos entregáveis e critérios de validação acordados."]

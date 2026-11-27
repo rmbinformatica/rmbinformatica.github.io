@@ -9,10 +9,10 @@ lang: "pt-BR"
 audience: "mixed"
 search_intent: "Solicitar proposta de Desenvolvimento de relatórios personalizados"
 title: "Desenvolvimento de relatórios personalizados"
-description: "Desenvolvemos relatórios adaptados às informações, regras e formatos necessários à operação da sua empresa."
+description: "Criamos relatórios adaptados às informações, regras e formatos que a operação da sua empresa realmente precisa."
 permalink: "/servicos/relatorios-personalizados"
 headline: "Transforme dados operacionais em relatórios úteis para decisões."
-intro: "Desenvolvemos relatórios adaptados às informações, regras e formatos necessários à operação da sua empresa."
+intro: "Criamos relatórios adaptados às informações, regras e formatos que a operação da sua empresa realmente precisa."
 situations: ["Meu sistema não oferece os relatórios de que preciso.","Preciso reunir dados de diferentes fontes para acompanhar minha operação.","Perco tempo preparando relatórios manualmente.","Quero gerar informações consolidadas com critérios específicos."]
 scope: ["Levantamento das fontes de dados e indicadores desejados.","Definição de regras de cálculo, filtros e formatos de saída.","Desenvolvimento de relatórios conforme interfaces e dados autorizados.","Validação dos resultados com exemplos e critérios acordados."]
 process: ["Identificamos fontes, usuários e decisões apoiadas pelo relatório.","Definimos campos, regras e apresentação.","Desenvolvemos e validamos os resultados com o cliente."]

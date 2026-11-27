@@ -17,3 +17,5 @@
 - Cada landing page deve ter FAQ contextual e proposal_form específico ou compartilhado quando equivalente. Lead qualification inicial: nome, e-mail e telefone obrigatórios; empresa e detalhes específicos opcionais; poucas perguntas, opções de desconhecimento quando pertinentes. Entrevista técnica é interna e posterior. Nunca solicitar credenciais. Não restringir idioma dos campos livres; traduzir labels, opções, avisos e mensagens nos seis idiomas.
 - Mobile-first obrigatório: testar smartphones, teclado, zoom, temas, controles de toque e ausência de overflow horizontal. Não ativar envio até backend, validação server-side, proteção contra spam, aviso de privacidade e tratamento de dados aprovados.
 - Fornecimento de equipamentos: página brasileira com proposta comercial como CTA principal e loja InfinitePay como secundário. Não criar Seleção RMB ou vitrine genérica de afiliados sem nova aprovação.
+
+- Validar rotas de preview com requisições HTTP reais usando o servidor local distribuído no ZIP; manter permalinks históricos sem extensão. Não recomendar http.server simples para URLs limpas.

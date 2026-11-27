@@ -12,3 +12,6 @@ As duas versões SVG do globo foram incorporadas a partir dos contornos e cores 
 
 ## Primeiro lote comercial
 Cinco landing pages de hospedagem e nuvem e página de categoria em PT-BR. Cobertura de sete serviços consolidados; maturidade, pesquisas, preços internos e critérios de priorização não exportados. Preservada a URL existente de hospedagem de e-mail. Tabela histórica de preços mantida em _data/prices.json, não exibida pelo novo layout até revisão dos preços e links comerciais. Conteúdo preliminar para revisão do responsável; sem garantias, SLA ou preços inventados. Catálogo restante e versões estrangeiras ainda não implementados. CTA usa contato legado. Não publicar até aprovação.
+
+## Correção da homologação local
+O servidor simples do Python não resolve URLs limpas para arquivos .html. Preservar URLs canônicas e distribuir preview_server.py junto ao ZIP de homologação, com fallback restrito a arquivos HTML existentes dentro do diretório servido. Testar HTTP 200 e presença do formulário nas cinco rotas comerciais. Não alterar URLs ou redirecionamentos de produção por causa do servidor local.

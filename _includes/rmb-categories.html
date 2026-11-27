@@ -1,0 +1,16 @@
+{% assign cat_locale = page.lang | default: 'pt-BR' %}
+{% assign cat_heading = site.data.rmb_category_titles[cat_locale] %}
+<section class="rmb-section rmb-category-section" id="categories" aria-labelledby="categories-title">
+  <div class="rmb-container">
+    <h2 id="categories-title">{{ cat_heading | escape }}</h2>
+    <div class="rmb-category-grid">
+    {% for cat in site.data.rmb_categories %}
+      <article class="rmb-card rmb-category" data-category="{{ cat.id | escape }}">
+        <span class="rmb-category-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="{{ cat.path | escape }}"/></svg></span>
+        <h3>{{ cat.labels[cat_locale] | escape }}</h3>
+        {% if cat_locale == 'pt-BR' %}<p>{{ cat.description | escape }}</p>{% endif %}
+      </article>
+    {% endfor %}
+    </div>
+  </div>
+</section>

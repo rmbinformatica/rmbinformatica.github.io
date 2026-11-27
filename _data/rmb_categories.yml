@@ -1,0 +1,210 @@
+[
+  {
+    "id": "infra",
+    "labels": {
+      "pt-BR": "Infraestrutura empresarial",
+      "en": "Business infrastructure",
+      "es": "Infraestructura empresarial",
+      "it": "Infrastruttura aziendale",
+      "fr": "Infrastructure d’entreprise",
+      "de": "Unternehmensinfrastruktur"
+    },
+    "description": "Redes, conectividade física e equipamentos de TI.",
+    "path": "M3 21V7l9-4 9 4v14M3 21h18M8 21v-5h8v5M7 10h2m6 0h2m-10 3h2m6 0h2"
+  },
+  {
+    "id": "msp",
+    "labels": {
+      "pt-BR": "Serviços gerenciados de TI (MSP)",
+      "en": "Managed IT services (MSP)",
+      "es": "Servicios gestionados de TI (MSP)",
+      "it": "Servizi IT gestiti (MSP)",
+      "fr": "Services IT managés (MSP)",
+      "de": "Managed IT Services (MSP)"
+    },
+    "description": "Suporte, monitoramento e gestão contínua de TI.",
+    "path": "M3 13v-2a9 9 0 0 1 18 0v2M3 13h3v6H3zM18 13h3v6h-3zM18 19v2h-6"
+  },
+  {
+    "id": "servers",
+    "labels": {
+      "pt-BR": "Sistemas e servidores",
+      "en": "Systems and servers",
+      "es": "Sistemas y servidores",
+      "it": "Sistemi e server",
+      "fr": "Systèmes et serveurs",
+      "de": "Systeme und Server"
+    },
+    "description": "Implantação, administração e manutenção de servidores.",
+    "path": "M3 4h18v7H3zM3 13h18v7H3zM6 7.5h1m3 0h1M6 16.5h1m3 0h1"
+  },
+  {
+    "id": "cloud",
+    "labels": {
+      "pt-BR": "Hospedagem e serviços em nuvem",
+      "en": "Hosting and cloud services",
+      "es": "Alojamiento y servicios en la nube",
+      "it": "Hosting e servizi cloud",
+      "fr": "Hébergement et services cloud",
+      "de": "Hosting und Cloud-Dienste"
+    },
+    "description": "Hospedagem de sites, e-mails e aplicações.",
+    "path": "M6 19h12a4 4 0 0 0 0-8h-1a6 6 0 0 0-11.7 1A3.5 3.5 0 0 0 6 19Z"
+  },
+  {
+    "id": "security",
+    "labels": {
+      "pt-BR": "Segurança e conectividade",
+      "en": "Security and connectivity",
+      "es": "Seguridad y conectividad",
+      "it": "Sicurezza e connettività",
+      "fr": "Sécurité et connectivité",
+      "de": "Sicherheit und Konnektivität"
+    },
+    "description": "Proteção, VPN e continuidade da conectividade.",
+    "path": "M12 3 21 7v5c0 5-4 8-9 10-5-2-9-5-9-10V7zM8 12l3 3 5-6"
+  },
+  {
+    "id": "backup",
+    "labels": {
+      "pt-BR": "Backup e continuidade",
+      "en": "Backup and business continuity",
+      "es": "Copias de seguridad y continuidad",
+      "it": "Backup e continuità operativa",
+      "fr": "Sauvegarde et continuité",
+      "de": "Backup und Betriebskontinuität"
+    },
+    "description": "Cópias de segurança, recuperação e contingência.",
+    "path": "M3 12a9 9 0 1 1 3 6.7M3 6v6h6M12 7v5l3 2"
+  },
+  {
+    "id": "mail",
+    "labels": {
+      "pt-BR": "Migração e processamento de e-mails",
+      "en": "Email migration and processing",
+      "es": "Migración y procesamiento de correo",
+      "it": "Migrazione ed elaborazione e-mail",
+      "fr": "Migration et traitement des e-mails",
+      "de": "E-Mail-Migration und Verarbeitung"
+    },
+    "description": "Migrações de caixas postais e tratamento de mensagens.",
+    "path": "M3 5h18v12H3zM3 6l9 6 9-6M8 21h8m-3-3 3 3-3 3"
+  },
+  {
+    "id": "software",
+    "labels": {
+      "pt-BR": "Desenvolvimento de software e integração",
+      "en": "Software development and integration",
+      "es": "Desarrollo de software e integración",
+      "it": "Sviluppo software e integrazione",
+      "fr": "Développement logiciel et intégration",
+      "de": "Softwareentwicklung und Integration"
+    },
+    "description": "Aplicações sob medida e integração entre sistemas.",
+    "path": "M8 6l-6 6 6 6m8-12 6 6-6 6m-2-15-4 18"
+  },
+  {
+    "id": "devops",
+    "labels": {
+      "pt-BR": "Conteinerização e DevOps",
+      "en": "Containerisation and DevOps",
+      "es": "Contenedores y DevOps",
+      "it": "Containerizzazione e DevOps",
+      "fr": "Conteneurisation et DevOps",
+      "de": "Containerisierung und DevOps"
+    },
+    "description": "Containers, implantação e modernização de sistemas.",
+    "path": "M12 2 22 8v8l-10 6-10-6V8zM2 8l10 6 10-6m-10 6v8M7 5l10 6"
+  },
+  {
+    "id": "automation",
+    "labels": {
+      "pt-BR": "Automação",
+      "en": "Automation",
+      "es": "Automatización",
+      "it": "Automazione",
+      "fr": "Automatisation",
+      "de": "Automatisierung"
+    },
+    "description": "Automação de processos e tarefas repetitivas.",
+    "path": "M13 2 4 14h7l-1 8 10-12h-7z"
+  },
+  {
+    "id": "data",
+    "labels": {
+      "pt-BR": "Engenharia de dados",
+      "en": "Data engineering",
+      "es": "Ingeniería de datos",
+      "it": "Ingegneria dei dati",
+      "fr": "Ingénierie des données",
+      "de": "Data Engineering"
+    },
+    "description": "Bancos de dados, processamento e qualidade da informação.",
+    "path": "M4 6c0-4 16-4 16 0s-16 4-16 0v12c0 4 16 4 16 0V6M4 12c0 4 16 4 16 0"
+  },
+  {
+    "id": "finance",
+    "labels": {
+      "pt-BR": "Integração bancária e financeira",
+      "en": "Banking and financial integration",
+      "es": "Integración bancaria y financiera",
+      "it": "Integrazione bancaria e finanziaria",
+      "fr": "Intégration bancaire et financière",
+      "de": "Banken- und Finanzintegration"
+    },
+    "description": "Integrações, arquivos e fluxos financeiros.",
+    "path": "M3 8l9-5 9 5zM5 10v8m5-8v8m4-8v8m5-8v8M3 21h18"
+  },
+  {
+    "id": "open",
+    "labels": {
+      "pt-BR": "Open source e self-hosted",
+      "en": "Open source and self-hosting",
+      "es": "Código abierto y autoalojamiento",
+      "it": "Open source e self-hosting",
+      "fr": "Open source et auto-hébergement",
+      "de": "Open Source und Self-Hosting"
+    },
+    "description": "Implantação e manutenção de soluções em infraestrutura própria.",
+    "path": "M12 3a9 9 0 0 0-3 17.5v-4a4 4 0 1 1 6 0v4A9 9 0 0 0 12 3z"
+  },
+  {
+    "id": "web",
+    "labels": {
+      "pt-BR": "Desenvolvimento web",
+      "en": "Web development",
+      "es": "Desarrollo web",
+      "it": "Sviluppo web",
+      "fr": "Développement web",
+      "de": "Webentwicklung"
+    },
+    "description": "Sites, aplicações web e presença digital.",
+    "path": "M3 4h18v16H3zM3 9h18M6 6.5h1m3 0h1M8 13l-2 2 2 2m8-4 2 2-2 2"
+  },
+  {
+    "id": "consulting",
+    "labels": {
+      "pt-BR": "Consultoria e treinamento",
+      "en": "Consulting and training",
+      "es": "Consultoría y formación",
+      "it": "Consulenza e formazione",
+      "fr": "Conseil et formation",
+      "de": "Beratung und Schulung"
+    },
+    "description": "Orientação técnica e capacitação profissional.",
+    "path": "M2 8l10-5 10 5-10 5zM6 10v7c4 3 8 3 12 0v-7m4-2v9"
+  },
+  {
+    "id": "ai",
+    "labels": {
+      "pt-BR": "Engenharia e supervisão de soluções com IA",
+      "en": "AI solution engineering and oversight",
+      "es": "Ingeniería y supervisión de soluciones con IA",
+      "it": "Ingegneria e supervisione di soluzioni IA",
+      "fr": "Ingénierie et supervision de solutions IA",
+      "de": "Engineering und Prüfung von KI-Lösungen"
+    },
+    "description": "Revisão, recuperação e preparação de aplicações desenvolvidas com IA.",
+    "path": "M6 6h12v12H6zM9 3v3m6-3v3M9 18v3m6-3v3M3 9h3m-3 6h3m12-6h3m-3 6h3M9 12l2 2 4-4"
+  }
+]

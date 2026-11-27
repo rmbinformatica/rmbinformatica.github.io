@@ -1,24 +1,20 @@
-<!DOCTYPE HTML>
-<html>
-<html lang="{{ page.lang | default: site.lang | default: "pt-br" }}">
-
-  {%- include head.html -%}
-  {%- include header.html -%}
-  {%- assign date_format = site.minima.date_format | default: "%-d/%m/%Y %R" -%}
-	<div class="pb-5 pt-2" id="blog">
-		<h2 class="title-w3 text-bl my-3 font-weight-bold text-capitalize text-center">Blog da RMB Informática</h2>
-		<div class="container pb-xl-5 pb-lg-3 text-bl">
-			{%- if site.posts.size > 0 -%}
-			<ul class="style1">
-				{%- for post in site.posts -%}
-				<li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
-				{%- endfor -%}
-			</ul>
-			{%- endif -%}							
-		</div>
-	</div>
-	{%- include featured.inicial.html -%}
-  {%- include footer.html -%}
-
-	</body>
-</html>
+---
+layout: rmb-v2
+---
+<section class="rmb-section">
+  <div class="rmb-container">
+    <p class="rmb-eyebrow">Recursos e conhecimento</p>
+    <h1>Blog da RMB Informática</h1>
+    <p class="rmb-section-intro">Artigos, tutoriais e informações sobre tecnologia da informação.</p>
+    <div class="rmb-grid rmb-blog-grid">
+      {% for post in site.posts %}
+      <article class="rmb-card rmb-blog-card">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d/%m/%Y" }}</time>
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+        {% if post.description %}<p>{{ post.description | strip_html | escape }}</p>{% endif %}
+        <a class="rmb-blog-read" href="{{ post.url | relative_url }}" aria-label="Ler: {{ post.title | escape }}">Ler artigo →</a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>

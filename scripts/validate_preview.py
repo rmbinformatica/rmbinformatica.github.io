@@ -16,8 +16,17 @@ class Page(HTMLParser):
         self.hreflang = {}
         self.alternates = []
         self.analytics = False
+        self.categories = set()
+        self.flags = 0
+        self.globe_images = set()
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if a.get("data-category"):
+            self.categories.add(a["data-category"])
+        if tag == "svg" and "rmb-flag" in (a.get("class") or "").split():
+            self.flags += 1
+        if tag == "img" and (a.get("class") or "").startswith("rmb-globe-"):
+            self.globe_images.add(a.get("src"))
         if tag == "html":
             self.lang = a.get("lang")
         if tag == "meta" and a.get("name") == "robots":
@@ -43,9 +52,14 @@ def main():
         assert not page.alternates, f"{route}: unexpected SEO alternate"
         assert not page.analytics, f"{route}: analytics enabled"
         expected = {k:v for k,v in ROUTES.items() if k != lang}
+        assert len(page.categories) == 16, f"{route}: missing categories"
+        assert page.flags == 6, f"{route}: missing flags"
+        assert page.globe_images == {'/assets/brand/globe-light.svg', '/assets/brand/globe-dark.svg'}, f"{route}: wrong globe assets"
         assert page.hreflang == expected, f"{route}: incorrect language selector {page.hreflang}"
-    for asset in ("assets/css/rmb.css", "assets/js/theme.js", "images/logo_rmb_globo_binario.png"):
+    for asset in ("assets/css/rmb.css", "assets/js/theme.js", "assets/brand/globe-light.svg", "assets/brand/globe-dark.svg"):
         assert (root / asset).is_file(), f"Missing asset {asset}"
+    blog = (root / "blog/index.html").read_text(encoding="utf-8")
+    assert "rmb-blog-grid" in blog and "assets/css/rmb.css" in blog, "Blog not using redesign"
     print("All six preview pages passed language, navigation, noindex and asset checks.")
 
 if __name__ == "__main__":

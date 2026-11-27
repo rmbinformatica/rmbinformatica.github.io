@@ -1,52 +1,14 @@
-<!DOCTYPE HTML>
-<html>
-<html lang="{{ page.lang | default: site.lang | default: "pt-br" }}">
-
-  {%- include head.html -%}
-  {%- include header.html -%}
-  {%- assign date_format = site.minima.date_format | default: "%-d/%m/%Y %R" -%}
-  {%- if page.no_comments -%}
-  {%- assign comentarios=false -%}
-  {%- else -%}
-  {%- assign comentarios=true -%}
-  {%- endif -%}
-  {% assign author = site.data.autores[page.autor] %}
-  <div id="page">
-		<div class="container pb-xl-5 pb-lg-3">
-        {%- if page.img -%}
-         <div class="text-center">
-         <img src="{{ page.img }}" alt="" class="img-fluid" />
-         </div>
-         {%- endif -%} 
-			<h3 class="title-w3 text-bl my-3 font-weight-bold text-capitalize text-center">{{ page.title }}</h3>
-			<p class="sub-tittle text-center">
-				{%- if author.name -%}Por&nbsp;{%- if author.site -%} <a href="{{author.site}}" target="blank">{{ author.name }}</a> {%- else -%} {{ author.name }} {% endif %} em {{ page.date | date: date_format }} {% else %} {{ page.description }} {% endif %}</p>
-         <p class="text-bl">{{ content }}</p>
-         <div class="text-center">
-				{%- if page.btn_name -%}
-				<a href="{{ page.btn_link }}" class="btn button-style mt-5">{{ page.btn_name }}</a>
-				{%- endif -%}
-				{%- if comentarios -%}
-					{%- include fb-init.html -%}
-					{%- include fb-comments.html -%}
-				{%- endif -%}	
-			</div>
-		</div>
-	</div>
-	<div class="pb-5 pt-2" id="blog">
-		<h2 class="title-w3 text-bl my-3 font-weight-bold text-capitalize text-center">Leia também</h2>
-		<div class="container pb-xl-5 pb-lg-3 text-bl">
-			{%- if site.posts.size > 0 -%}
-			<ul class="style1">
-				{%- for post in site.posts -%}
-				<li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>
-				{%- endfor -%}
-			</ul>
-			{%- endif -%}							
-		</div>
-	</div>
-	{%- include featured.inicial.html -%}
-  {%- include footer.html -%}
-
-	</body>
-</html>
+---
+layout: rmb-v2
+---
+{% assign author = site.data.autores[page.autor] %}
+<article class="rmb-content rmb-article">
+  <nav aria-label="Localização"><a href="{{ '/blog/' | relative_url }}">Blog</a></nav>
+  {% unless content contains '<h1' %}<h1>{{ page.title | escape }}</h1>{% endunless %}
+  {% if author.name or page.date %}<p class="rmb-article-meta">{% if author.name %}Por {% if author.site %}<a href="{{ author.site | escape }}">{{ author.name | escape }}</a>{% else %}{{ author.name | escape }}{% endif %}{% endif %}{% if page.date %} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time>{% endif %}</p>{% endif %}
+  {% if page.img %}<img src="{{ page.img | relative_url | escape }}" alt="" class="rmb-article-image">{% endif %}
+  <div class="rmb-prose">{{ content }}</div>
+  {% if page.btn_name and page.btn_link %}<p class="rmb-actions"><a class="rmb-button" href="{{ page.btn_link | escape }}">{{ page.btn_name | escape }}</a></p>{% endif %}
+  {% unless page.no_comments %}<section class="rmb-comments"><h2>Comentários</h2>{% include fb-init.html %}{% include fb-comments.html %}</section>{% endunless %}
+  <section class="rmb-related"><h2>Leia também</h2><ul>{% for post in site.posts %}{% unless post.url == page.url %}<li><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></li>{% endunless %}{% endfor %}</ul></section>
+</article>

@@ -2973,6 +2973,18 @@
           }
         }
       ]
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
     }
   ],
   "desk": [
@@ -4797,6 +4809,17 @@
             "fr": "Je ne sais pas",
             "de": "Weiß ich nicht"
           }
+        },
+        {
+          "value": "processing",
+          "label": {
+            "pt-BR": "Processar mensagens",
+            "en": "Process messages",
+            "es": "Procesar mensajes",
+            "it": "Elaborare messaggi",
+            "fr": "Traiter les messages",
+            "de": "Nachrichten verarbeiten"
+          }
         }
       ]
     },
@@ -4938,6 +4961,86 @@
             "it": "Requisiti già definiti",
             "fr": "Exigences déjà définies",
             "de": "Anforderungen bereits definiert"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "project_type",
+      "type": "select",
+      "label": {
+        "pt-BR": "Tipo de solução",
+        "en": "Solution type",
+        "es": "Tipo de solución",
+        "it": "Tipo di soluzione",
+        "fr": "Type de solution",
+        "de": "Lösungsart"
+      },
+      "options": [
+        {
+          "value": "application",
+          "label": {
+            "pt-BR": "Sistema ou aplicação",
+            "en": "System or application",
+            "es": "Sistema o aplicación",
+            "it": "Sistema o applicazione",
+            "fr": "Système ou application",
+            "de": "System oder Anwendung"
+          }
+        },
+        {
+          "value": "pdf",
+          "label": {
+            "pt-BR": "Geração de PDF",
+            "en": "PDF generation",
+            "es": "Generación de PDF",
+            "it": "Generazione PDF",
+            "fr": "Génération de PDF",
+            "de": "PDF-Erstellung"
+          }
+        },
+        {
+          "value": "media",
+          "label": {
+            "pt-BR": "Processamento de áudio/vídeo",
+            "en": "Audio/video processing",
+            "es": "Procesamiento de audio/vídeo",
+            "it": "Elaborazione audio/video",
+            "fr": "Traitement audio/vidéo",
+            "de": "Audio-/Videoverarbeitung"
+          }
+        },
+        {
+          "value": "tool",
+          "label": {
+            "pt-BR": "Ferramenta web ou calculadora",
+            "en": "Web tool or calculator",
+            "es": "Herramienta web o calculadora",
+            "it": "Strumento web o calcolatrice",
+            "fr": "Outil web ou calculateur",
+            "de": "Webtool oder Rechner"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "pt-BR": "Outro",
+            "en": "Other",
+            "es": "Otro",
+            "it": "Altro",
+            "fr": "Autre",
+            "de": "Sonstiges"
           }
         },
         {
@@ -6013,6 +6116,64 @@
         "fr": "Technologie ou plateforme actuelle (si connue)",
         "de": "Aktuelle Technologie oder Plattform (falls bekannt)"
       }
+    },
+    {
+      "id": "integration_type",
+      "type": "select",
+      "label": {
+        "pt-BR": "Tipo de projeto",
+        "en": "Project type",
+        "es": "Tipo de proyecto",
+        "it": "Tipo di progetto",
+        "fr": "Type de projet",
+        "de": "Projektart"
+      },
+      "options": [
+        {
+          "value": "new_api",
+          "label": {
+            "pt-BR": "Desenvolver API",
+            "en": "Develop an API",
+            "es": "Desarrollar API",
+            "it": "Sviluppare API",
+            "fr": "Développer une API",
+            "de": "API entwickeln"
+          }
+        },
+        {
+          "value": "existing_api",
+          "label": {
+            "pt-BR": "Integrar APIs existentes",
+            "en": "Integrate existing APIs",
+            "es": "Integrar APIs existentes",
+            "it": "Integrare API esistenti",
+            "fr": "Intégrer des API existantes",
+            "de": "Bestehende APIs integrieren"
+          }
+        },
+        {
+          "value": "database",
+          "label": {
+            "pt-BR": "Integração de bancos de dados",
+            "en": "Database integration",
+            "es": "Integración de bases de datos",
+            "it": "Integrazione di database",
+            "fr": "Intégration de bases de données",
+            "de": "Datenbankintegration"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
     }
   ],
   "legacy-modernization": [
@@ -6124,6 +6285,18 @@
           }
         }
       ]
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
     }
   ],
   "sql-optimization": [
@@ -6352,6 +6525,53 @@
         "fr": "Pages ou sections souhaitées",
         "de": "Gewünschte Seiten oder Abschnitte"
       }
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "new",
+          "label": {
+            "pt-BR": "Novo site",
+            "en": "New website",
+            "es": "Nuevo sitio",
+            "it": "Nuovo sito",
+            "fr": "Nouveau site",
+            "de": "Neue Website"
+          }
+        },
+        {
+          "value": "maintenance",
+          "label": {
+            "pt-BR": "Manutenção de site existente",
+            "en": "Existing website maintenance",
+            "es": "Mantenimiento de sitio existente",
+            "it": "Manutenzione del sito esistente",
+            "fr": "Maintenance de site existant",
+            "de": "Wartung bestehender Website"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
     }
   ],
   "landing-page": [

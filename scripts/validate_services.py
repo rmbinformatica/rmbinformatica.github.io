@@ -33,11 +33,11 @@ for category_slug, category_slugs in [('sistemas-e-servidores', ["servidores-em-
     category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug
-for category_slug, category_slugs in [('seguranca-e-conectividade', ["firewall-corporativo","vpn-empresarial","redundancia-de-internet-natal","suporte-de-ti-para-empresas","wifi-corporativo-natal"]), ('backup-e-continuidade', ["backup-corporativo"])]:
+for category_slug, category_slugs in [('seguranca-e-conectividade', ["firewall-corporativo","vpn-empresarial","redundancia-de-internet-natal","suporte-de-ti-para-empresas","wifi-corporativo-natal","solucoes-open-source","monitoramento-de-infraestrutura"]), ('backup-e-continuidade', ["backup-corporativo"])]:
     category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug
-for category_slug, category_slugs in [('migracao-e-processamento-de-emails', ["migracao-de-emails","automacao-de-emails"]), ('desenvolvimento-de-software-e-integracao', ["software-sob-medida","automacao-de-infraestrutura","bots-e-notificacoes","relatorios-personalizados"]), ('automacao-de-processos', ["automacao-de-infraestrutura","automacao-de-emails","bots-e-notificacoes","relatorios-personalizados","gerenciamento-de-servidores","padronizacao-de-estacoes"])]:
+for category_slug, category_slugs in [('migracao-e-processamento-de-emails', ["migracao-de-emails","automacao-de-emails"]), ('desenvolvimento-de-software-e-integracao', ["software-sob-medida","automacao-de-infraestrutura","bots-e-notificacoes","relatorios-personalizados"]), ('automacao-de-processos', ["automacao-de-infraestrutura","automacao-de-emails","bots-e-notificacoes","relatorios-personalizados","gerenciamento-de-servidores","padronizacao-de-estacoes","software-sob-medida"])]:
     category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug
@@ -49,7 +49,7 @@ for category_slug, category_slugs in [["backup-e-continuidade",["backup-corporat
     category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug
-for category_slug, category_slugs in [["open-source-e-self-hosted",["solucoes-open-source","nextcloud-empresarial","bots-e-notificacoes","atendimento-online"]],["consultoria-e-treinamento",["consultoria-de-ti-natal","documentacao-de-ti","implantacao-service-desk","treinamento-de-ti"]],["desenvolvimento-web",["criacao-de-sites","criacao-de-landing-pages","base-de-conhecimento"]]]:
+for category_slug, category_slugs in [["open-source-e-self-hosted",["solucoes-open-source","nextcloud-empresarial","bots-e-notificacoes","atendimento-online"]],["consultoria-e-treinamento",["consultoria-de-ti-natal","documentacao-de-ti","implantacao-service-desk","treinamento-de-ti"]],["desenvolvimento-web",["criacao-de-sites","criacao-de-landing-pages","base-de-conhecimento","software-sob-medida"]]]:
     category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug

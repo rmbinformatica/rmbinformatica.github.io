@@ -3,7 +3,7 @@ layout: "rmb-service"
 proposal_form: "knowledge-base"
 page_id: "service-base-de-conhecimento"
 translation_key: "service-base-de-conhecimento"
-service_ids: ["137"]
+service_ids: ["137","134"]
 category_id: "web"
 lang: "pt-BR"
 audience: "mixed"
@@ -13,10 +13,10 @@ description: "Desenvolvemos portais para publicação de documentação, procedi
 permalink: "/servicos/base-de-conhecimento"
 headline: "Disponibilize conhecimento técnico de forma organizada e fácil de consultar."
 intro: "Desenvolvemos portais para publicação de documentação, procedimentos e materiais de suporte, considerando navegação, busca, atualização e controle de acesso quando necessário."
-situations: ["Tenho documentação espalhada em vários arquivos e pastas.","Quero disponibilizar tutoriais e procedimentos para clientes ou equipes.","Preciso de um portal de ajuda que facilite a localização das informações."]
-scope: ["Definição de estrutura editorial, categorias e navegação.","Implantação de portal de documentação conforme requisitos.","Avaliação de mecanismos de busca, versionamento e permissões.","Organização da publicação e orientação de manutenção."]
+situations: ["Tenho documentação espalhada em vários arquivos e pastas.","Quero disponibilizar tutoriais e procedimentos para clientes ou equipes.","Preciso de um portal de ajuda que facilite a localização das informações.","Quero implantar uma base de conhecimento online para minha equipe ou meus clientes."]
+scope: ["Definição de estrutura editorial, categorias e navegação.","Implantação de portal de documentação conforme requisitos.","Avaliação de mecanismos de busca, versionamento e permissões.","Organização da publicação e orientação de manutenção.","Implantação de bases de conhecimento online conforme requisitos de publicação, busca e acesso."]
 process: ["Identificamos público, conteúdo e requisitos de acesso.","Definimos arquitetura de informação e plataforma.","Implementamos e validamos o portal com conteúdo representativo."]
-faq: [{"q":"O portal pode ser privado?","a":"Sim, conforme os requisitos de autenticação e autorização."},{"q":"É possível reaproveitar documentação existente?","a":"Avaliamos formatos e possibilidades de importação ou reorganização."},{"q":"A criação do conteúdo está incluída?","a":"A produção e revisão de conteúdo são definidas separadamente no escopo."}]
+faq: [{"q":"O portal pode ser privado?","a":"Sim, conforme os requisitos de autenticação e autorização."},{"q":"É possível reaproveitar documentação existente?","a":"Avaliamos formatos e possibilidades de importação ou reorganização."},{"q":"A criação do conteúdo está incluída?","a":"A produção e revisão de conteúdo são definidas separadamente no escopo."},{"q":"Posso começar com uma base de conhecimento simples?","a":"Sim, podemos avaliar uma estrutura inicial e sua evolução conforme o conteúdo."}]
 related: ["/servicos/documentacao-de-ti","/servicos/criacao-de-sites","/servicos/implantacao-service-desk"]
 delivery: ["remote","onsite"]
 ---

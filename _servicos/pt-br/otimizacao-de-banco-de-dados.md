@@ -3,7 +3,7 @@ layout: "rmb-service"
 proposal_form: "sql-optimization"
 page_id: "service-otimizacao-de-banco-de-dados"
 translation_key: "service-otimizacao-de-banco-de-dados"
-service_ids: ["104"]
+service_ids: ["104","105"]
 category_id: "data"
 lang: "pt-BR"
 audience: "mixed"
@@ -13,10 +13,10 @@ description: "Analisamos consultas SQL, planos de execução e estruturas de dad
 permalink: "/servicos/otimizacao-de-banco-de-dados"
 headline: "Investigue a lentidão das consultas que sustentam seu sistema."
 intro: "Analisamos consultas SQL, planos de execução e estruturas de dados para identificar oportunidades de otimização, considerando a carga real e os impactos das mudanças."
-situations: ["Consultas ou relatórios demoram mais do que deveriam.","Meu banco apresenta aumento de consumo de recursos.","Quero revisar consultas antes de ampliar a infraestrutura."]
-scope: ["Análise de consultas e planos de execução.","Avaliação de índices e estratégias de acesso aos dados.","Proposição e validação de ajustes de consultas.","Medição de resultados em condições representativas."]
+situations: ["Consultas ou relatórios demoram mais do que deveriam.","Meu banco apresenta aumento de consumo de recursos.","Quero revisar consultas antes de ampliar a infraestrutura.","Meu banco MySQL ou MariaDB precisa de diagnóstico de desempenho."]
+scope: ["Análise de consultas e planos de execução.","Avaliação de índices e estratégias de acesso aos dados.","Proposição e validação de ajustes de consultas.","Medição de resultados em condições representativas.","Avaliação de desempenho de MySQL e MariaDB, incluindo consultas, índices e configurações conforme métricas e carga."]
 process: ["Identificamos consultas, tecnologia e sintomas.","Analisamos comportamento e alternativas de otimização.","Validamos mudanças autorizadas e comparamos os resultados."]
-faq: [{"q":"Criar índices sempre melhora o desempenho?","a":"Não. Índices podem beneficiar leituras e aumentar custos de escrita e armazenamento."},{"q":"Vocês garantem um ganho percentual?","a":"Não sem avaliação. Os resultados dependem das consultas, dados e infraestrutura."},{"q":"É possível trabalhar em produção?","a":"Mudanças em produção exigem autorização, planejamento e avaliação de riscos."}]
+faq: [{"q":"Criar índices sempre melhora o desempenho?","a":"Não. Índices podem beneficiar leituras e aumentar custos de escrita e armazenamento."},{"q":"Vocês garantem um ganho percentual?","a":"Não sem avaliação. Os resultados dependem das consultas, dados e infraestrutura."},{"q":"É possível trabalhar em produção?","a":"Mudanças em produção exigem autorização, planejamento e avaliação de riscos."},{"q":"Vocês trabalham com MySQL e MariaDB?","a":"Sim, podemos avaliar versões, métricas e cargas representativas antes de propor ajustes."}]
 related: ["/servicos/dba-remoto","/servicos/engenharia-de-dados-etl","/servicos/relatorios-personalizados"]
 delivery: ["remote","onsite"]
 ---

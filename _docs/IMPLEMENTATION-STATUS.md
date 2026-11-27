@@ -39,3 +39,6 @@ Onze páginas existentes ampliadas com 26 serviços; dez novas landing pages abr
 
 ## Conclusão da quarta fase comercial
 Onze páginas existentes ampliadas com 15 serviços sujeitos à avaliação prévia de viabilidade; quatro novas landing pages cobrem os outros 11 serviços. As ofertas de engenharia de IA são agrupadas por intenção comercial: auditoria, recuperação e supervisão. URLs novas devem ser reconciliadas com a matriz privada. Sem alegações de histórico comercial não demonstrado, preços ou envio ativo de formulários. Auditoria integral e deploy pendentes.
+
+## Monitoramento de disponibilidade
+Doze páginas existentes ampliadas e uma nova página independente para o serviço 157, com formulário localizado em seis idiomas. Diferenciar disponibilidade de métricas internas, logs, testes funcionais completos e atendimento humano. Monitoramento de links depende de pontos de verificação distintos; sinais de rotinas exigem instrumentação. Sem divulgação da ferramenta de implementação, preços ou envio ativo. Implantação e capacidade de atendimento sujeitas à proposta.

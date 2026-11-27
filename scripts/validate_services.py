@@ -17,6 +17,7 @@ slugs+=["atendimento-online","criacao-de-sites","criacao-de-landing-pages","base
 slugs+=["vps-gerenciado","consultoria-n8n","organizacao-de-arquivos-digitais","adequacao-cnpj-alfanumerico"]
 slugs+=["integracao-pix-e-apis-bancarias","integracao-bancaria-cnab","conciliacao-bancaria","automacao-de-documentos-fiscais","revisao-arquitetura-software-ia","preparacao-aplicacoes-ia-producao"]
 slugs+=["plano-de-recuperacao-de-desastres","auditoria-de-codigo-ia","recuperacao-projetos-vibe-coding","consultoria-desenvolvimento-com-ia"]
+slugs+=["monitoramento-de-disponibilidade"]
 urls={n.text for n in ET.parse(root/'sitemap.xml').iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
 for slug in slugs:
     route='/servicos/'+slug
@@ -68,6 +69,7 @@ for category_slug, category_slugs in [["backup-e-continuidade",["backup-corporat
     category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug
+assert 'href="/servicos/monitoramento-de-disponibilidade"' in msp, '/servicos/monitoramento-de-disponibilidade'
 print('All service pages and categories validated')
 
 # Exercise actual HTTP requests with the same local preview server distributed in ZIP.

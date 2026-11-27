@@ -14,9 +14,9 @@ permalink: "/servicos/gerenciamento-de-servidores"
 headline: "Administração técnica para os servidores do seu negócio."
 intro: "Realizamos administração remota de servidores e automação de rotinas de manutenção, respeitando os requisitos de cada ambiente."
 situations: ["Não tenho administrador de servidores dedicado.","Preciso organizar atualizações e rotinas de manutenção.","Meus servidores apresentam falhas recorrentes."]
-scope: ["Administração de servidores Linux e Windows conforme escopo.","Diagnóstico e manutenção planejada.","Automação de rotinas administrativas e verificações."]
+scope: ["Administração de servidores Linux e Windows conforme escopo.","Diagnóstico e manutenção planejada.","Automação de rotinas administrativas e verificações.","Monitoramento da disponibilidade dos servidores e dos serviços essenciais definidos, com notificações de falha e restabelecimento."]
 process: ["Levantamos sistemas, funções e acessos autorizados.","Definimos cobertura e janelas de manutenção.","Realizamos as atividades previstas e registramos alterações."]
 faq: [{"q":"É possível administrar servidores em outro provedor?","a":"Sim, quando houver acesso autorizado e compatibilidade técnica."},{"q":"O serviço inclui licenças e hospedagem?","a":"Esses itens são definidos separadamente na proposta."}]
-related: ["/servicos/gerenciamento-de-redes","/servicos/suporte-de-ti-para-empresas","/servicos/suporte-n2-terceirizado"]
+related: ["/servicos/gerenciamento-de-redes","/servicos/suporte-de-ti-para-empresas","/servicos/suporte-n2-terceirizado","/servicos/monitoramento-de-disponibilidade"]
 delivery: ["remote"]
 ---

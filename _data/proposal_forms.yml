@@ -8025,5 +8025,157 @@
         }
       ]
     }
+  ],
+  "availability-monitoring": [
+    {
+      "id": "services",
+      "type": "text",
+      "label": {
+        "pt-BR": "Tipos de serviços a monitorar (sem credenciais)",
+        "en": "Types of services to monitor (no credentials)",
+        "es": "Tipos de servicios a monitorizar (sin credenciales)",
+        "it": "Tipi di servizi da monitorare (senza credenziali)",
+        "fr": "Types de services à surveiller (sans identifiants)",
+        "de": "Zu überwachende Diensttypen (ohne Zugangsdaten)"
+      }
+    },
+    {
+      "id": "service_count",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade aproximada de serviços",
+        "en": "Approximate number of services",
+        "es": "Cantidad aproximada de servicios",
+        "it": "Numero indicativo di servizi",
+        "fr": "Nombre approximatif de services",
+        "de": "Ungefähre Anzahl der Dienste"
+      },
+      "options": [
+        {
+          "value": "1-5",
+          "label": {
+            "pt-BR": "1–5",
+            "en": "1–5",
+            "es": "1–5",
+            "it": "1–5",
+            "fr": "1–5",
+            "de": "1–5"
+          }
+        },
+        {
+          "value": "6-20",
+          "label": {
+            "pt-BR": "6–20",
+            "en": "6–20",
+            "es": "6–20",
+            "it": "6–20",
+            "fr": "6–20",
+            "de": "6–20"
+          }
+        },
+        {
+          "value": "21-50",
+          "label": {
+            "pt-BR": "21–50",
+            "en": "21–50",
+            "es": "21–50",
+            "it": "21–50",
+            "fr": "21–50",
+            "de": "21–50"
+          }
+        },
+        {
+          "value": "51+",
+          "label": {
+            "pt-BR": "51+",
+            "en": "51+",
+            "es": "51+",
+            "it": "51+",
+            "fr": "51+",
+            "de": "51+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Modalidade desejada",
+        "en": "Desired service type",
+        "es": "Modalidad deseada",
+        "it": "Modalità desiderata",
+        "fr": "Mode de service souhaité",
+        "de": "Gewünschte Leistungsart"
+      },
+      "options": [
+        {
+          "value": "managed",
+          "label": {
+            "pt-BR": "Monitoramento recorrente",
+            "en": "Ongoing monitoring",
+            "es": "Monitorización recurrente",
+            "it": "Monitoraggio continuativo",
+            "fr": "Surveillance récurrente",
+            "de": "Laufende Überwachung"
+          }
+        },
+        {
+          "value": "selfhosted",
+          "label": {
+            "pt-BR": "Implantação de plataforma própria",
+            "en": "Self-hosted platform setup",
+            "es": "Implantación de plataforma propia",
+            "it": "Installazione di piattaforma propria",
+            "fr": "Installation de plateforme propre",
+            "de": "Einrichtung eigener Plattform"
+          }
+        },
+        {
+          "value": "white_label",
+          "label": {
+            "pt-BR": "Parceria white label",
+            "en": "White-label partnership",
+            "es": "Colaboración de marca blanca",
+            "it": "Partnership white label",
+            "fr": "Partenariat en marque blanche",
+            "de": "White-Label-Partnerschaft"
+          }
+        },
+        {
+          "value": "status",
+          "label": {
+            "pt-BR": "Página de status",
+            "en": "Status page",
+            "es": "Página de estado",
+            "it": "Pagina di stato",
+            "fr": "Page de statut",
+            "de": "Statusseite"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
   ]
 }

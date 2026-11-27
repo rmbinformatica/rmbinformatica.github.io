@@ -7080,5 +7080,303 @@
         "de": "Welches Problem möchten Sie lösen?"
       }
     }
+  ],
+  "pix-integration": [
+    {
+      "id": "provider",
+      "type": "text",
+      "label": {
+        "pt-BR": "Instituição ou provedor (se definido)",
+        "en": "Institution or provider (if known)",
+        "es": "Institución o proveedor (si se conoce)",
+        "it": "Istituto o fornitore (se noto)",
+        "fr": "Établissement ou fournisseur (si connu)",
+        "de": "Institut oder Anbieter (falls bekannt)"
+      }
+    },
+    {
+      "id": "system",
+      "type": "text",
+      "label": {
+        "pt-BR": "Sistema empresarial envolvido",
+        "en": "Business system involved",
+        "es": "Sistema empresarial implicado",
+        "it": "Sistema aziendale coinvolto",
+        "fr": "Système d’entreprise concerné",
+        "de": "Betroffenes Unternehmenssystem"
+      }
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    }
+  ],
+  "bank-return": [
+    {
+      "id": "provider",
+      "type": "text",
+      "label": {
+        "pt-BR": "Instituição ou provedor (se definido)",
+        "en": "Institution or provider (if known)",
+        "es": "Institución o proveedor (si se conoce)",
+        "it": "Istituto o fornitore (se noto)",
+        "fr": "Établissement ou fournisseur (si connu)",
+        "de": "Institut oder Anbieter (falls bekannt)"
+      }
+    },
+    {
+      "id": "layout",
+      "type": "select",
+      "label": {
+        "pt-BR": "Layout do arquivo",
+        "en": "File layout",
+        "es": "Formato del archivo",
+        "it": "Formato del file",
+        "fr": "Format du fichier",
+        "de": "Dateilayout"
+      },
+      "options": [
+        {
+          "value": "cnab240",
+          "label": {
+            "pt-BR": "CNAB 240",
+            "en": "CNAB 240",
+            "es": "CNAB 240",
+            "it": "CNAB 240",
+            "fr": "CNAB 240",
+            "de": "CNAB 240"
+          }
+        },
+        {
+          "value": "cnab400",
+          "label": {
+            "pt-BR": "CNAB 400",
+            "en": "CNAB 400",
+            "es": "CNAB 400",
+            "it": "CNAB 400",
+            "fr": "CNAB 400",
+            "de": "CNAB 400"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "system",
+      "type": "text",
+      "label": {
+        "pt-BR": "Sistema empresarial envolvido",
+        "en": "Business system involved",
+        "es": "Sistema empresarial implicado",
+        "it": "Sistema aziendale coinvolto",
+        "fr": "Système d’entreprise concerné",
+        "de": "Betroffenes Unternehmenssystem"
+      }
+    }
+  ],
+  "bank-statement": [
+    {
+      "id": "source_format",
+      "type": "text",
+      "label": {
+        "pt-BR": "Formato de origem",
+        "en": "Source format",
+        "es": "Formato de origen",
+        "it": "Formato di origine",
+        "fr": "Format source",
+        "de": "Quellformat"
+      }
+    },
+    {
+      "id": "target_format",
+      "type": "text",
+      "label": {
+        "pt-BR": "Formato de destino",
+        "en": "Target format",
+        "es": "Formato de destino",
+        "it": "Formato di destinazione",
+        "fr": "Format cible",
+        "de": "Zielformat"
+      }
+    },
+    {
+      "id": "frequency",
+      "type": "select",
+      "label": {
+        "pt-BR": "Frequência desejada",
+        "en": "Desired frequency",
+        "es": "Frecuencia deseada",
+        "it": "Frequenza desiderata",
+        "fr": "Fréquence souhaitée",
+        "de": "Gewünschte Häufigkeit"
+      },
+      "options": [
+        {
+          "value": "on_demand",
+          "label": {
+            "pt-BR": "Sob demanda",
+            "en": "On demand",
+            "es": "Bajo demanda",
+            "it": "Su richiesta",
+            "fr": "À la demande",
+            "de": "Bei Bedarf"
+          }
+        },
+        {
+          "value": "recurring",
+          "label": {
+            "pt-BR": "Periódica",
+            "en": "Recurring",
+            "es": "Periódica",
+            "it": "Periodica",
+            "fr": "Périodique",
+            "de": "Regelmäßig"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "fiscal-documents": [
+    {
+      "id": "system",
+      "type": "text",
+      "label": {
+        "pt-BR": "Sistema empresarial envolvido",
+        "en": "Business system involved",
+        "es": "Sistema empresarial implicado",
+        "it": "Sistema aziendale coinvolto",
+        "fr": "Système d’entreprise concerné",
+        "de": "Betroffenes Unternehmenssystem"
+      }
+    },
+    {
+      "id": "document_types",
+      "type": "text",
+      "label": {
+        "pt-BR": "Tipos de documentos fiscais",
+        "en": "Fiscal document types",
+        "es": "Tipos de documentos fiscales",
+        "it": "Tipi di documenti fiscali",
+        "fr": "Types de documents fiscaux",
+        "de": "Arten von Steuerdokumenten"
+      }
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    }
+  ],
+  "ai-architecture-review": [
+    {
+      "id": "project",
+      "type": "text",
+      "label": {
+        "pt-BR": "Descrição do projeto (sem credenciais)",
+        "en": "Project description (no credentials)",
+        "es": "Descripción del proyecto (sin credenciales)",
+        "it": "Descrizione del progetto (senza credenziali)",
+        "fr": "Description du projet (sans identifiants)",
+        "de": "Projektbeschreibung (ohne Zugangsdaten)"
+      }
+    },
+    {
+      "id": "technology",
+      "type": "text",
+      "label": {
+        "pt-BR": "Tecnologia ou plataforma atual (se souber)",
+        "en": "Current technology or platform (if known)",
+        "es": "Tecnología o plataforma actual (si la conoce)",
+        "it": "Tecnologia o piattaforma attuale (se nota)",
+        "fr": "Technologie ou plateforme actuelle (si connue)",
+        "de": "Aktuelle Technologie oder Plattform (falls bekannt)"
+      }
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    }
+  ],
+  "ai-production": [
+    {
+      "id": "project",
+      "type": "text",
+      "label": {
+        "pt-BR": "Descrição do projeto (sem credenciais)",
+        "en": "Project description (no credentials)",
+        "es": "Descripción del proyecto (sin credenciales)",
+        "it": "Descrizione del progetto (senza credenziali)",
+        "fr": "Description du projet (sans identifiants)",
+        "de": "Projektbeschreibung (ohne Zugangsdaten)"
+      }
+    },
+    {
+      "id": "technology",
+      "type": "text",
+      "label": {
+        "pt-BR": "Tecnologia ou plataforma atual (se souber)",
+        "en": "Current technology or platform (if known)",
+        "es": "Tecnología o plataforma actual (si la conoce)",
+        "it": "Tecnologia o piattaforma attuale (se nota)",
+        "fr": "Technologie ou plateforme actuelle (si connue)",
+        "de": "Aktuelle Technologie oder Plattform (falls bekannt)"
+      }
+    },
+    {
+      "id": "hosting",
+      "type": "text",
+      "label": {
+        "pt-BR": "Infraestrutura de destino (se definida)",
+        "en": "Target infrastructure (if known)",
+        "es": "Infraestructura de destino (si se conoce)",
+        "it": "Infrastruttura di destinazione (se nota)",
+        "fr": "Infrastructure cible (si connue)",
+        "de": "Zielinfrastruktur (falls bekannt)"
+      }
+    }
   ]
 }

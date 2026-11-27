@@ -33,3 +33,6 @@ Cinco novas landing pages: padronização de estações, open source, Nextcloud,
 
 ## Ampliação do catálogo comercial
 Cinco páginas existentes ampliadas com oito serviços; onze novas landing pages para outros dezesseis serviços. Categorias DevOps e desenvolvimento web navegáveis. Formulários em seis idiomas, sem envio ativo. Mantidas URLs históricas. Auditoria de correspondência com inventário privado e validação de deploy pendentes.
+
+## Terceira fase comercial
+Onze páginas existentes ampliadas com 26 serviços; dez novas landing pages abrangem outros 15 serviços. Todas as 16 categorias agora possuem página navegável. Os serviços de IA 145 e 149 receberam URLs propostas novas, pois a matriz não tinha URLs definidas; confirmar na auditoria privada. Sem alegação de histórico comercial não comprovado, sem preços e sem envio ativo. Validação de build e deploy pendente.

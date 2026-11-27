@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Validate production SEO artifacts without network or third-party dependencies."""
 import argparse
+from generate_redirects import load_redirects
 from pathlib import Path
 from urllib.parse import urlsplit, unquote
 from xml.etree import ElementTree as ET
@@ -63,6 +64,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("site", type=Path)
     ap.add_argument("--baseline", type=Path)
+    ap.add_argument("--redirects", type=Path, default=Path("_data/redirects.yml"))
     args = ap.parse_args()
     root = args.site
     for name in ("sitemap.xml", "feed.xml", "robots.txt"):
@@ -76,10 +78,14 @@ def main():
     check("Sitemap: "+ORIGIN+"/sitemap.xml" in robots, "Incorrect robots sitemap")
     check(not any(line.strip().lower() == "disallow: /" for line in robots), "Production robots blocks entire site")
     baseline = sitemap(args.baseline) if args.baseline else set()
+    redirects = load_redirects(args.redirects)
+    for source, dest in redirects.items():
+        check(source not in urls, 'Redirect source in sitemap: '+source)
+        check(dest in urls and target(root,dest) is not None, 'Redirect destination not canonical or missing: '+dest)
     for url in sorted(baseline - urls):
         # Documentation is intentionally removed; all other historical destinations must survive.
         if urlsplit(url).path.lower() not in ("/readme", "/readme.html", "/readme.md"):
-            check(target(root,url) is not None, "Historical route missing: "+url)
+            check(url in redirects, "Historical sitemap URL missing without approved redirect: "+url)
     parsed = {}
     for url in sorted(urls):
         p = target(root,url)

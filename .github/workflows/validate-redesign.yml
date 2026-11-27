@@ -44,3 +44,12 @@ jobs:
           bundle exec jekyll build --source "$RUNNER_TEMP/rmb-baseline" --destination "$RUNNER_TEMP/rmb-baseline-site"
       - name: Validate production SEO artifacts
         run: python3 scripts/validate_seo.py _site --baseline "$RUNNER_TEMP/rmb-baseline-site"
+      - name: Test redirect manifest validation
+        run: python3 -m unittest discover -s scripts -p 'test_redirects.py'
+      - name: Export Cloudflare Bulk Redirects
+        run: python3 scripts/generate_redirects.py --output "$RUNNER_TEMP/redirects.csv"
+      - name: Upload redirect CSV
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloudflare-bulk-redirects
+          path: ${{ runner.temp }}/redirects.csv

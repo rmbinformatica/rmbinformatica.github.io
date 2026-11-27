@@ -13,3 +13,6 @@ Build em branch de desenvolvimento, sem deployment automático; teste de rotas, 
 
 ## Páginas orientadas ao público e ao problema
 Separar serviço comercial (ID estável) de landing page (ID próprio). Um serviço pode ter várias páginas por idioma, inclusive técnica, não técnica ou por problema/setor, quando a necessidade de compra justificar conteúdo distinto. Uma página pode representar vários serviços. Centralizar o cadastro público dos serviços; não duplicar o inventário. Navegação principal apresenta o catálogo sem multiplicar entradas; páginas especializadas são ligadas contextualmente.
+
+## Migração de URLs
+Cloudflare Bulk Redirects é a camada aprovada para HTTP 301; GitHub Pages permanece como origem. _data/redirects.yml é a fonte versionada de migrações aprovadas. CI valida mapa e exporta CSV como artefato; configuração da conta Cloudflare e ativação ficam sujeitas à aprovação e validação HTTP. Não criar mapeamentos fictícios antes dos destinos definitivos.

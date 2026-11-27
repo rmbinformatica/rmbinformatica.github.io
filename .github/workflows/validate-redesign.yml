@@ -10,13 +10,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.3'
+          bundler: '2.5.22'
           bundler-cache: true
       - name: Build
         run: bundle exec jekyll build
+      - name: Preserve resolved dependencies for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: resolved-gemfile-lock
+          path: Gemfile.lock
       - name: Reject developer documentation in generated site
         shell: bash
         run: |

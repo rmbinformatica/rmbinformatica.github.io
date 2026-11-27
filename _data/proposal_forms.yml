@@ -5077,5 +5077,550 @@
         }
       ]
     }
+  ],
+  "workstations": [
+    {
+      "id": "endpoints",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de estações",
+        "en": "Number of workstations",
+        "es": "Número de estaciones",
+        "it": "Numero di postazioni",
+        "fr": "Nombre de postes",
+        "de": "Anzahl der Arbeitsplätze"
+      },
+      "options": [
+        {
+          "value": "1-5",
+          "label": {
+            "pt-BR": "1–5",
+            "en": "1–5",
+            "es": "1–5",
+            "it": "1–5",
+            "fr": "1–5",
+            "de": "1–5"
+          }
+        },
+        {
+          "value": "6-20",
+          "label": {
+            "pt-BR": "6–20",
+            "en": "6–20",
+            "es": "6–20",
+            "it": "6–20",
+            "fr": "6–20",
+            "de": "6–20"
+          }
+        },
+        {
+          "value": "21-50",
+          "label": {
+            "pt-BR": "21–50",
+            "en": "21–50",
+            "es": "21–50",
+            "it": "21–50",
+            "fr": "21–50",
+            "de": "21–50"
+          }
+        },
+        {
+          "value": "51+",
+          "label": {
+            "pt-BR": "51+",
+            "en": "51+",
+            "es": "51+",
+            "it": "51+",
+            "fr": "51+",
+            "de": "51+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "software",
+      "type": "text",
+      "label": {
+        "pt-BR": "Softwares necessários (se definidos)",
+        "en": "Required software (if known)",
+        "es": "Software necesario (si se conoce)",
+        "it": "Software necessario (se definito)",
+        "fr": "Logiciels nécessaires (si connus)",
+        "de": "Benötigte Software (falls bekannt)"
+      }
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "windows",
+          "label": {
+            "pt-BR": "Instalação do Windows",
+            "en": "Windows installation",
+            "es": "Instalación de Windows",
+            "it": "Installazione di Windows",
+            "fr": "Installation de Windows",
+            "de": "Windows-Installation"
+          }
+        },
+        {
+          "value": "apps",
+          "label": {
+            "pt-BR": "Instalação de aplicativos",
+            "en": "Application installation",
+            "es": "Instalación de aplicaciones",
+            "it": "Installazione di applicazioni",
+            "fr": "Installation d’applications",
+            "de": "Anwendungsinstallation"
+          }
+        },
+        {
+          "value": "standard",
+          "label": {
+            "pt-BR": "Padronização completa",
+            "en": "Full standardisation",
+            "es": "Estandarización completa",
+            "it": "Standardizzazione completa",
+            "fr": "Standardisation complète",
+            "de": "Vollständige Standardisierung"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "open-source": [
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    },
+    {
+      "id": "desired_solution",
+      "type": "text",
+      "label": {
+        "pt-BR": "Solução desejada (se já escolhida)",
+        "en": "Desired solution (if selected)",
+        "es": "Solución deseada (si ya se eligió)",
+        "it": "Soluzione desiderata (se già scelta)",
+        "fr": "Solution souhaitée (si déjà choisie)",
+        "de": "Gewünschte Lösung (falls bereits ausgewählt)"
+      }
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "ongoing",
+          "label": {
+            "pt-BR": "Administração recorrente",
+            "en": "Ongoing administration",
+            "es": "Administración continua",
+            "it": "Gestione continuativa",
+            "fr": "Administration régulière",
+            "de": "Laufende Administration"
+          }
+        },
+        {
+          "value": "setup",
+          "label": {
+            "pt-BR": "Implantação ou reorganização",
+            "en": "Setup or reorganisation",
+            "es": "Implantación o reorganización",
+            "it": "Installazione o riorganizzazione",
+            "fr": "Mise en place ou réorganisation",
+            "de": "Einrichtung oder Neuorganisation"
+          }
+        },
+        {
+          "value": "incident",
+          "label": {
+            "pt-BR": "Resolver um problema",
+            "en": "Resolve an issue",
+            "es": "Resolver un problema",
+            "it": "Risolvere un problema",
+            "fr": "Résoudre un problème",
+            "de": "Problem beheben"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "nextcloud": [
+    {
+      "id": "users",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de usuários",
+        "en": "Number of users",
+        "es": "Número de usuarios",
+        "it": "Numero di utenti",
+        "fr": "Nombre d’utilisateurs",
+        "de": "Anzahl der Nutzer"
+      },
+      "options": [
+        {
+          "value": "1-5",
+          "label": {
+            "pt-BR": "1–5",
+            "en": "1–5",
+            "es": "1–5",
+            "it": "1–5",
+            "fr": "1–5",
+            "de": "1–5"
+          }
+        },
+        {
+          "value": "6-20",
+          "label": {
+            "pt-BR": "6–20",
+            "en": "6–20",
+            "es": "6–20",
+            "it": "6–20",
+            "fr": "6–20",
+            "de": "6–20"
+          }
+        },
+        {
+          "value": "21-50",
+          "label": {
+            "pt-BR": "21–50",
+            "en": "21–50",
+            "es": "21–50",
+            "it": "21–50",
+            "fr": "21–50",
+            "de": "21–50"
+          }
+        },
+        {
+          "value": "51+",
+          "label": {
+            "pt-BR": "51+",
+            "en": "51+",
+            "es": "51+",
+            "it": "51+",
+            "fr": "51+",
+            "de": "51+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "data_volume",
+      "type": "select",
+      "label": {
+        "pt-BR": "Volume aproximado de dados",
+        "en": "Approximate data volume",
+        "es": "Volumen aproximado de datos",
+        "it": "Volume indicativo dei dati",
+        "fr": "Volume approximatif de données",
+        "de": "Ungefähres Datenvolumen"
+      },
+      "options": [
+        {
+          "value": "lt100",
+          "label": {
+            "pt-BR": "< 100 GB",
+            "en": "< 100 GB",
+            "es": "< 100 GB",
+            "it": "< 100 GB",
+            "fr": "< 100 GB",
+            "de": "< 100 GB"
+          }
+        },
+        {
+          "value": "100-999",
+          "label": {
+            "pt-BR": "100–999 GB",
+            "en": "100–999 GB",
+            "es": "100–999 GB",
+            "it": "100–999 GB",
+            "fr": "100–999 GB",
+            "de": "100–999 GB"
+          }
+        },
+        {
+          "value": "1-5tb",
+          "label": {
+            "pt-BR": "1–5 TB",
+            "en": "1–5 TB",
+            "es": "1–5 TB",
+            "it": "1–5 TB",
+            "fr": "1–5 TB",
+            "de": "1–5 TB"
+          }
+        },
+        {
+          "value": "gt5tb",
+          "label": {
+            "pt-BR": "> 5 TB",
+            "en": "> 5 TB",
+            "es": "> 5 TB",
+            "it": "> 5 TB",
+            "fr": "> 5 TB",
+            "de": "> 5 TB"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "ongoing",
+          "label": {
+            "pt-BR": "Administração recorrente",
+            "en": "Ongoing administration",
+            "es": "Administración continua",
+            "it": "Gestione continuativa",
+            "fr": "Administration régulière",
+            "de": "Laufende Administration"
+          }
+        },
+        {
+          "value": "setup",
+          "label": {
+            "pt-BR": "Implantação ou reorganização",
+            "en": "Setup or reorganisation",
+            "es": "Implantación o reorganización",
+            "it": "Installazione o riorganizzazione",
+            "fr": "Mise en place ou réorganisation",
+            "de": "Einrichtung oder Neuorganisation"
+          }
+        },
+        {
+          "value": "incident",
+          "label": {
+            "pt-BR": "Resolver um problema",
+            "en": "Resolve an issue",
+            "es": "Resolver un problema",
+            "it": "Risolvere un problema",
+            "fr": "Résoudre un problème",
+            "de": "Problem beheben"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "it-consulting": [
+    {
+      "id": "location",
+      "type": "text",
+      "label": {
+        "pt-BR": "Cidade/UF ou região do atendimento",
+        "en": "Service city and region",
+        "es": "Ciudad y región del servicio",
+        "it": "Città e regione del servizio",
+        "fr": "Ville et région d’intervention",
+        "de": "Ort und Region der Leistung"
+      }
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    },
+    {
+      "id": "decision",
+      "type": "text",
+      "label": {
+        "pt-BR": "Decisão ou projeto em avaliação (se houver)",
+        "en": "Decision or project under review (if any)",
+        "es": "Decisión o proyecto en evaluación (si existe)",
+        "it": "Decisione o progetto in valutazione (se presente)",
+        "fr": "Décision ou projet à l’étude (le cas échéant)",
+        "de": "Zu prüfende Entscheidung oder Projekt (falls vorhanden)"
+      }
+    }
+  ],
+  "documentation": [
+    {
+      "id": "environment",
+      "type": "text",
+      "label": {
+        "pt-BR": "Ambiente ou processo a documentar",
+        "en": "Environment or process to document",
+        "es": "Entorno o proceso que documentar",
+        "it": "Ambiente o processo da documentare",
+        "fr": "Environnement ou processus à documenter",
+        "de": "Zu dokumentierende Umgebung oder Prozess"
+      }
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    },
+    {
+      "id": "existing_docs",
+      "type": "select",
+      "label": {
+        "pt-BR": "Já existe documentação?",
+        "en": "Is documentation already available?",
+        "es": "¿Existe documentación?",
+        "it": "Esiste già documentazione?",
+        "fr": "Existe-t-il déjà une documentation ?",
+        "de": "Ist bereits Dokumentation vorhanden?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "pt-BR": "Sim",
+            "en": "Yes",
+            "es": "Sí",
+            "it": "Sì",
+            "fr": "Oui",
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "partial",
+          "label": {
+            "pt-BR": "Parcialmente",
+            "en": "Partly",
+            "es": "Parcialmente",
+            "it": "Parzialmente",
+            "fr": "Partiellement",
+            "de": "Teilweise"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "pt-BR": "Não",
+            "en": "No",
+            "es": "No",
+            "it": "No",
+            "fr": "Non",
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
   ]
 }

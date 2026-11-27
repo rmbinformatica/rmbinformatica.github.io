@@ -27,3 +27,6 @@ Quatro novas landing pages abrangem seis IDs M1 (041, 042, 044, 045, 046, 050). 
 
 ## Lote e-mail, software e automação
 Seis novas landing pages abrangem dez IDs M1 (056, 057, 059, 062, 068, 070, 073, 088, 089, 090). Três categorias navegáveis. Formulário de migração existente integrado, cinco novos schemas traduzidos. Não divulgar ferramentas ou metodologia interna de migração, credenciais ou preços. Formulários sem envio ativo.
+
+## Lote final da primeira fase comercial
+Cinco novas landing pages: padronização de estações, open source, Nextcloud, consultoria e documentação. Três categorias adicionais navegáveis, inclusive engenharia de dados com links para DBA e relatórios existentes. Cinco schemas traduzidos; sem preços ou envio ativo. Auditoria de IDs e URLs realizada separadamente contra a matriz privada; não publicar classificação comercial.

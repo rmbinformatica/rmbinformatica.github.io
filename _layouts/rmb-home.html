@@ -1,0 +1,48 @@
+---
+layout: rmb-v2
+---
+<section class="rmb-hero">
+  <div class="rmb-container rmb-hero-inner">
+    <div>
+      <p class="rmb-eyebrow">Engenharia de computação e serviços de TI</p>
+      <h1>Tecnologia para o seu negócio funcionar melhor.</h1>
+      <p>Da infraestrutura que mantém sua empresa conectada ao software que simplifica seus processos: soluções de tecnologia com experiência, cuidado técnico e comunicação clara.</p>
+      <div class="rmb-actions">
+        <a class="rmb-button" href="{{ '/contato.html' | relative_url }}">Conversar sobre meu projeto</a>
+        <a class="rmb-button rmb-button-secondary" href="#services">Conhecer os serviços</a>
+      </div>
+    </div>
+    <aside class="rmb-hero-panel">
+      <h2>Engenharia aplicada</h2>
+      <ul><li>Mais de duas décadas de experiência profissional em TI.</li><li>Atendimento presencial e remoto conforme o serviço.</li><li>Projetos e suporte para empresas e parceiros técnicos.</li></ul>
+    </aside>
+  </div>
+</section>
+<section id="services" class="rmb-section">
+  <div class="rmb-container">
+    <h2>Como podemos ajudar?</h2>
+    <p class="rmb-section-intro">Você não precisa conhecer o nome técnico da solução. Conte-nos o que deseja resolver.</p>
+    <div class="rmb-grid">
+      {% for item in site.data.rmb_home.solutions %}
+        <article class="rmb-card">
+          <h3>{{ item.title | escape }}</h3><p>{{ item.description | escape }}</p>
+          {% if item.url %}<p><a href="{{ item.url | relative_url }}">Saiba mais</a></p>{% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="rmb-section">
+  <div class="rmb-container rmb-cta">
+    <p class="rmb-eyebrow">Soluções desenvolvidas com IA</p>
+    <h2>Você conhece o seu negócio. Nós conhecemos a engenharia de software.</h2>
+    <p>Criou uma planilha, automação ou aplicativo com inteligência artificial e precisa disponibilizá-lo profissionalmente? Podemos avaliar seu projeto e definir os próximos passos para preparar a solução para uso por equipes e clientes.</p>
+    <a class="rmb-button" href="{{ '/contato.html' | relative_url }}">Apresentar meu projeto</a>
+  </div>
+</section>
+<section class="rmb-section">
+  <div class="rmb-container rmb-grid">
+    <article class="rmb-card"><h2>Atendimento sem fronteiras</h2><p>Base em Natal/RN, atendimento remoto no Brasil e no exterior, e atendimento presencial fora da região mediante acordo e avaliação de viabilidade.</p></article>
+    <article class="rmb-card"><h2>Parcerias B2B</h2><p>Retaguarda técnica para empresas de tecnologia, agências e provedores, inclusive no modelo white label, com escopo e responsabilidades acordados.</p></article>
+  </div>
+</section>

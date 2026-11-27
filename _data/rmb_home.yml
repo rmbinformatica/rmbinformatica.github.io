@@ -1,0 +1,14 @@
+solutions:
+  - title: Minha empresa precisa de TI confiável
+    description: Administração de infraestrutura, servidores, redes, suporte e monitoramento.
+  - title: Quero hospedar meus sistemas e e-mails
+    description: Hospedagem e serviços em nuvem conforme as necessidades da empresa.
+    url: /servicos/hospedagem-email
+  - title: Preciso proteger meus dados
+    description: Backup, segurança, conectividade e planejamento para continuidade do negócio.
+  - title: Quero automatizar processos
+    description: Desenvolvimento de software, integrações e automação de tarefas repetitivas.
+  - title: Meu sistema está lento ou difícil de manter
+    description: Diagnóstico, otimização, bancos de dados e modernização de aplicações.
+  - title: Criei uma solução com IA e preciso de ajuda
+    description: Avaliação, correção e preparação de aplicações desenvolvidas com inteligência artificial.

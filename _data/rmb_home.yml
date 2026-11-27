@@ -7,6 +7,7 @@ solutions:
     url: /servicos/hospedagem-email
   - title: Preciso proteger meus dados
     description: Backup, segurança, conectividade e planejamento para continuidade do negócio.
+    url: /servicos/backup-e-continuidade/
   - title: Quero automatizar processos
     description: Desenvolvimento de software, integrações e automação de tarefas repetitivas.
   - title: Meu sistema está lento ou difícil de manter

@@ -21,3 +21,6 @@ Nove landing pages agrupadas conforme matriz, cobrindo 19 IDs M1, incluindo serv
 
 ## Lote servidores e infraestrutura
 Seis novas landing pages cobrem 12 IDs M1, com duas categorias navegáveis. Virtualização e DBA reutilizados na categoria servidores. Formulário de cabeamento existente integrado e cinco novos schemas traduzidos. Modalidade exclusivamente presencial distinguida da híbrida. Experiência com registro de domínios desde 1998 informada pelo responsável; ID pessoal não publicado. Sem preços, sem ativação de formulários.
+
+## Lote segurança e backup
+Quatro novas landing pages abrangem seis IDs M1 (041, 042, 044, 045, 046, 050). O ID 047 já coberto em suporte de TI aparece também na categoria segurança. Duas categorias navegáveis, quatro schemas de formulário com seis idiomas. Sem preços, garantias absolutas de segurança, continuidade ou recuperação. Formulários sem envio ativo.

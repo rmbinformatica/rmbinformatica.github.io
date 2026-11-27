@@ -3852,5 +3852,628 @@
         }
       ]
     }
+  ],
+  "firewall": [
+    {
+      "id": "sites",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de unidades",
+        "en": "Number of sites",
+        "es": "Número de sedes",
+        "it": "Numero di sedi",
+        "fr": "Nombre de sites",
+        "de": "Anzahl der Standorte"
+      },
+      "options": [
+        {
+          "value": "1-5",
+          "label": {
+            "pt-BR": "1–5",
+            "en": "1–5",
+            "es": "1–5",
+            "it": "1–5",
+            "fr": "1–5",
+            "de": "1–5"
+          }
+        },
+        {
+          "value": "6-20",
+          "label": {
+            "pt-BR": "6–20",
+            "en": "6–20",
+            "es": "6–20",
+            "it": "6–20",
+            "fr": "6–20",
+            "de": "6–20"
+          }
+        },
+        {
+          "value": "21-50",
+          "label": {
+            "pt-BR": "21–50",
+            "en": "21–50",
+            "es": "21–50",
+            "it": "21–50",
+            "fr": "21–50",
+            "de": "21–50"
+          }
+        },
+        {
+          "value": "51+",
+          "label": {
+            "pt-BR": "51+",
+            "en": "51+",
+            "es": "51+",
+            "it": "51+",
+            "fr": "51+",
+            "de": "51+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "type": "text",
+      "label": {
+        "pt-BR": "Tecnologia ou plataforma atual (se souber)",
+        "en": "Current technology or platform (if known)",
+        "es": "Tecnología o plataforma actual (si la conoce)",
+        "it": "Tecnologia o piattaforma attuale (se nota)",
+        "fr": "Technologie ou plateforme actuelle (si connue)",
+        "de": "Aktuelle Technologie oder Plattform (falls bekannt)"
+      }
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "ongoing",
+          "label": {
+            "pt-BR": "Administração recorrente",
+            "en": "Ongoing administration",
+            "es": "Administración continua",
+            "it": "Gestione continuativa",
+            "fr": "Administration régulière",
+            "de": "Laufende Administration"
+          }
+        },
+        {
+          "value": "setup",
+          "label": {
+            "pt-BR": "Implantação ou reorganização",
+            "en": "Setup or reorganisation",
+            "es": "Implantación o reorganización",
+            "it": "Installazione o riorganizzazione",
+            "fr": "Mise en place ou réorganisation",
+            "de": "Einrichtung oder Neuorganisation"
+          }
+        },
+        {
+          "value": "incident",
+          "label": {
+            "pt-BR": "Resolver um problema",
+            "en": "Resolve an issue",
+            "es": "Resolver un problema",
+            "it": "Risolvere un problema",
+            "fr": "Résoudre un problème",
+            "de": "Problem beheben"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "vpn": [
+    {
+      "id": "connection_type",
+      "type": "select",
+      "label": {
+        "pt-BR": "Tipo de acesso necessário",
+        "en": "Required access type",
+        "es": "Tipo de acceso necesario",
+        "it": "Tipo di accesso necessario",
+        "fr": "Type d’accès nécessaire",
+        "de": "Benötigte Zugriffsart"
+      },
+      "options": [
+        {
+          "value": "remote_users",
+          "label": {
+            "pt-BR": "Usuários remotos",
+            "en": "Remote users",
+            "es": "Usuarios remotos",
+            "it": "Utenti remoti",
+            "fr": "Utilisateurs distants",
+            "de": "Remote-Nutzer"
+          }
+        },
+        {
+          "value": "sites",
+          "label": {
+            "pt-BR": "Conexão entre unidades",
+            "en": "Site-to-site",
+            "es": "Conexión entre sedes",
+            "it": "Collegamento tra sedi",
+            "fr": "Connexion entre sites",
+            "de": "Standortvernetzung"
+          }
+        },
+        {
+          "value": "both",
+          "label": {
+            "pt-BR": "Ambos",
+            "en": "Both",
+            "es": "Ambos",
+            "it": "Entrambi",
+            "fr": "Les deux",
+            "de": "Beides"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "users",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de usuários",
+        "en": "Number of users",
+        "es": "Número de usuarios",
+        "it": "Numero di utenti",
+        "fr": "Nombre d’utilisateurs",
+        "de": "Anzahl der Nutzer"
+      },
+      "options": [
+        {
+          "value": "1-5",
+          "label": {
+            "pt-BR": "1–5",
+            "en": "1–5",
+            "es": "1–5",
+            "it": "1–5",
+            "fr": "1–5",
+            "de": "1–5"
+          }
+        },
+        {
+          "value": "6-20",
+          "label": {
+            "pt-BR": "6–20",
+            "en": "6–20",
+            "es": "6–20",
+            "it": "6–20",
+            "fr": "6–20",
+            "de": "6–20"
+          }
+        },
+        {
+          "value": "21-50",
+          "label": {
+            "pt-BR": "21–50",
+            "en": "21–50",
+            "es": "21–50",
+            "it": "21–50",
+            "fr": "21–50",
+            "de": "21–50"
+          }
+        },
+        {
+          "value": "51+",
+          "label": {
+            "pt-BR": "51+",
+            "en": "51+",
+            "es": "51+",
+            "it": "51+",
+            "fr": "51+",
+            "de": "51+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "sites",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de unidades",
+        "en": "Number of sites",
+        "es": "Número de sedes",
+        "it": "Numero di sedi",
+        "fr": "Nombre de sites",
+        "de": "Anzahl der Standorte"
+      },
+      "options": [
+        {
+          "value": "1-5",
+          "label": {
+            "pt-BR": "1–5",
+            "en": "1–5",
+            "es": "1–5",
+            "it": "1–5",
+            "fr": "1–5",
+            "de": "1–5"
+          }
+        },
+        {
+          "value": "6-20",
+          "label": {
+            "pt-BR": "6–20",
+            "en": "6–20",
+            "es": "6–20",
+            "it": "6–20",
+            "fr": "6–20",
+            "de": "6–20"
+          }
+        },
+        {
+          "value": "21-50",
+          "label": {
+            "pt-BR": "21–50",
+            "en": "21–50",
+            "es": "21–50",
+            "it": "21–50",
+            "fr": "21–50",
+            "de": "21–50"
+          }
+        },
+        {
+          "value": "51+",
+          "label": {
+            "pt-BR": "51+",
+            "en": "51+",
+            "es": "51+",
+            "it": "51+",
+            "fr": "51+",
+            "de": "51+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "type": "text",
+      "label": {
+        "pt-BR": "Tecnologia ou plataforma atual (se souber)",
+        "en": "Current technology or platform (if known)",
+        "es": "Tecnología o plataforma actual (si la conoce)",
+        "it": "Tecnologia o piattaforma attuale (se nota)",
+        "fr": "Technologie ou plateforme actuelle (si connue)",
+        "de": "Aktuelle Technologie oder Plattform (falls bekannt)"
+      }
+    }
+  ],
+  "internet-redundancy": [
+    {
+      "id": "location",
+      "type": "text",
+      "label": {
+        "pt-BR": "Cidade/UF ou região do atendimento",
+        "en": "Service city and region",
+        "es": "Ciudad y región del servicio",
+        "it": "Città e regione del servizio",
+        "fr": "Ville et région d’intervention",
+        "de": "Ort und Region der Leistung"
+      }
+    },
+    {
+      "id": "link_count",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de links de internet atuais",
+        "en": "Current number of internet connections",
+        "es": "Número de conexiones actuales",
+        "it": "Numero di connessioni attuali",
+        "fr": "Nombre de connexions actuelles",
+        "de": "Anzahl bestehender Internetanschlüsse"
+      },
+      "options": [
+        {
+          "value": "1",
+          "label": {
+            "pt-BR": "1",
+            "en": "1",
+            "es": "1",
+            "it": "1",
+            "fr": "1",
+            "de": "1"
+          }
+        },
+        {
+          "value": "2",
+          "label": {
+            "pt-BR": "2",
+            "en": "2",
+            "es": "2",
+            "it": "2",
+            "fr": "2",
+            "de": "2"
+          }
+        },
+        {
+          "value": "3+",
+          "label": {
+            "pt-BR": "3+",
+            "en": "3+",
+            "es": "3+",
+            "it": "3+",
+            "fr": "3+",
+            "de": "3+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "providers",
+      "type": "text",
+      "label": {
+        "pt-BR": "Provedores de internet atuais (se souber)",
+        "en": "Current internet providers (if known)",
+        "es": "Proveedores actuales (si los conoce)",
+        "it": "Provider attuali (se noti)",
+        "fr": "Fournisseurs actuels (si connus)",
+        "de": "Aktuelle Internetanbieter (falls bekannt)"
+      }
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "failover",
+          "label": {
+            "pt-BR": "Contingência automática",
+            "en": "Automatic failover",
+            "es": "Conmutación automática",
+            "it": "Failover automatico",
+            "fr": "Basculement automatique",
+            "de": "Automatisches Failover"
+          }
+        },
+        {
+          "value": "balancing",
+          "label": {
+            "pt-BR": "Balanceamento de links",
+            "en": "Load balancing",
+            "es": "Balanceo de conexiones",
+            "it": "Bilanciamento delle connessioni",
+            "fr": "Répartition de charge",
+            "de": "Lastverteilung"
+          }
+        },
+        {
+          "value": "both",
+          "label": {
+            "pt-BR": "Ambos",
+            "en": "Both",
+            "es": "Ambos",
+            "it": "Entrambi",
+            "fr": "Les deux",
+            "de": "Beides"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "backup": [
+    {
+      "id": "data_type",
+      "type": "text",
+      "label": {
+        "pt-BR": "Dados ou sistemas a proteger",
+        "en": "Data or systems to protect",
+        "es": "Datos o sistemas que proteger",
+        "it": "Dati o sistemi da proteggere",
+        "fr": "Données ou systèmes à protéger",
+        "de": "Zu schützende Daten oder Systeme"
+      }
+    },
+    {
+      "id": "data_volume",
+      "type": "select",
+      "label": {
+        "pt-BR": "Volume aproximado de dados",
+        "en": "Approximate data volume",
+        "es": "Volumen aproximado de datos",
+        "it": "Volume indicativo dei dati",
+        "fr": "Volume approximatif de données",
+        "de": "Ungefähres Datenvolumen"
+      },
+      "options": [
+        {
+          "value": "lt100",
+          "label": {
+            "pt-BR": "< 100 GB",
+            "en": "< 100 GB",
+            "es": "< 100 GB",
+            "it": "< 100 GB",
+            "fr": "< 100 GB",
+            "de": "< 100 GB"
+          }
+        },
+        {
+          "value": "100-999",
+          "label": {
+            "pt-BR": "100–999 GB",
+            "en": "100–999 GB",
+            "es": "100–999 GB",
+            "it": "100–999 GB",
+            "fr": "100–999 GB",
+            "de": "100–999 GB"
+          }
+        },
+        {
+          "value": "1-5tb",
+          "label": {
+            "pt-BR": "1–5 TB",
+            "en": "1–5 TB",
+            "es": "1–5 TB",
+            "it": "1–5 TB",
+            "fr": "1–5 TB",
+            "de": "1–5 TB"
+          }
+        },
+        {
+          "value": "gt5tb",
+          "label": {
+            "pt-BR": "> 5 TB",
+            "en": "> 5 TB",
+            "es": "> 5 TB",
+            "it": "> 5 TB",
+            "fr": "> 5 TB",
+            "de": "> 5 TB"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "existing_backup",
+      "type": "select",
+      "label": {
+        "pt-BR": "Já possui backup?",
+        "en": "Do you already have backups?",
+        "es": "¿Ya dispone de copias de seguridad?",
+        "it": "Dispone già di backup?",
+        "fr": "Disposez-vous déjà de sauvegardes ?",
+        "de": "Sind bereits Backups vorhanden?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "pt-BR": "Sim",
+            "en": "Yes",
+            "es": "Sí",
+            "it": "Sì",
+            "fr": "Oui",
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "pt-BR": "Não",
+            "en": "No",
+            "es": "No",
+            "it": "No",
+            "fr": "Non",
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
   ]
 }

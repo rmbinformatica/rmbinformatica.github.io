@@ -10,3 +10,6 @@ Inventário privado: 155 serviços, 16 categorias em 26/11/2026. Não equivale a
 Preservar /servicos/hospedagem-email, /contato.html, /blog/, /about/ e URLs de posts existentes até inventário de rotas e decisão de redirecionamento. Manter formulário atual até validação do endpoint.
 ## Entrega
 Build em branch de desenvolvimento, sem deployment automático; teste de rotas, metadados, acessibilidade, desempenho e exclusões. Merge apenas com aprovação.
+
+## Páginas orientadas ao público e ao problema
+Separar serviço comercial (ID estável) de landing page (ID próprio). Um serviço pode ter várias páginas por idioma, inclusive técnica, não técnica ou por problema/setor, quando a necessidade de compra justificar conteúdo distinto. Uma página pode representar vários serviços. Centralizar o cadastro público dos serviços; não duplicar o inventário. Navegação principal apresenta o catálogo sem multiplicar entradas; páginas especializadas são ligadas contextualmente.

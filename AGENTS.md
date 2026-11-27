@@ -9,3 +9,4 @@
 - AGENTS.md e _docs/ devem estar explicitamente excluídos do build. Validar o diretório _site antes de publicar.
 - Não anunciar atendimento 24/7 ou fluência não confirmada. Atendimento presencial fora da base mediante acordo; exterior sujeito à viabilidade e requisitos legais.
 - Testar build, URLs, acessibilidade, idioma, canonical e hreflang antes de integrar.
+- Escrever para o público-alvo: explicar termos técnicos na primeira ocorrência, usar exemplos concretos e partir da dor do cliente. Permitir páginas distintas para um mesmo serviço quando público e intenção de busca justificarem conteúdo substancialmente diferente. Não gerar duplicatas nem revelar metodologias confidenciais.

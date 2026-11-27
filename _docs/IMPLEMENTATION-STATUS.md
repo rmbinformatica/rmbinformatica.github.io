@@ -15,3 +15,6 @@ Cinco landing pages de hospedagem e nuvem e página de categoria em PT-BR. Cober
 
 ## Correção da homologação local
 O servidor simples do Python não resolve URLs limpas para arquivos .html. Preservar URLs canônicas e distribuir preview_server.py junto ao ZIP de homologação, com fallback restrito a arquivos HTML existentes dentro do diretório servido. Testar HTTP 200 e presença do formulário nas cinco rotas comerciais. Não alterar URLs ou redirecionamentos de produção por causa do servidor local.
+
+## Lote MSP
+Nove landing pages agrupadas conforme matriz, cobrindo 19 IDs M1, incluindo serviços relacionados de outras categorias. Categoria MSP navegável; breadcrumbs dinâmicos por categoria e modalidade; nove formulários com traduções. Sem preços, sem SLA implícito. Formulários em homologação sem backend. Páginas de categorias transversais serão vinculadas posteriormente.

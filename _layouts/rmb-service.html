@@ -2,8 +2,9 @@
 layout: rmb-v2
 ---
 {% assign category = site.data.rmb_categories | where: "id", page.category_id | first %}
+{% assign category_page = site.pages | where: "layout", "rmb-category" | where: "category_id", page.category_id | where: "lang", page.lang | first %}
 <section class="rmb-hero"><div class="rmb-container">
-  <nav class="rmb-breadcrumb" aria-label="Localização"><a href="{{ '/preview-v2/' | relative_url }}">Início</a> / <a href="{{ '/servicos/hospedagem-e-nuvem/' | relative_url }}">{{ category.labels[page.lang] | escape }}</a></nav>
+  <nav class="rmb-breadcrumb" aria-label="Localização"><a href="{{ '/preview-v2/' | relative_url }}">Início</a> / {% if category_page %}<a href="{{ category_page.url | relative_url }}">{{ category.labels[page.lang] | escape }}</a>{% else %}{{ category.labels[page.lang] | escape }}{% endif %}</nav>
   <p class="rmb-eyebrow">{{ page.title | escape }}</p>
   <h1>{{ page.headline | escape }}</h1><p>{{ page.intro | escape }}</p>
   <a class="rmb-button" href="#proposal">Solicitar proposta comercial</a>
@@ -12,7 +13,7 @@ layout: rmb-v2
  <article class="rmb-card"><h2>Quando podemos ajudar</h2><ul>{% for item in page.situations %}<li>{{ item | escape }}</li>{% endfor %}</ul></article>
  <article class="rmb-card"><h2>O que podemos oferecer</h2><ul>{% for item in page.scope %}<li>{{ item | escape }}</li>{% endfor %}</ul></article>
 </div></section>
-<section class="rmb-section"><div class="rmb-container"><h2>Como funciona a contratação</h2><ol class="rmb-process">{% for item in page.process %}<li class="rmb-card">{{ item | escape }}</li>{% endfor %}</ol><p>Atendimento remoto. Valores, prazos e responsabilidades são definidos na proposta comercial.</p></div></section>
+<section class="rmb-section"><div class="rmb-container"><h2>Como funciona a contratação</h2><ol class="rmb-process">{% for item in page.process %}<li class="rmb-card">{{ item | escape }}</li>{% endfor %}</ol><p>{% if page.delivery contains "onsite" %}Atendimento remoto ou presencial conforme a atividade e a localização. {% else %}Atendimento remoto. {% endif %}Valores, prazos e responsabilidades são definidos na proposta comercial.</p></div></section>
 <section class="rmb-section"><div class="rmb-container"><h2>Perguntas frequentes</h2>{% for item in page.faq %}<details class="rmb-faq"><summary>{{ item.q | escape }}</summary><p>{{ item.a | escape }}</p></details>{% endfor %}</div></section>
 <section class="rmb-section"><div class="rmb-container rmb-cta"><h2>Vamos conversar sobre sua necessidade?</h2><p>Conte-nos sobre seu ambiente e o que precisa resolver.</p><a class="rmb-button" href="#proposal">Solicitar proposta comercial</a></div></section>
 {% include rmb-proposal-form.html %}

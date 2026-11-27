@@ -7,7 +7,7 @@
     {% for cat in site.data.rmb_categories %}
       <article class="rmb-card rmb-category" data-category="{{ cat.id | escape }}">
         <span class="rmb-category-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="{{ cat.path | escape }}"/></svg></span>
-        <h3>{% if cat.id == 'cloud' and cat_locale == 'pt-BR' %}<a href="{{ '/servicos/hospedagem-e-nuvem/' | relative_url }}">{{ cat.labels[cat_locale] | escape }}</a>{% else %}{{ cat.labels[cat_locale] | escape }}{% endif %}</h3>
+        <h3>{% assign category_page = site.pages | where: 'layout', 'rmb-category' | where: 'category_id', cat.id | where: 'lang', cat_locale | first %}{% if category_page %}<a href="{{ category_page.url | relative_url }}">{{ cat.labels[cat_locale] | escape }}</a>{% else %}{{ cat.labels[cat_locale] | escape }}{% endif %}</h3>
         {% if cat_locale == 'pt-BR' %}<p>{{ cat.description | escape }}</p>{% endif %}
       </article>
     {% endfor %}

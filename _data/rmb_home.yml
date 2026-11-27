@@ -1,6 +1,7 @@
 solutions:
   - title: Minha empresa precisa de TI confiável
     description: Administração de infraestrutura, servidores, redes, suporte e monitoramento.
+    url: /servicos/servicos-gerenciados-ti/
   - title: Quero hospedar meus sistemas e e-mails
     description: Hospedagem e serviços em nuvem conforme as necessidades da empresa.
     url: /servicos/hospedagem-email

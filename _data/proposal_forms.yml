@@ -6220,5 +6220,355 @@
         }
       ]
     }
+  ],
+  "online-support": [
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    },
+    {
+      "id": "users",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de usuários",
+        "en": "Number of users",
+        "es": "Número de usuarios",
+        "it": "Numero di utenti",
+        "fr": "Nombre d’utilisateurs",
+        "de": "Anzahl der Nutzer"
+      },
+      "options": [
+        {
+          "value": "1-5",
+          "label": {
+            "pt-BR": "1–5",
+            "en": "1–5",
+            "es": "1–5",
+            "it": "1–5",
+            "fr": "1–5",
+            "de": "1–5"
+          }
+        },
+        {
+          "value": "6-20",
+          "label": {
+            "pt-BR": "6–20",
+            "en": "6–20",
+            "es": "6–20",
+            "it": "6–20",
+            "fr": "6–20",
+            "de": "6–20"
+          }
+        },
+        {
+          "value": "21-50",
+          "label": {
+            "pt-BR": "21–50",
+            "en": "21–50",
+            "es": "21–50",
+            "it": "21–50",
+            "fr": "21–50",
+            "de": "21–50"
+          }
+        },
+        {
+          "value": "51+",
+          "label": {
+            "pt-BR": "51+",
+            "en": "51+",
+            "es": "51+",
+            "it": "51+",
+            "fr": "51+",
+            "de": "51+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "type": "text",
+      "label": {
+        "pt-BR": "Tecnologia ou plataforma atual (se souber)",
+        "en": "Current technology or platform (if known)",
+        "es": "Tecnología o plataforma actual (si la conoce)",
+        "it": "Tecnologia o piattaforma attuale (se nota)",
+        "fr": "Technologie ou plateforme actuelle (si connue)",
+        "de": "Aktuelle Technologie oder Plattform (falls bekannt)"
+      }
+    }
+  ],
+  "institutional-website": [
+    {
+      "id": "domain",
+      "type": "text",
+      "label": {
+        "pt-BR": "Domínio ou endereço do site (se houver)",
+        "en": "Domain or website address (if any)",
+        "es": "Dominio o dirección web (si existe)",
+        "it": "Dominio o indirizzo del sito (se presente)",
+        "fr": "Domaine ou adresse du site (le cas échéant)",
+        "de": "Domain oder Website-Adresse (falls vorhanden)"
+      }
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    },
+    {
+      "id": "pages",
+      "type": "text",
+      "label": {
+        "pt-BR": "Páginas ou seções desejadas",
+        "en": "Desired pages or sections",
+        "es": "Páginas o secciones deseadas",
+        "it": "Pagine o sezioni desiderate",
+        "fr": "Pages ou sections souhaitées",
+        "de": "Gewünschte Seiten oder Abschnitte"
+      }
+    }
+  ],
+  "landing-page": [
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    },
+    {
+      "id": "domain",
+      "type": "text",
+      "label": {
+        "pt-BR": "Domínio ou endereço do site (se houver)",
+        "en": "Domain or website address (if any)",
+        "es": "Dominio o dirección web (si existe)",
+        "it": "Dominio o indirizzo del sito (se presente)",
+        "fr": "Domaine ou adresse du site (le cas échéant)",
+        "de": "Domain oder Website-Adresse (falls vorhanden)"
+      }
+    },
+    {
+      "id": "collection",
+      "type": "text",
+      "label": {
+        "pt-BR": "Informações que deseja coletar (se aplicável)",
+        "en": "Information to collect (if applicable)",
+        "es": "Información que desea recopilar (si procede)",
+        "it": "Informazioni da raccogliere (se applicabile)",
+        "fr": "Informations à collecter (le cas échéant)",
+        "de": "Zu erfassende Informationen (falls zutreffend)"
+      }
+    }
+  ],
+  "knowledge-base": [
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    },
+    {
+      "id": "existing_docs",
+      "type": "select",
+      "label": {
+        "pt-BR": "Já existe documentação?",
+        "en": "Is documentation already available?",
+        "es": "¿Existe documentación?",
+        "it": "Esiste già documentazione?",
+        "fr": "Existe-t-il déjà une documentation ?",
+        "de": "Ist bereits Dokumentation vorhanden?"
+      },
+      "options": [
+        {
+          "value": "yes",
+          "label": {
+            "pt-BR": "Sim",
+            "en": "Yes",
+            "es": "Sí",
+            "it": "Sì",
+            "fr": "Oui",
+            "de": "Ja"
+          }
+        },
+        {
+          "value": "partial",
+          "label": {
+            "pt-BR": "Parcialmente",
+            "en": "Partly",
+            "es": "Parcialmente",
+            "it": "Parzialmente",
+            "fr": "Partiellement",
+            "de": "Teilweise"
+          }
+        },
+        {
+          "value": "no",
+          "label": {
+            "pt-BR": "Não",
+            "en": "No",
+            "es": "No",
+            "it": "No",
+            "fr": "Non",
+            "de": "Nein"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "audience",
+      "type": "text",
+      "label": {
+        "pt-BR": "Público da documentação",
+        "en": "Documentation audience",
+        "es": "Público de la documentación",
+        "it": "Destinatari della documentazione",
+        "fr": "Public de la documentation",
+        "de": "Zielgruppe der Dokumentation"
+      }
+    }
+  ],
+  "it-training": [
+    {
+      "id": "topic",
+      "type": "text",
+      "label": {
+        "pt-BR": "Tecnologias ou temas desejados",
+        "en": "Desired technologies or topics",
+        "es": "Tecnologías o temas deseados",
+        "it": "Tecnologie o argomenti desiderati",
+        "fr": "Technologies ou sujets souhaités",
+        "de": "Gewünschte Technologien oder Themen"
+      }
+    },
+    {
+      "id": "users",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de usuários",
+        "en": "Number of users",
+        "es": "Número de usuarios",
+        "it": "Numero di utenti",
+        "fr": "Nombre d’utilisateurs",
+        "de": "Anzahl der Nutzer"
+      },
+      "options": [
+        {
+          "value": "1-5",
+          "label": {
+            "pt-BR": "1–5",
+            "en": "1–5",
+            "es": "1–5",
+            "it": "1–5",
+            "fr": "1–5",
+            "de": "1–5"
+          }
+        },
+        {
+          "value": "6-20",
+          "label": {
+            "pt-BR": "6–20",
+            "en": "6–20",
+            "es": "6–20",
+            "it": "6–20",
+            "fr": "6–20",
+            "de": "6–20"
+          }
+        },
+        {
+          "value": "21-50",
+          "label": {
+            "pt-BR": "21–50",
+            "en": "21–50",
+            "es": "21–50",
+            "it": "21–50",
+            "fr": "21–50",
+            "de": "21–50"
+          }
+        },
+        {
+          "value": "51+",
+          "label": {
+            "pt-BR": "51+",
+            "en": "51+",
+            "es": "51+",
+            "it": "51+",
+            "fr": "51+",
+            "de": "51+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    }
   ]
 }

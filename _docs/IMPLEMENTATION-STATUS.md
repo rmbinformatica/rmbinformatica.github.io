@@ -30,3 +30,6 @@ Seis novas landing pages abrangem dez IDs M1 (056, 057, 059, 062, 068, 070, 073,
 
 ## Lote final da primeira fase comercial
 Cinco novas landing pages: padronização de estações, open source, Nextcloud, consultoria e documentação. Três categorias adicionais navegáveis, inclusive engenharia de dados com links para DBA e relatórios existentes. Cinco schemas traduzidos; sem preços ou envio ativo. Auditoria de IDs e URLs realizada separadamente contra a matriz privada; não publicar classificação comercial.
+
+## Ampliação do catálogo comercial
+Cinco páginas existentes ampliadas com oito serviços; onze novas landing pages para outros dezesseis serviços. Categorias DevOps e desenvolvimento web navegáveis. Formulários em seis idiomas, sem envio ativo. Mantidas URLs históricas. Auditoria de correspondência com inventário privado e validação de deploy pendentes.

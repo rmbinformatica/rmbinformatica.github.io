@@ -62,3 +62,5 @@ p{margin:0 0 1rem}code,pre{font-family:var(--mono)}pre{overflow:auto}
 .rmb-prose table{display:block;max-width:100%;overflow:auto;border-collapse:collapse}.rmb-prose td,.rmb-prose th{border:1px solid var(--border);padding:.55rem}
 .rmb-prose blockquote{border-left:3px solid var(--link);margin-left:0;padding-left:1rem;color:var(--muted)}
 .rmb-related,.rmb-comments{border-top:1px solid var(--border);margin-top:2rem;padding-top:1rem}
+
+.rmb-breadcrumb{font-size:.875rem;margin-bottom:1.25rem;color:var(--muted)}.rmb-service-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr));gap:1rem}.rmb-service-grid li{margin-bottom:.5rem}.rmb-process{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,16rem),1fr));gap:1rem;padding-left:1.5rem}.rmb-faq{border:1px solid var(--border);background:var(--surface);border-radius:.6rem;padding:1rem;margin:.65rem 0}.rmb-faq summary{cursor:pointer;font-weight:650}.rmb-faq p{margin-top:.75rem;margin-bottom:0}

@@ -16,6 +16,10 @@
   {%- assign preview_home = site.pages | where: "translation_key", "preview-home" | where: "lang", "pt-BR" | first -%}
   {%- if preview_home -%}{%- assign home_url = preview_home.url -%}{%- endif -%}
 {%- endif -%}
+{%- if locale == 'pt-BR' -%}
+  {%- assign preview_home = site.pages | where: "translation_key", "preview-home" | where: "lang", "pt-BR" | first -%}
+  {%- if preview_home -%}{%- assign home_url = preview_home.url -%}{%- endif -%}
+{%- endif -%}
 <!doctype html>
 <html lang="{{ locale | escape }}">
 <head>

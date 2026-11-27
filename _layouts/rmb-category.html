@@ -1,0 +1,7 @@
+---
+layout: rmb-v2
+---
+<section class="rmb-hero"><div class="rmb-container"><nav class="rmb-breadcrumb" aria-label="Localização"><a href="{{ '/preview-v2/' | relative_url }}">Início</a> / Serviços</nav><h1>{{ page.title | escape }}</h1><p>{{ page.description | escape }}</p></div></section>
+<section class="rmb-section"><div class="rmb-container"><h2>Conheça nossas soluções</h2><div class="rmb-grid">
+{% assign documents = site.pages | concat: site.servicos %}{% for route in page.services %}{% assign item = documents | where: "url", route | first %}{% if item %}<article class="rmb-card"><h3><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></h3><p>{{ item.description | escape }}</p><p><a href="{{ item.url | relative_url }}">Conhecer serviço →</a></p></article>{% endif %}{% endfor %}
+</div></div></section><section class="rmb-section"><div class="rmb-container rmb-cta"><h2>Precisa de orientação para escolher?</h2><a class="rmb-button" href="{{ '/contato.html' | relative_url }}">Conversar com a RMB</a></div></section>

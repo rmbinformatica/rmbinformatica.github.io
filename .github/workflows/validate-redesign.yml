@@ -55,6 +55,8 @@ jobs:
           path: ${{ runner.temp }}/redirects.csv
       - name: Validate multilingual preview
         run: python3 scripts/validate_preview.py _site
+      - name: Validate commercial pages
+        run: python3 scripts/validate_services.py _site
       - name: Upload compiled site for local review
         uses: actions/upload-artifact@v4
         with:

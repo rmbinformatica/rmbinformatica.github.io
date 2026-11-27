@@ -24,3 +24,6 @@ Seis novas landing pages cobrem 12 IDs M1, com duas categorias navegáveis. Virt
 
 ## Lote segurança e backup
 Quatro novas landing pages abrangem seis IDs M1 (041, 042, 044, 045, 046, 050). O ID 047 já coberto em suporte de TI aparece também na categoria segurança. Duas categorias navegáveis, quatro schemas de formulário com seis idiomas. Sem preços, garantias absolutas de segurança, continuidade ou recuperação. Formulários sem envio ativo.
+
+## Lote e-mail, software e automação
+Seis novas landing pages abrangem dez IDs M1 (056, 057, 059, 062, 068, 070, 073, 088, 089, 090). Três categorias navegáveis. Formulário de migração existente integrado, cinco novos schemas traduzidos. Não divulgar ferramentas ou metodologia interna de migração, credenciais ou preços. Formulários sem envio ativo.

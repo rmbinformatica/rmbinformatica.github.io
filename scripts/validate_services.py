@@ -9,7 +9,8 @@ server_slugs=["servidores-em-natal","windows-server","servidores-linux"]
 infra_slugs=["redes-corporativas-natal","cabeamento-estruturado-natal","wifi-corporativo-natal"]
 security_slugs=["firewall-corporativo","vpn-empresarial","redundancia-de-internet-natal"]
 backup_slugs=["backup-corporativo"]
-slugs+=msp_slugs+server_slugs+infra_slugs+security_slugs+backup_slugs
+development_slugs=["migracao-de-emails","automacao-de-emails","software-sob-medida","automacao-de-infraestrutura","bots-e-notificacoes","relatorios-personalizados"]
+slugs+=msp_slugs+server_slugs+infra_slugs+security_slugs+backup_slugs+development_slugs
 urls={n.text for n in ET.parse(root/'sitemap.xml').iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
 for slug in slugs:
     route='/servicos/'+slug
@@ -33,6 +34,10 @@ for category_slug, category_slugs in [('seguranca-e-conectividade', ["firewall-c
     category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug
+for category_slug, category_slugs in [('migracao-e-processamento-de-emails', ["migracao-de-emails","automacao-de-emails"]), ('desenvolvimento-de-software-e-integracao', ["software-sob-medida","automacao-de-infraestrutura","bots-e-notificacoes","relatorios-personalizados"]), ('automacao-de-processos', ["automacao-de-infraestrutura","automacao-de-emails","bots-e-notificacoes","relatorios-personalizados","gerenciamento-de-servidores"])]:
+    category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
+    for slug in category_slugs:
+        assert 'href="/servicos/'+slug+'"' in category_html, slug
 print('All service pages and categories validated')
 
 # Exercise actual HTTP requests with the same local preview server distributed in ZIP.
@@ -43,7 +48,7 @@ server=make_server(root, port=0)
 thread=Thread(target=server.serve_forever, daemon=True)
 thread.start()
 try:
-    for route in ['/preview-v2/', '/servicos/hospedagem-e-nuvem/', '/servicos/servicos-gerenciados-ti/', '/servicos/sistemas-e-servidores/', '/servicos/infraestrutura-empresarial/', '/servicos/seguranca-e-conectividade/', '/servicos/backup-e-continuidade/'] + ['/servicos/'+s for s in slugs]:
+    for route in ['/preview-v2/', '/servicos/hospedagem-e-nuvem/', '/servicos/servicos-gerenciados-ti/', '/servicos/sistemas-e-servidores/', '/servicos/infraestrutura-empresarial/', '/servicos/seguranca-e-conectividade/', '/servicos/backup-e-continuidade/', '/servicos/migracao-e-processamento-de-emails/', '/servicos/desenvolvimento-de-software-e-integracao/', '/servicos/automacao-de-processos/'] + ['/servicos/'+s for s in slugs]:
         with urlopen(f'http://127.0.0.1:{server.server_port}{route}', timeout=10) as response:
             assert response.status == 200, route
             assert 'text/html' in response.headers.get('Content-Type',''), route

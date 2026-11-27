@@ -10,6 +10,7 @@ solutions:
     url: /servicos/backup-e-continuidade/
   - title: Quero automatizar processos
     description: Desenvolvimento de software, integrações e automação de tarefas repetitivas.
+    url: /servicos/automacao-de-processos/
   - title: Meu sistema está lento ou difícil de manter
     description: Diagnóstico, otimização, bancos de dados e modernização de aplicações.
   - title: Criei uma solução com IA e preciso de ajuda

@@ -9,10 +9,10 @@ lang: "pt-BR"
 audience: "technical"
 search_intent: "Solicitar proposta de Implantação, conteinerização e administração de ambientes Docker"
 title: "Implantação, conteinerização e administração de ambientes Docker"
-description: "Apoiamos a operação de ambientes Docker existentes, avaliando configurações, dependências e necessidades de manutenção."
+description: "Apoiamos a implantação e operação de ambientes Docker, avaliando configurações, dependências e necessidades de manutenção."
 permalink: "/servicos/consultoria-docker"
 headline: "Retaguarda técnica para suas aplicações em contêineres."
-intro: "Apoiamos a operação de ambientes Docker existentes, avaliando configurações, dependências e necessidades de manutenção."
+intro: "Apoiamos a implantação e operação de ambientes Docker, avaliando configurações, dependências e necessidades de manutenção."
 situations: ["Tenho aplicações em Docker e preciso de suporte.","Meus contêineres apresentam falhas ou reinicializações.","Quero organizar a manutenção do ambiente de produção.","Quero implantar Docker em um novo ambiente.","Preciso transformar uma aplicação existente em contêiner.","Minha imagem Docker está grande, lenta para distribuir ou difícil de manter.","Quero padronizar os ambientes de desenvolvimento e produção.","Quero automatizar a implantação de aplicações após mudanças aprovadas."]
 scope: ["Administração de ambientes Docker autorizados.","Investigação de falhas, logs e dependências.","Revisão de configurações de execução e rotinas de manutenção.","Implantação de ambientes Docker conforme requisitos.","Criação e otimização de imagens personalizadas.","Conteinerização de aplicações existentes, conforme dependências e licenças.","Padronização de ambientes de desenvolvimento e produção, com validação de configuração e persistência.","Avaliação de automação de deploy com controles de acesso, testes, aprovação e plano de reversão conforme o ambiente."]
 process: ["Identificamos aplicações, serviços e infraestrutura.","Definimos responsabilidades e mudanças autorizadas.","Executamos diagnóstico e acompanhamento contratado."]

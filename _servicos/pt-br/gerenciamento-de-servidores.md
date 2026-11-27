@@ -9,10 +9,10 @@ lang: "pt-BR"
 audience: "mixed"
 search_intent: "Solicitar proposta de Gerenciamento de servidores empresariais"
 title: "Gerenciamento de servidores empresariais"
-description: "Oferecemos administração remota de servidores e automação de rotinas de manutenção, respeitando os requisitos de cada ambiente."
+description: "Realizamos administração remota de servidores e automação de rotinas de manutenção, respeitando os requisitos de cada ambiente."
 permalink: "/servicos/gerenciamento-de-servidores"
 headline: "Administração técnica para os servidores do seu negócio."
-intro: "Oferecemos administração remota de servidores e automação de rotinas de manutenção, respeitando os requisitos de cada ambiente."
+intro: "Realizamos administração remota de servidores e automação de rotinas de manutenção, respeitando os requisitos de cada ambiente."
 situations: ["Não tenho administrador de servidores dedicado.","Preciso organizar atualizações e rotinas de manutenção.","Meus servidores apresentam falhas recorrentes."]
 scope: ["Administração de servidores Linux e Windows conforme escopo.","Diagnóstico e manutenção planejada.","Automação de rotinas administrativas e verificações."]
 process: ["Levantamos sistemas, funções e acessos autorizados.","Definimos cobertura e janelas de manutenção.","Realizamos as atividades previstas e registramos alterações."]

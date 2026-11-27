@@ -9,10 +9,10 @@ lang: "pt-BR"
 audience: "mixed"
 search_intent: "Solicitar proposta de Implantação e gerenciamento de central de serviços de TI (Service Desk)"
 title: "Implantação e gerenciamento de central de serviços de TI (Service Desk)"
-description: "Ajudamos empresas e prestadores de TI a estruturar a central de atendimento, seus fluxos e acompanhamento de solicitações."
+description: "Ajudamos a estruturar a central de atendimento, seus fluxos e o acompanhamento de solicitações."
 permalink: "/servicos/implantacao-service-desk"
 headline: "Organize chamados e mantenha o histórico do atendimento."
-intro: "Ajudamos empresas e prestadores de TI a estruturar a central de atendimento, seus fluxos e acompanhamento de solicitações."
+intro: "Ajudamos a estruturar a central de atendimento, seus fluxos e o acompanhamento de solicitações."
 situations: ["Os pedidos de suporte chegam por vários canais e se perdem.","Preciso organizar prioridades e responsabilidades.","Quero implantar ou melhorar uma central de chamados."]
 scope: ["Levantamento de fluxos de atendimento.","Implantação e configuração de central de serviços conforme requisitos.","Organização de categorias, filas e responsabilidades.","Apoio ao gerenciamento da central conforme contrato."]
 process: ["Mapeamos canais, equipe e tipos de chamado.","Definimos fluxo, plataforma e responsabilidades.","Implantamos e validamos o processo com a equipe."]

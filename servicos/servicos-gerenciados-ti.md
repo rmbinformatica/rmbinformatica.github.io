@@ -1,7 +1,7 @@
 ---
 layout: rmb-category
-title: Serviços gerenciados de TI (MSP)
-description: Administração de redes, servidores, suporte especializado, monitoramento e gestão de infraestrutura para empresas e parceiros.
+title: "Serviços gerenciados de TI (MSP) para empresas"
+description: "Cuidamos da infraestrutura de TI da sua empresa no dia a dia — redes, servidores, suporte e monitoramento — para que sua equipe trabalhe com estabilidade e sem precisar se preocupar com a parte técnica."
 lang: pt-BR
 category_id: msp
 translation_key: category-msp

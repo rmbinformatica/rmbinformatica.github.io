@@ -9,10 +9,10 @@ lang: "pt-BR"
 audience: "mixed"
 search_intent: "Solicitar proposta de Suporte técnico de TI para empresas"
 title: "Suporte técnico de TI para empresas"
-description: "Oferecemos suporte remoto a empresas, incluindo avaliação de problemas em estações e gerenciamento de proteção conforme escopo."
+description: "Oferecemos suporte remoto com avaliação de problemas em estações e gerenciamento de proteção, conforme o escopo acordado."
 permalink: "/servicos/suporte-de-ti-para-empresas"
 headline: "Apoio técnico para sua equipe continuar trabalhando."
-intro: "Oferecemos suporte remoto a empresas, incluindo avaliação de problemas em estações e gerenciamento de proteção conforme escopo."
+intro: "Oferecemos suporte remoto com avaliação de problemas em estações e gerenciamento de proteção, conforme o escopo acordado."
 situations: ["Minha empresa não possui equipe própria de TI.","Preciso de suporte para usuários em diferentes unidades.","Tenho computadores com suspeita de vírus ou problemas de funcionamento."]
 scope: ["Suporte técnico remoto a usuários e estações.","Gerenciamento de antivírus corporativo conforme contratação.","Diagnóstico e remoção de software malicioso quando tecnicamente viável."]
 process: ["Identificamos o parque, usuários e problemas recorrentes.","Definimos cobertura, horários e responsabilidades.","Organizamos o atendimento e escalonamento."]

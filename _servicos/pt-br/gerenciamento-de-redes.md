@@ -9,10 +9,10 @@ lang: "pt-BR"
 audience: "mixed"
 search_intent: "Solicitar proposta de Gerenciamento de redes corporativas"
 title: "Gerenciamento de redes corporativas"
-description: "Administramos redes de computadores remotamente, com acompanhamento das configurações e investigação de falhas conforme contrato."
+description: "Administramos redes de computadores remotamente, acompanhando configurações e investigando falhas para manter a conectividade estável."
 permalink: "/servicos/gerenciamento-de-redes"
 headline: "Uma rede empresarial organizada para sustentar seu trabalho."
-intro: "Administramos redes de computadores remotamente, com acompanhamento das configurações e investigação de falhas conforme contrato."
+intro: "Administramos redes de computadores remotamente, acompanhando configurações e investigando falhas para manter a conectividade estável."
 situations: ["Tenho filiais e preciso centralizar a gestão das redes.","Minha equipe perde tempo com falhas de conectividade.","Preciso organizar os acessos e configurações dos equipamentos."]
 scope: ["Administração de roteadores, switches e configurações de rede compatíveis.","Diagnóstico de conectividade e revisão de configurações.","Documentação das alterações e acompanhamento de incidentes."]
 process: ["Levantamos unidades, equipamentos e acessos autorizados.","Definimos responsabilidades e cobertura.","Executamos a administração e revisões acordadas."]

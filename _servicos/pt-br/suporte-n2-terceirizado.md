@@ -9,10 +9,10 @@ lang: "pt-BR"
 audience: "technical"
 search_intent: "Solicitar proposta de Suporte técnico especializado N2 terceirizado"
 title: "Suporte técnico especializado N2 terceirizado"
-description: "Apoiamos prestadores de TI e software houses na investigação de chamados que exigem conhecimento especializado de infraestrutura e sistemas."
+description: "Apoiamos prestadores de TI e software houses na resolução de chamados que exigem conhecimento mais especializado de infraestrutura e sistemas."
 permalink: "/servicos/suporte-n2-terceirizado"
 headline: "Retaguarda técnica para sua equipe de suporte."
-intro: "Apoiamos prestadores de TI e software houses na investigação de chamados que exigem conhecimento especializado de infraestrutura e sistemas."
+intro: "Apoiamos prestadores de TI e software houses na resolução de chamados que exigem conhecimento mais especializado de infraestrutura e sistemas."
 situations: ["Minha equipe N1 precisa escalar incidentes complexos.","Preciso ampliar a capacidade técnica sem contratar um especialista dedicado.","Quero retaguarda técnica para atender meus clientes."]
 scope: ["Investigação de incidentes escalados.","Diagnóstico de infraestrutura e sistemas conforme escopo.","Orientação técnica e documentação para a equipe contratante."]
 process: ["Alinhamos plataformas, fluxo de escalonamento e acessos.","Definimos escopo e condições de atendimento.","Tratamos chamados autorizados e registramos as conclusões."]

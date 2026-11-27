@@ -9,10 +9,10 @@ lang: "pt-BR"
 audience: "mixed"
 search_intent: "Solicitar proposta de Monitoramento e gerenciamento de infraestrutura de TI"
 title: "Monitoramento e gerenciamento de infraestrutura de TI"
-description: "Acompanhamos indicadores de servidores e estações e organizamos alertas, atualizações e análise de registros conforme o ambiente."
+description: "Acompanhamos indicadores de servidores e estações, organizamos alertas, atualizações e análise de registros para antecipar problemas."
 permalink: "/servicos/monitoramento-de-infraestrutura"
 headline: "Identifique problemas antes que se transformem em interrupções."
-intro: "Acompanhamos indicadores de servidores e estações e organizamos alertas, atualizações e análise de registros conforme o ambiente."
+intro: "Acompanhamos indicadores de servidores e estações, organizamos alertas, atualizações e análise de registros para antecipar problemas."
 situations: ["Quero saber quando um servidor ou serviço apresenta falhas.","Preciso acompanhar estações em várias unidades.","Tenho dificuldade em organizar atualizações e investigar logs.","Quero implantar uma plataforma própria de gerenciamento e monitoramento remoto."]
 scope: ["Monitoramento de disponibilidade e indicadores técnicos.","Gerenciamento remoto de estações (RMM).","Planejamento de atualizações e análise de logs.","Definição de alertas e procedimentos de resposta.","Implantação de infraestrutura RMM própria, com avaliação de agentes, acesso e controles de segurança."]
 process: ["Identificamos ativos, serviços críticos e indicadores.","Definimos cobertura, alertas e janelas de manutenção.","Implantamos e acompanhamos o monitoramento acordado."]

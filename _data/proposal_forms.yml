@@ -5865,5 +5865,360 @@
         }
       ]
     }
+  ],
+  "contingency": [
+    {
+      "id": "location",
+      "type": "text",
+      "label": {
+        "pt-BR": "Cidade/UF ou região do atendimento",
+        "en": "Service city and region",
+        "es": "Ciudad y región del servicio",
+        "it": "Città e regione del servizio",
+        "fr": "Ville et région d’intervention",
+        "de": "Ort und Region der Leistung"
+      }
+    },
+    {
+      "id": "critical_services",
+      "type": "text",
+      "label": {
+        "pt-BR": "Sistemas ou serviços críticos",
+        "en": "Critical systems or services",
+        "es": "Sistemas o servicios críticos",
+        "it": "Sistemi o servizi critici",
+        "fr": "Systèmes ou services critiques",
+        "de": "Kritische Systeme oder Dienste"
+      }
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    }
+  ],
+  "file-conversion": [
+    {
+      "id": "source_format",
+      "type": "text",
+      "label": {
+        "pt-BR": "Formato de origem",
+        "en": "Source format",
+        "es": "Formato de origen",
+        "it": "Formato di origine",
+        "fr": "Format source",
+        "de": "Quellformat"
+      }
+    },
+    {
+      "id": "target_format",
+      "type": "text",
+      "label": {
+        "pt-BR": "Formato de destino",
+        "en": "Target format",
+        "es": "Formato de destino",
+        "it": "Formato di destinazione",
+        "fr": "Format cible",
+        "de": "Zielformat"
+      }
+    },
+    {
+      "id": "frequency",
+      "type": "select",
+      "label": {
+        "pt-BR": "Frequência desejada",
+        "en": "Desired frequency",
+        "es": "Frecuencia deseada",
+        "it": "Frequenza desiderata",
+        "fr": "Fréquence souhaitée",
+        "de": "Gewünschte Häufigkeit"
+      },
+      "options": [
+        {
+          "value": "on_demand",
+          "label": {
+            "pt-BR": "Sob demanda",
+            "en": "On demand",
+            "es": "Bajo demanda",
+            "it": "Su richiesta",
+            "fr": "À la demande",
+            "de": "Bei Bedarf"
+          }
+        },
+        {
+          "value": "recurring",
+          "label": {
+            "pt-BR": "Periódica",
+            "en": "Recurring",
+            "es": "Periódica",
+            "it": "Periodica",
+            "fr": "Périodique",
+            "de": "Regelmäßig"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "rest-api": [
+    {
+      "id": "systems",
+      "type": "text",
+      "label": {
+        "pt-BR": "Sistemas envolvidos",
+        "en": "Systems involved",
+        "es": "Sistemas implicados",
+        "it": "Sistemi coinvolti",
+        "fr": "Systèmes concernés",
+        "de": "Beteiligte Systeme"
+      }
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    },
+    {
+      "id": "technology",
+      "type": "text",
+      "label": {
+        "pt-BR": "Tecnologia ou plataforma atual (se souber)",
+        "en": "Current technology or platform (if known)",
+        "es": "Tecnología o plataforma actual (si la conoce)",
+        "it": "Tecnologia o piattaforma attuale (se nota)",
+        "fr": "Technologie ou plateforme actuelle (si connue)",
+        "de": "Aktuelle Technologie oder Plattform (falls bekannt)"
+      }
+    }
+  ],
+  "legacy-modernization": [
+    {
+      "id": "current_platform",
+      "type": "text",
+      "label": {
+        "pt-BR": "Plataforma e versões atuais",
+        "en": "Current platform and versions",
+        "es": "Plataforma y versiones actuales",
+        "it": "Piattaforma e versioni attuali",
+        "fr": "Plateforme et versions actuelles",
+        "de": "Aktuelle Plattform und Versionen"
+      }
+    },
+    {
+      "id": "target_platform",
+      "type": "text",
+      "label": {
+        "pt-BR": "Plataforma desejada (se definida)",
+        "en": "Desired platform (if known)",
+        "es": "Plataforma deseada (si se conoce)",
+        "it": "Piattaforma desiderata (se definita)",
+        "fr": "Plateforme souhaitée (si connue)",
+        "de": "Gewünschte Plattform (falls bekannt)"
+      }
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    }
+  ],
+  "data-update": [
+    {
+      "id": "data_source",
+      "type": "text",
+      "label": {
+        "pt-BR": "Origem dos dados (sistema, planilha ou banco de dados)",
+        "en": "Data source (system, spreadsheet or database)",
+        "es": "Origen de datos (sistema, hoja de cálculo o base de datos)",
+        "it": "Origine dati (sistema, foglio di calcolo o database)",
+        "fr": "Source des données (système, tableur ou base de données)",
+        "de": "Datenquelle (System, Tabelle oder Datenbank)"
+      }
+    },
+    {
+      "id": "target",
+      "type": "text",
+      "label": {
+        "pt-BR": "Destino dos dados",
+        "en": "Data destination",
+        "es": "Destino de los datos",
+        "it": "Destinazione dei dati",
+        "fr": "Destination des données",
+        "de": "Datenziel"
+      }
+    },
+    {
+      "id": "frequency",
+      "type": "select",
+      "label": {
+        "pt-BR": "Frequência desejada",
+        "en": "Desired frequency",
+        "es": "Frecuencia deseada",
+        "it": "Frequenza desiderata",
+        "fr": "Fréquence souhaitée",
+        "de": "Gewünschte Häufigkeit"
+      },
+      "options": [
+        {
+          "value": "on_demand",
+          "label": {
+            "pt-BR": "Sob demanda",
+            "en": "On demand",
+            "es": "Bajo demanda",
+            "it": "Su richiesta",
+            "fr": "À la demande",
+            "de": "Bei Bedarf"
+          }
+        },
+        {
+          "value": "recurring",
+          "label": {
+            "pt-BR": "Periódica",
+            "en": "Recurring",
+            "es": "Periódica",
+            "it": "Periodica",
+            "fr": "Périodique",
+            "de": "Regelmäßig"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "sql-optimization": [
+    {
+      "id": "technology",
+      "type": "text",
+      "label": {
+        "pt-BR": "Tecnologia ou plataforma atual (se souber)",
+        "en": "Current technology or platform (if known)",
+        "es": "Tecnología o plataforma actual (si la conoce)",
+        "it": "Tecnologia o piattaforma attuale (se nota)",
+        "fr": "Technologie ou plateforme actuelle (si connue)",
+        "de": "Aktuelle Technologie oder Plattform (falls bekannt)"
+      }
+    },
+    {
+      "id": "goal",
+      "type": "text",
+      "label": {
+        "pt-BR": "O que você precisa resolver?",
+        "en": "What do you need to solve?",
+        "es": "¿Qué necesita resolver?",
+        "it": "Quale problema desidera risolvere?",
+        "fr": "Quel problème souhaitez-vous résoudre ?",
+        "de": "Welches Problem möchten Sie lösen?"
+      }
+    },
+    {
+      "id": "data_volume",
+      "type": "select",
+      "label": {
+        "pt-BR": "Volume aproximado de dados",
+        "en": "Approximate data volume",
+        "es": "Volumen aproximado de datos",
+        "it": "Volume indicativo dei dati",
+        "fr": "Volume approximatif de données",
+        "de": "Ungefähres Datenvolumen"
+      },
+      "options": [
+        {
+          "value": "lt100",
+          "label": {
+            "pt-BR": "< 100 GB",
+            "en": "< 100 GB",
+            "es": "< 100 GB",
+            "it": "< 100 GB",
+            "fr": "< 100 GB",
+            "de": "< 100 GB"
+          }
+        },
+        {
+          "value": "100-999",
+          "label": {
+            "pt-BR": "100–999 GB",
+            "en": "100–999 GB",
+            "es": "100–999 GB",
+            "it": "100–999 GB",
+            "fr": "100–999 GB",
+            "de": "100–999 GB"
+          }
+        },
+        {
+          "value": "1-5tb",
+          "label": {
+            "pt-BR": "1–5 TB",
+            "en": "1–5 TB",
+            "es": "1–5 TB",
+            "it": "1–5 TB",
+            "fr": "1–5 TB",
+            "de": "1–5 TB"
+          }
+        },
+        {
+          "value": "gt5tb",
+          "label": {
+            "pt-BR": "> 5 TB",
+            "en": "> 5 TB",
+            "es": "> 5 TB",
+            "it": "> 5 TB",
+            "fr": "> 5 TB",
+            "de": "> 5 TB"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
   ]
 }

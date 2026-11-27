@@ -6,5 +6,5 @@ lang: "pt-BR"
 category_id: "data"
 translation_key: "category-data"
 permalink: "/servicos/engenharia-de-dados/"
-services: ["/servicos/dba-remoto","/servicos/relatorios-personalizados"]
+services: ["/servicos/dba-remoto","/servicos/relatorios-personalizados","/servicos/engenharia-de-dados-etl","/servicos/otimizacao-de-banco-de-dados"]
 ---

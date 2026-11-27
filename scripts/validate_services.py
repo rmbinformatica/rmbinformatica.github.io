@@ -12,6 +12,7 @@ backup_slugs=["backup-corporativo"]
 development_slugs=["migracao-de-emails","automacao-de-emails","software-sob-medida","automacao-de-infraestrutura","bots-e-notificacoes","relatorios-personalizados"]
 final_slugs=["padronizacao-de-estacoes","solucoes-open-source","nextcloud-empresarial","consultoria-de-ti-natal","documentacao-de-ti"]
 slugs+=msp_slugs+server_slugs+infra_slugs+security_slugs+backup_slugs+development_slugs+final_slugs
+slugs+=["plano-de-contingencia","conversores-de-arquivos","integracao-de-sistemas-api","modernizacao-de-sistemas-legados","engenharia-de-dados-etl","otimizacao-de-banco-de-dados"]
 urls={n.text for n in ET.parse(root/'sitemap.xml').iter('{http://www.sitemaps.org/schemas/sitemap/0.9}loc')}
 for slug in slugs:
     route='/servicos/'+slug
@@ -43,6 +44,10 @@ for category_slug, category_slugs in [["open-source-e-self-hosted",["solucoes-op
     category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
     for slug in category_slugs:
         assert 'href="/servicos/'+slug+'"' in category_html, slug
+for category_slug, category_slugs in [["backup-e-continuidade",["backup-corporativo","plano-de-contingencia"]],["desenvolvimento-de-software-e-integracao",["software-sob-medida","automacao-de-infraestrutura","bots-e-notificacoes","relatorios-personalizados","conversores-de-arquivos","integracao-de-sistemas-api"]],["engenharia-de-dados",["dba-remoto","relatorios-personalizados","engenharia-de-dados-etl","otimizacao-de-banco-de-dados"]],["conteinerizacao-e-devops",["consultoria-docker","modernizacao-de-sistemas-legados"]]]:
+    category_html=(root/'servicos'/category_slug/'index.html').read_text(encoding='utf-8')
+    for slug in category_slugs:
+        assert 'href="/servicos/'+slug+'"' in category_html, slug
 print('All service pages and categories validated')
 
 # Exercise actual HTTP requests with the same local preview server distributed in ZIP.
@@ -53,7 +58,7 @@ server=make_server(root, port=0)
 thread=Thread(target=server.serve_forever, daemon=True)
 thread.start()
 try:
-    for route in ['/preview-v2/', '/servicos/hospedagem-e-nuvem/', '/servicos/servicos-gerenciados-ti/', '/servicos/sistemas-e-servidores/', '/servicos/infraestrutura-empresarial/', '/servicos/seguranca-e-conectividade/', '/servicos/backup-e-continuidade/', '/servicos/migracao-e-processamento-de-emails/', '/servicos/desenvolvimento-de-software-e-integracao/', '/servicos/automacao-de-processos/', '/servicos/open-source-e-self-hosted/', '/servicos/consultoria-e-treinamento/', '/servicos/engenharia-de-dados/'] + ['/servicos/'+s for s in slugs]:
+    for route in ['/preview-v2/', '/servicos/hospedagem-e-nuvem/', '/servicos/servicos-gerenciados-ti/', '/servicos/sistemas-e-servidores/', '/servicos/infraestrutura-empresarial/', '/servicos/seguranca-e-conectividade/', '/servicos/backup-e-continuidade/', '/servicos/migracao-e-processamento-de-emails/', '/servicos/desenvolvimento-de-software-e-integracao/', '/servicos/automacao-de-processos/', '/servicos/open-source-e-self-hosted/', '/servicos/consultoria-e-treinamento/', '/servicos/engenharia-de-dados/', '/servicos/conteinerizacao-e-devops/'] + ['/servicos/'+s for s in slugs]:
         with urlopen(f'http://127.0.0.1:{server.server_port}{route}', timeout=10) as response:
             assert response.status == 200, route
             assert 'text/html' in response.headers.get('Content-Type',''), route

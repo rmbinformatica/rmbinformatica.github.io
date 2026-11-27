@@ -3010,5 +3010,847 @@
         }
       ]
     }
+  ],
+  "physical-server": [
+    {
+      "id": "location",
+      "type": "text",
+      "label": {
+        "pt-BR": "Cidade/UF ou região do atendimento",
+        "en": "Service city and region",
+        "es": "Ciudad y región del servicio",
+        "it": "Città e regione del servizio",
+        "fr": "Ville et région d’intervention",
+        "de": "Ort und Region der Leistung"
+      }
+    },
+    {
+      "id": "server_count",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de servidores",
+        "en": "Number of servers",
+        "es": "Número de servidores",
+        "it": "Numero di server",
+        "fr": "Nombre de serveurs",
+        "de": "Anzahl der Server"
+      },
+      "options": [
+        {
+          "value": "1-5",
+          "label": {
+            "pt-BR": "1–5",
+            "en": "1–5",
+            "es": "1–5",
+            "it": "1–5",
+            "fr": "1–5",
+            "de": "1–5"
+          }
+        },
+        {
+          "value": "6-20",
+          "label": {
+            "pt-BR": "6–20",
+            "en": "6–20",
+            "es": "6–20",
+            "it": "6–20",
+            "fr": "6–20",
+            "de": "6–20"
+          }
+        },
+        {
+          "value": "21-50",
+          "label": {
+            "pt-BR": "21–50",
+            "en": "21–50",
+            "es": "21–50",
+            "it": "21–50",
+            "fr": "21–50",
+            "de": "21–50"
+          }
+        },
+        {
+          "value": "51+",
+          "label": {
+            "pt-BR": "51+",
+            "en": "51+",
+            "es": "51+",
+            "it": "51+",
+            "fr": "51+",
+            "de": "51+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "application",
+      "type": "text",
+      "label": {
+        "pt-BR": "Sistema ou aplicação a ser atendida",
+        "en": "System or application concerned",
+        "es": "Sistema o aplicación en cuestión",
+        "it": "Sistema o applicazione interessata",
+        "fr": "Système ou application concernée",
+        "de": "Betroffenes System oder Anwendung"
+      }
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "ongoing",
+          "label": {
+            "pt-BR": "Administração recorrente",
+            "en": "Ongoing administration",
+            "es": "Administración continua",
+            "it": "Gestione continuativa",
+            "fr": "Administration régulière",
+            "de": "Laufende Administration"
+          }
+        },
+        {
+          "value": "setup",
+          "label": {
+            "pt-BR": "Implantação ou reorganização",
+            "en": "Setup or reorganisation",
+            "es": "Implantación o reorganización",
+            "it": "Installazione o riorganizzazione",
+            "fr": "Mise en place ou réorganisation",
+            "de": "Einrichtung oder Neuorganisation"
+          }
+        },
+        {
+          "value": "incident",
+          "label": {
+            "pt-BR": "Resolver um problema",
+            "en": "Resolve an issue",
+            "es": "Resolver un problema",
+            "it": "Risolvere un problema",
+            "fr": "Résoudre un problème",
+            "de": "Problem beheben"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "windows-server": [
+    {
+      "id": "users",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de usuários",
+        "en": "Number of users",
+        "es": "Número de usuarios",
+        "it": "Numero di utenti",
+        "fr": "Nombre d’utilisateurs",
+        "de": "Anzahl der Nutzer"
+      },
+      "options": [
+        {
+          "value": "1-10",
+          "label": {
+            "pt-BR": "1–10",
+            "en": "1–10",
+            "es": "1–10",
+            "it": "1–10",
+            "fr": "1–10",
+            "de": "1–10"
+          }
+        },
+        {
+          "value": "11-25",
+          "label": {
+            "pt-BR": "11–25",
+            "en": "11–25",
+            "es": "11–25",
+            "it": "11–25",
+            "fr": "11–25",
+            "de": "11–25"
+          }
+        },
+        {
+          "value": "26-50",
+          "label": {
+            "pt-BR": "26–50",
+            "en": "26–50",
+            "es": "26–50",
+            "it": "26–50",
+            "fr": "26–50",
+            "de": "26–50"
+          }
+        },
+        {
+          "value": "51-100",
+          "label": {
+            "pt-BR": "51–100",
+            "en": "51–100",
+            "es": "51–100",
+            "it": "51–100",
+            "fr": "51–100",
+            "de": "51–100"
+          }
+        },
+        {
+          "value": "101+",
+          "label": {
+            "pt-BR": "101+",
+            "en": "101+",
+            "es": "101+",
+            "it": "101+",
+            "fr": "101+",
+            "de": "101+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "application",
+      "type": "text",
+      "label": {
+        "pt-BR": "Sistema ou aplicação a ser atendida",
+        "en": "System or application concerned",
+        "es": "Sistema o aplicación en cuestión",
+        "it": "Sistema o applicazione interessata",
+        "fr": "Système ou application concernée",
+        "de": "Betroffenes System oder Anwendung"
+      }
+    },
+    {
+      "id": "main_service",
+      "type": "select",
+      "label": {
+        "pt-BR": "Serviço principal",
+        "en": "Main service",
+        "es": "Servicio principal",
+        "it": "Servizio principale",
+        "fr": "Service principal",
+        "de": "Hauptleistung"
+      },
+      "options": [
+        {
+          "value": "ad",
+          "label": {
+            "pt-BR": "Active Directory",
+            "en": "Active Directory",
+            "es": "Active Directory",
+            "it": "Active Directory",
+            "fr": "Active Directory",
+            "de": "Active Directory"
+          }
+        },
+        {
+          "value": "files",
+          "label": {
+            "pt-BR": "Arquivos",
+            "en": "File sharing",
+            "es": "Archivos",
+            "it": "File",
+            "fr": "Fichiers",
+            "de": "Dateifreigabe"
+          }
+        },
+        {
+          "value": "rdp",
+          "label": {
+            "pt-BR": "RDS / RDP",
+            "en": "RDS / RDP",
+            "es": "RDS / RDP",
+            "it": "RDS / RDP",
+            "fr": "RDS / RDP",
+            "de": "RDS / RDP"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "pt-BR": "Outro",
+            "en": "Other",
+            "es": "Otro",
+            "it": "Altro",
+            "fr": "Autre",
+            "de": "Sonstiges"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "linux-server": [
+    {
+      "id": "technology",
+      "type": "text",
+      "label": {
+        "pt-BR": "Tecnologia ou plataforma atual (se souber)",
+        "en": "Current technology or platform (if known)",
+        "es": "Tecnología o plataforma actual (si la conoce)",
+        "it": "Tecnologia o piattaforma attuale (se nota)",
+        "fr": "Technologie ou plateforme actuelle (si connue)",
+        "de": "Aktuelle Technologie oder Plattform (falls bekannt)"
+      }
+    },
+    {
+      "id": "application",
+      "type": "text",
+      "label": {
+        "pt-BR": "Sistema ou aplicação a ser atendida",
+        "en": "System or application concerned",
+        "es": "Sistema o aplicación en cuestión",
+        "it": "Sistema o applicazione interessata",
+        "fr": "Système ou application concernée",
+        "de": "Betroffenes System oder Anwendung"
+      }
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "ongoing",
+          "label": {
+            "pt-BR": "Administração recorrente",
+            "en": "Ongoing administration",
+            "es": "Administración continua",
+            "it": "Gestione continuativa",
+            "fr": "Administration régulière",
+            "de": "Laufende Administration"
+          }
+        },
+        {
+          "value": "setup",
+          "label": {
+            "pt-BR": "Implantação ou reorganização",
+            "en": "Setup or reorganisation",
+            "es": "Implantación o reorganización",
+            "it": "Installazione o riorganizzazione",
+            "fr": "Mise en place ou réorganisation",
+            "de": "Einrichtung oder Neuorganisation"
+          }
+        },
+        {
+          "value": "incident",
+          "label": {
+            "pt-BR": "Resolver um problema",
+            "en": "Resolve an issue",
+            "es": "Resolver un problema",
+            "it": "Risolvere un problema",
+            "fr": "Résoudre un problème",
+            "de": "Problem beheben"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "network-project": [
+    {
+      "id": "location",
+      "type": "text",
+      "label": {
+        "pt-BR": "Cidade/UF ou região do atendimento",
+        "en": "Service city and region",
+        "es": "Ciudad y región del servicio",
+        "it": "Città e regione del servizio",
+        "fr": "Ville et région d’intervention",
+        "de": "Ort und Region der Leistung"
+      }
+    },
+    {
+      "id": "users",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de usuários",
+        "en": "Number of users",
+        "es": "Número de usuarios",
+        "it": "Numero di utenti",
+        "fr": "Nombre d’utilisateurs",
+        "de": "Anzahl der Nutzer"
+      },
+      "options": [
+        {
+          "value": "1-10",
+          "label": {
+            "pt-BR": "1–10",
+            "en": "1–10",
+            "es": "1–10",
+            "it": "1–10",
+            "fr": "1–10",
+            "de": "1–10"
+          }
+        },
+        {
+          "value": "11-25",
+          "label": {
+            "pt-BR": "11–25",
+            "en": "11–25",
+            "es": "11–25",
+            "it": "11–25",
+            "fr": "11–25",
+            "de": "11–25"
+          }
+        },
+        {
+          "value": "26-50",
+          "label": {
+            "pt-BR": "26–50",
+            "en": "26–50",
+            "es": "26–50",
+            "it": "26–50",
+            "fr": "26–50",
+            "de": "26–50"
+          }
+        },
+        {
+          "value": "51-100",
+          "label": {
+            "pt-BR": "51–100",
+            "en": "51–100",
+            "es": "51–100",
+            "it": "51–100",
+            "fr": "51–100",
+            "de": "51–100"
+          }
+        },
+        {
+          "value": "101+",
+          "label": {
+            "pt-BR": "101+",
+            "en": "101+",
+            "es": "101+",
+            "it": "101+",
+            "fr": "101+",
+            "de": "101+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "building",
+      "type": "select",
+      "label": {
+        "pt-BR": "Situação do imóvel",
+        "en": "Building status",
+        "es": "Estado del inmueble",
+        "it": "Stato dell’immobile",
+        "fr": "État du bâtiment",
+        "de": "Gebäudestatus"
+      },
+      "options": [
+        {
+          "value": "construction",
+          "label": {
+            "pt-BR": "Em construção",
+            "en": "Under construction",
+            "es": "En construcción",
+            "it": "In costruzione",
+            "fr": "En construction",
+            "de": "Im Bau"
+          }
+        },
+        {
+          "value": "renovation",
+          "label": {
+            "pt-BR": "Em reforma",
+            "en": "Under renovation",
+            "es": "En reforma",
+            "it": "In ristrutturazione",
+            "fr": "En rénovation",
+            "de": "In Renovierung"
+          }
+        },
+        {
+          "value": "operating",
+          "label": {
+            "pt-BR": "Em funcionamento",
+            "en": "In use",
+            "es": "En funcionamiento",
+            "it": "In uso",
+            "fr": "En activité",
+            "de": "In Betrieb"
+          }
+        },
+        {
+          "value": "other",
+          "label": {
+            "pt-BR": "Outro",
+            "en": "Other",
+            "es": "Otro",
+            "it": "Altro",
+            "fr": "Autre",
+            "de": "Sonstiges"
+          }
+        }
+      ]
+    },
+    {
+      "id": "floors",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de andares atendidos",
+        "en": "Number of floors served",
+        "es": "Número de plantas atendidas",
+        "it": "Numero di piani interessati",
+        "fr": "Nombre d’étages concernés",
+        "de": "Anzahl der betroffenen Etagen"
+      },
+      "options": [
+        {
+          "value": "1",
+          "label": {
+            "pt-BR": "1",
+            "en": "1",
+            "es": "1",
+            "it": "1",
+            "fr": "1",
+            "de": "1"
+          }
+        },
+        {
+          "value": "2",
+          "label": {
+            "pt-BR": "2",
+            "en": "2",
+            "es": "2",
+            "it": "2",
+            "fr": "2",
+            "de": "2"
+          }
+        },
+        {
+          "value": "3",
+          "label": {
+            "pt-BR": "3",
+            "en": "3",
+            "es": "3",
+            "it": "3",
+            "fr": "3",
+            "de": "3"
+          }
+        },
+        {
+          "value": "4+",
+          "label": {
+            "pt-BR": "4+",
+            "en": "4+",
+            "es": "4+",
+            "it": "4+",
+            "fr": "4+",
+            "de": "4+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
+  ],
+  "wifi-project": [
+    {
+      "id": "location",
+      "type": "text",
+      "label": {
+        "pt-BR": "Cidade/UF ou região do atendimento",
+        "en": "Service city and region",
+        "es": "Ciudad y región del servicio",
+        "it": "Città e regione del servizio",
+        "fr": "Ville et région d’intervention",
+        "de": "Ort und Region der Leistung"
+      }
+    },
+    {
+      "id": "users",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de usuários",
+        "en": "Number of users",
+        "es": "Número de usuarios",
+        "it": "Numero di utenti",
+        "fr": "Nombre d’utilisateurs",
+        "de": "Anzahl der Nutzer"
+      },
+      "options": [
+        {
+          "value": "1-10",
+          "label": {
+            "pt-BR": "1–10",
+            "en": "1–10",
+            "es": "1–10",
+            "it": "1–10",
+            "fr": "1–10",
+            "de": "1–10"
+          }
+        },
+        {
+          "value": "11-25",
+          "label": {
+            "pt-BR": "11–25",
+            "en": "11–25",
+            "es": "11–25",
+            "it": "11–25",
+            "fr": "11–25",
+            "de": "11–25"
+          }
+        },
+        {
+          "value": "26-50",
+          "label": {
+            "pt-BR": "26–50",
+            "en": "26–50",
+            "es": "26–50",
+            "it": "26–50",
+            "fr": "26–50",
+            "de": "26–50"
+          }
+        },
+        {
+          "value": "51-100",
+          "label": {
+            "pt-BR": "51–100",
+            "en": "51–100",
+            "es": "51–100",
+            "it": "51–100",
+            "fr": "51–100",
+            "de": "51–100"
+          }
+        },
+        {
+          "value": "101+",
+          "label": {
+            "pt-BR": "101+",
+            "en": "101+",
+            "es": "101+",
+            "it": "101+",
+            "fr": "101+",
+            "de": "101+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "floors",
+      "type": "select",
+      "label": {
+        "pt-BR": "Quantidade de andares atendidos",
+        "en": "Number of floors served",
+        "es": "Número de plantas atendidas",
+        "it": "Numero di piani interessati",
+        "fr": "Nombre d’étages concernés",
+        "de": "Anzahl der betroffenen Etagen"
+      },
+      "options": [
+        {
+          "value": "1",
+          "label": {
+            "pt-BR": "1",
+            "en": "1",
+            "es": "1",
+            "it": "1",
+            "fr": "1",
+            "de": "1"
+          }
+        },
+        {
+          "value": "2",
+          "label": {
+            "pt-BR": "2",
+            "en": "2",
+            "es": "2",
+            "it": "2",
+            "fr": "2",
+            "de": "2"
+          }
+        },
+        {
+          "value": "3",
+          "label": {
+            "pt-BR": "3",
+            "en": "3",
+            "es": "3",
+            "it": "3",
+            "fr": "3",
+            "de": "3"
+          }
+        },
+        {
+          "value": "4+",
+          "label": {
+            "pt-BR": "4+",
+            "en": "4+",
+            "es": "4+",
+            "it": "4+",
+            "fr": "4+",
+            "de": "4+"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    },
+    {
+      "id": "need",
+      "type": "select",
+      "label": {
+        "pt-BR": "Principal necessidade",
+        "en": "Main requirement",
+        "es": "Necesidad principal",
+        "it": "Esigenza principale",
+        "fr": "Besoin principal",
+        "de": "Hauptbedarf"
+      },
+      "options": [
+        {
+          "value": "coverage",
+          "label": {
+            "pt-BR": "Melhorar cobertura",
+            "en": "Improve coverage",
+            "es": "Mejorar cobertura",
+            "it": "Migliorare copertura",
+            "fr": "Améliorer la couverture",
+            "de": "Abdeckung verbessern"
+          }
+        },
+        {
+          "value": "capacity",
+          "label": {
+            "pt-BR": "Aumentar capacidade",
+            "en": "Increase capacity",
+            "es": "Aumentar capacidad",
+            "it": "Aumentare capacità",
+            "fr": "Augmenter la capacité",
+            "de": "Kapazität erhöhen"
+          }
+        },
+        {
+          "value": "setup",
+          "label": {
+            "pt-BR": "Nova instalação",
+            "en": "New installation",
+            "es": "Nueva instalación",
+            "it": "Nuova installazione",
+            "fr": "Nouvelle installation",
+            "de": "Neuinstallation"
+          }
+        },
+        {
+          "value": "unknown",
+          "label": {
+            "pt-BR": "Não sei informar",
+            "en": "Not sure",
+            "es": "No lo sé",
+            "it": "Non lo so",
+            "fr": "Je ne sais pas",
+            "de": "Weiß ich nicht"
+          }
+        }
+      ]
+    }
   ]
 }

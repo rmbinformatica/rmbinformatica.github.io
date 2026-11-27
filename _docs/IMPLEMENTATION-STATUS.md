@@ -18,3 +18,6 @@ O servidor simples do Python não resolve URLs limpas para arquivos .html. Prese
 
 ## Lote MSP
 Nove landing pages agrupadas conforme matriz, cobrindo 19 IDs M1, incluindo serviços relacionados de outras categorias. Categoria MSP navegável; breadcrumbs dinâmicos por categoria e modalidade; nove formulários com traduções. Sem preços, sem SLA implícito. Formulários em homologação sem backend. Páginas de categorias transversais serão vinculadas posteriormente.
+
+## Lote servidores e infraestrutura
+Seis novas landing pages cobrem 12 IDs M1, com duas categorias navegáveis. Virtualização e DBA reutilizados na categoria servidores. Formulário de cabeamento existente integrado e cinco novos schemas traduzidos. Modalidade exclusivamente presencial distinguida da híbrida. Experiência com registro de domínios desde 1998 informada pelo responsável; ID pessoal não publicado. Sem preços, sem ativação de formulários.

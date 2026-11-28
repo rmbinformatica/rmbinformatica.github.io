@@ -119,3 +119,11 @@ p{margin:0 0 1rem}code,pre{font-family:var(--mono)}pre{overflow:auto}
 .rmb-home .rmb-feature-primary[data-tone]{background:linear-gradient(135deg,#075985,#0c3f63);box-shadow:0 12px 32px #071e3255}
 .rmb-home .rmb-solution-card[data-tone]:focus-within,.rmb-home .rmb-feature-card[data-tone]:focus-within{border-color:var(--tone-accent);box-shadow:0 0 0 2px var(--tone-accent)}
 @media(hover:hover) and (pointer:fine){.rmb-home .rmb-solution-card[data-tone]:hover,.rmb-home .rmb-feature-card[data-tone]:hover{border-color:var(--tone-accent);box-shadow:0 8px 24px #0003}}
+
+/* Extend approved trial palette to category cards on the Brazilian home. */
+.rmb-home .rmb-category[data-tone]{background:var(--tone);color:#fff;border:1px solid var(--tone-accent);border-top:4px solid var(--tone-accent);box-shadow:none}
+.rmb-home .rmb-category[data-tone] .rmb-category-icon{background:#ffffff12;color:var(--tone-accent);border:1px solid var(--tone-accent)}
+.rmb-home .rmb-category[data-tone] h3 a{color:#fff}
+.rmb-home .rmb-category[data-tone] p{color:#f5f9ff}
+.rmb-home .rmb-category[data-tone]:focus-within{border-color:var(--tone-accent);box-shadow:0 0 0 2px var(--tone-accent)}
+@media(hover:hover) and (pointer:fine){.rmb-home .rmb-category[data-tone]:hover{border-color:var(--tone-accent);box-shadow:0 8px 24px #0003}}

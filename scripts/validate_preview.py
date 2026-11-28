@@ -17,12 +17,14 @@ class Page(HTMLParser):
         self.alternates = []
         self.analytics = False
         self.categories = set()
+        self.category_tones = {}
         self.flags = 0
         self.globe_images = set()
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
         if a.get("data-category"):
             self.categories.add(a["data-category"])
+            self.category_tones[a["data-category"]] = a.get("data-tone")
         if tag == "svg" and "rmb-flag" in (a.get("class") or "").split():
             self.flags += 1
         if tag == "img" and (a.get("class") or "").startswith("rmb-globe-"):
@@ -62,7 +64,8 @@ def main():
             assert 'class="rmb-hero-network"' in html, route
             for tone in ('msp','cloud','security','automation','diagnostic','monitor','ai'):
                 assert f'data-tone="{tone}"' in html, tone
-            assert html.count('data-tone=') == 12, route
+            assert html.count('data-tone=') == 28, route
+            assert page.category_tones == {"infra":"msp","msp":"msp","servers":"msp","cloud":"cloud","security":"security","backup":"security","mail":"cloud","software":"automation","devops":"cloud","automation":"automation","data":"diagnostic","finance":"automation","open":"cloud","web":"automation","consulting":"diagnostic","ai":"ai"}, "Incorrect category palette"
             assert '/assets/css/rmb.css?v=' in html, route
         assert page.lang == lang, f"{route}: wrong HTML language"
         assert page.noindex, f"{route}: missing noindex"

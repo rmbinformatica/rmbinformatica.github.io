@@ -51,3 +51,6 @@ Hierarquia comercial provisória de seis destaques, com MSP em destaque principa
 
 ## Experimento cromático da home brasileira
 Paleta complementar experimental aprovada para teste: azul, azul-nuvem, verde, âmbar, petróleo e violeta nos seis cards de soluções e seis destaques. Cores aplicadas ao fundo inteiro, com textos claros e acentos contrastantes nos dois temas. Identidade institucional e categorias preservadas. CSS versionado por build para mitigar cache. Revisão visual e aprovação definitiva pendentes.
+
+## Extensão da paleta às áreas de atuação
+Após avaliação positiva do responsável, as 16 categorias da home brasileira receberam a mesma paleta semântica aplicada aos 12 cards comerciais. Mapeamento por especialidade em dados centralizados; preservados nomes, ordem, descrições, ícones, URLs e páginas de destino. Demais idiomas e páginas internas não alterados. Aprovação visual e deploy pendentes.

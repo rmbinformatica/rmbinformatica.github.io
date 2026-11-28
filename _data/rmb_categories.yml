@@ -10,7 +10,8 @@
       "de": "Unternehmensinfrastruktur"
     },
     "description": "Redes, conectividade física e equipamentos de TI.",
-    "path": "M3 21V7l9-4 9 4v14M3 21h18M8 21v-5h8v5M7 10h2m6 0h2m-10 3h2m6 0h2"
+    "path": "M3 21V7l9-4 9 4v14M3 21h18M8 21v-5h8v5M7 10h2m6 0h2m-10 3h2m6 0h2",
+    "tone": "msp"
   },
   {
     "id": "msp",
@@ -23,7 +24,8 @@
       "de": "Managed IT Services (MSP)"
     },
     "description": "Suporte, monitoramento e gestão contínua de TI.",
-    "path": "M3 13v-2a9 9 0 0 1 18 0v2M3 13h3v6H3zM18 13h3v6h-3zM18 19v2h-6"
+    "path": "M3 13v-2a9 9 0 0 1 18 0v2M3 13h3v6H3zM18 13h3v6h-3zM18 19v2h-6",
+    "tone": "msp"
   },
   {
     "id": "servers",
@@ -36,7 +38,8 @@
       "de": "Systeme und Server"
     },
     "description": "Implantação, administração e manutenção de servidores.",
-    "path": "M3 4h18v7H3zM3 13h18v7H3zM6 7.5h1m3 0h1M6 16.5h1m3 0h1"
+    "path": "M3 4h18v7H3zM3 13h18v7H3zM6 7.5h1m3 0h1M6 16.5h1m3 0h1",
+    "tone": "msp"
   },
   {
     "id": "cloud",
@@ -49,7 +52,8 @@
       "de": "Hosting und Cloud-Dienste"
     },
     "description": "Hospedagem de sites, e-mails e aplicações.",
-    "path": "M6 19h12a4 4 0 0 0 0-8h-1a6 6 0 0 0-11.7 1A3.5 3.5 0 0 0 6 19Z"
+    "path": "M6 19h12a4 4 0 0 0 0-8h-1a6 6 0 0 0-11.7 1A3.5 3.5 0 0 0 6 19Z",
+    "tone": "cloud"
   },
   {
     "id": "security",
@@ -62,7 +66,8 @@
       "de": "Sicherheit und Konnektivität"
     },
     "description": "Proteção, VPN e continuidade da conectividade.",
-    "path": "M12 3 21 7v5c0 5-4 8-9 10-5-2-9-5-9-10V7zM8 12l3 3 5-6"
+    "path": "M12 3 21 7v5c0 5-4 8-9 10-5-2-9-5-9-10V7zM8 12l3 3 5-6",
+    "tone": "security"
   },
   {
     "id": "backup",
@@ -75,7 +80,8 @@
       "de": "Backup und Betriebskontinuität"
     },
     "description": "Cópias de segurança, recuperação e contingência.",
-    "path": "M3 12a9 9 0 1 1 3 6.7M3 6v6h6M12 7v5l3 2"
+    "path": "M3 12a9 9 0 1 1 3 6.7M3 6v6h6M12 7v5l3 2",
+    "tone": "security"
   },
   {
     "id": "mail",
@@ -88,7 +94,8 @@
       "de": "E-Mail-Migration und Verarbeitung"
     },
     "description": "Migrações de caixas postais e tratamento de mensagens.",
-    "path": "M3 5h18v12H3zM3 6l9 6 9-6M8 21h8m-3-3 3 3-3 3"
+    "path": "M3 5h18v12H3zM3 6l9 6 9-6M8 21h8m-3-3 3 3-3 3",
+    "tone": "cloud"
   },
   {
     "id": "software",
@@ -101,7 +108,8 @@
       "de": "Softwareentwicklung und Integration"
     },
     "description": "Aplicações sob medida e integração entre sistemas.",
-    "path": "M8 6l-6 6 6 6m8-12 6 6-6 6m-2-15-4 18"
+    "path": "M8 6l-6 6 6 6m8-12 6 6-6 6m-2-15-4 18",
+    "tone": "automation"
   },
   {
     "id": "devops",
@@ -114,7 +122,8 @@
       "de": "Containerisierung und DevOps"
     },
     "description": "Containers, implantação e modernização de sistemas.",
-    "path": "M12 2 22 8v8l-10 6-10-6V8zM2 8l10 6 10-6m-10 6v8M7 5l10 6"
+    "path": "M12 2 22 8v8l-10 6-10-6V8zM2 8l10 6 10-6m-10 6v8M7 5l10 6",
+    "tone": "cloud"
   },
   {
     "id": "automation",
@@ -127,7 +136,8 @@
       "de": "Automatisierung"
     },
     "description": "Automação de processos e tarefas repetitivas.",
-    "path": "M13 2 4 14h7l-1 8 10-12h-7z"
+    "path": "M13 2 4 14h7l-1 8 10-12h-7z",
+    "tone": "automation"
   },
   {
     "id": "data",
@@ -140,7 +150,8 @@
       "de": "Data Engineering"
     },
     "description": "Bancos de dados, processamento e qualidade da informação.",
-    "path": "M4 6c0-4 16-4 16 0s-16 4-16 0v12c0 4 16 4 16 0V6M4 12c0 4 16 4 16 0"
+    "path": "M4 6c0-4 16-4 16 0s-16 4-16 0v12c0 4 16 4 16 0V6M4 12c0 4 16 4 16 0",
+    "tone": "diagnostic"
   },
   {
     "id": "finance",
@@ -153,7 +164,8 @@
       "de": "Banken- und Finanzintegration"
     },
     "description": "Integrações, arquivos e fluxos financeiros.",
-    "path": "M3 8l9-5 9 5zM5 10v8m5-8v8m4-8v8m5-8v8M3 21h18"
+    "path": "M3 8l9-5 9 5zM5 10v8m5-8v8m4-8v8m5-8v8M3 21h18",
+    "tone": "automation"
   },
   {
     "id": "open",
@@ -166,7 +178,8 @@
       "de": "Open Source und Self-Hosting"
     },
     "description": "Implantação e manutenção de soluções em infraestrutura própria.",
-    "path": "M12 3a9 9 0 0 0-3 17.5v-4a4 4 0 1 1 6 0v4A9 9 0 0 0 12 3z"
+    "path": "M12 3a9 9 0 0 0-3 17.5v-4a4 4 0 1 1 6 0v4A9 9 0 0 0 12 3z",
+    "tone": "cloud"
   },
   {
     "id": "web",
@@ -179,7 +192,8 @@
       "de": "Webentwicklung"
     },
     "description": "Sites, aplicações web e presença digital.",
-    "path": "M3 4h18v16H3zM3 9h18M6 6.5h1m3 0h1M8 13l-2 2 2 2m8-4 2 2-2 2"
+    "path": "M3 4h18v16H3zM3 9h18M6 6.5h1m3 0h1M8 13l-2 2 2 2m8-4 2 2-2 2",
+    "tone": "automation"
   },
   {
     "id": "consulting",
@@ -192,7 +206,8 @@
       "de": "Beratung und Schulung"
     },
     "description": "Orientação técnica e capacitação profissional.",
-    "path": "M2 8l10-5 10 5-10 5zM6 10v7c4 3 8 3 12 0v-7m4-2v9"
+    "path": "M2 8l10-5 10 5-10 5zM6 10v7c4 3 8 3 12 0v-7m4-2v9",
+    "tone": "diagnostic"
   },
   {
     "id": "ai",
@@ -205,6 +220,7 @@
       "de": "Engineering und Prüfung von KI-Lösungen"
     },
     "description": "Revisão, recuperação e preparação de aplicações desenvolvidas com IA.",
-    "path": "M6 6h12v12H6zM9 3v3m6-3v3M9 18v3m6-3v3M3 9h3m-3 6h3m12-6h3m-3 6h3M9 12l2 2 4-4"
+    "path": "M6 6h12v12H6zM9 3v3m6-3v3M9 18v3m6-3v3M3 9h3m-3 6h3m12-6h3m-3 6h3M9 12l2 2 4-4",
+    "tone": "ai"
   }
 ]

@@ -1,0 +1,69 @@
+solutions:
+  - tone: msp
+    icon: 'M4 4h16v6H4z M4 14h16v6H4z M8 7h.01 M8 17h.01 M12 7h4 M12 17h4'
+    title: "Mi empresa necesita una TI fiable"
+    description: "Infraestructura, servidores, redes, soporte y monitorización."
+    url: /es/servicios/servicios-gestionados-ti/
+  - tone: cloud
+    icon: 'M5 17a4 4 0 0 1-1-8 6 6 0 0 1 11-3 5 5 0 0 1 3 11z M8 20h8'
+    title: "Necesito alojamiento para aplicaciones y correo"
+    description: "Alojamiento y servicios en la nube adaptados a tu empresa."
+    url: /es/servicios/alojamiento-y-nube/
+  - tone: security
+    icon: 'M12 3 21 7v5c0 5-4 8-9 10-5-2-9-5-9-10V7z M8 12l3 3 5-6'
+    title: "Necesito proteger mis datos"
+    description: "Copias de seguridad, protección, conectividad y continuidad del negocio."
+    url: /es/servicios/copias-de-seguridad-y-continuidad/
+  - tone: automation
+    icon: 'M3 3h6v6H3z M15 15h6v6h-6z M9 6h6a3 3 0 0 1 3 3v6 M6 9v6a3 3 0 0 0 3 3h6'
+    title: "Quiero automatizar procesos"
+    description: "Desarrollo, integraciones y automatización de tareas repetitivas."
+    url: /es/servicios/automatizacion-de-procesos/
+  - tone: diagnostic
+    icon: 'M4 19h16 M5 15l4-5 4 3 6-8 M16 5h3v3'
+    title: "Mi sistema es lento o difícil de mantener"
+    description: "Diagnóstico, optimización, bases de datos y modernización de aplicaciones."
+    url: /es/servicios/consultoria-y-formacion/
+  - tone: ai
+    icon: 'M9 3v3 M15 3v3 M9 18v3 M15 18v3 M3 9h3 M3 15h3 M18 9h3 M18 15h3 M6 6h12v12H6z M9 9h6v6H9z'
+    title: "He creado una solución con IA y necesito ayuda"
+    description: "Evaluación, recuperación y preparación para producción de aplicaciones creadas con IA."
+    url: /es/servicios/ingenieria-de-soluciones-con-ia/
+
+featured:
+  - tone: msp
+    kicker: "TI gestionada"
+    title: "Servicios gestionados de TI"
+    description: "Redes, servidores, soporte y monitorización para una operación más fiable."
+    url: /es/servicios/servicios-gestionados-ti/
+    icon: 'M4 4h16v6H4z M4 14h16v6H4z M8 7h.01 M8 17h.01 M12 7h4 M12 17h4'
+  - tone: monitor
+    kicker: "Disponibilidad"
+    title: "Monitorización de sitios y aplicaciones"
+    description: "Recibe alertas y consulta la disponibilidad de servicios esenciales."
+    url: /es/servicios/monitorizacion-de-disponibilidad/
+    icon: 'M2 12h5l3-7 4 14 3-7h5'
+  - tone: cloud
+    kicker: "Infraestructura en la nube"
+    title: "Alojamiento empresarial"
+    description: "Sitios web, correo, aplicaciones y servidores virtuales adaptados a tu operación."
+    url: /es/servicios/alojamiento-y-nube/
+    icon: 'M5 17a4 4 0 0 1-1-8 6 6 0 0 1 11-3 5 5 0 0 1 3 11z M8 20h8'
+  - tone: security
+    kicker: "Continuidad"
+    title: "Copias de seguridad y recuperación"
+    description: "Protege la información y prepara la recuperación de servicios tras incidentes."
+    url: /es/servicios/copias-de-seguridad-y-continuidad/
+    icon: 'M12 3 21 7v5c0 5-4 8-9 10-5-2-9-5-9-10V7z M8 12l3 3 5-6'
+  - tone: automation
+    kicker: "Productividad"
+    title: "Automatización de procesos"
+    description: "Reduce tareas repetitivas y mejora la consistencia de tus procesos."
+    url: /es/servicios/automatizacion-de-procesos/
+    icon: 'M3 3h6v6H3z M15 15h6v6h-6z M9 6h6a3 3 0 0 1 3 3v6 M6 9v6a3 3 0 0 0 3 3h6'
+  - tone: ai
+    kicker: "Ingeniería de software"
+    title: "Software desarrollado con IA"
+    description: "Evalúa, recupera y prepara aplicaciones creadas con IA para uso profesional."
+    url: /es/servicios/ingenieria-de-soluciones-con-ia/
+    icon: 'M9 3v3 M15 3v3 M9 18v3 M15 18v3 M3 9h3 M3 15h3 M18 9h3 M18 15h3 M6 6h12v12H6z M9 9h6v6H9z'

@@ -5,10 +5,10 @@
     <h2 id="categories-title">{{ cat_heading | escape }}</h2>
     <div class="rmb-category-grid">
     {% for cat in site.data.rmb_categories %}
-      <article class="rmb-card rmb-category" data-category="{{ cat.id | escape }}"{% if page.layout == 'rmb-home' or page.layout == 'rmb-home-en' %} data-tone="{{ cat.tone | escape }}"{% endif %}>
+      <article class="rmb-card rmb-category" data-category="{{ cat.id | escape }}"{% if page.layout == 'rmb-home' or page.layout == 'rmb-home-en' or page.layout == 'rmb-home-es' %} data-tone="{{ cat.tone | escape }}"{% endif %}>
         <span class="rmb-category-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="{{ cat.path | escape }}"/></svg></span>
         <h3>{% assign category_page = site.pages | where: 'layout', 'rmb-category' | where: 'category_id', cat.id | where: 'lang', cat_locale | first %}{% if category_page %}<a href="{{ category_page.url | relative_url }}">{{ cat.labels[cat_locale] | escape }}</a>{% else %}{{ cat.labels[cat_locale] | escape }}{% endif %}</h3>
-        {% if cat_locale == 'pt-BR' %}<p>{{ cat.description | escape }}</p>{% elsif cat_locale == 'en' and category_page %}<p>{{ category_page.description | escape }}</p>{% endif %}
+        {% if cat_locale == 'pt-BR' %}<p>{{ cat.description | escape }}</p>{% elsif category_page %}<p>{{ category_page.description | escape }}</p>{% endif %}
       </article>
     {% endfor %}
     </div>

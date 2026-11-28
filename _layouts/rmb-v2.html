@@ -20,7 +20,7 @@
   {%- assign preview_home = site.pages | where: "translation_key", "preview-home" | where: "lang", "pt-BR" | first -%}
   {%- if preview_home -%}{%- assign home_url = preview_home.url -%}{%- endif -%}
 {%- endif -%}
-{%- if locale == 'en' -%}{%- assign home_url = '/preview-v2/en/' -%}{%- endif -%}
+{%- if locale == 'en' -%}{%- assign home_url = '/preview-v2/en/' -%}{%- elsif locale == 'es' -%}{%- assign home_url = '/preview-v2/es/' -%}{%- endif -%}
 <!doctype html>
 <html lang="{{ locale | escape }}">
 <head>
@@ -61,7 +61,7 @@
         <a href="{{ home_url | relative_url }}#services">{{ ui.services | escape }}</a>
         <a href="{{ '/blog/' | relative_url }}">{{ ui.blog | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
         <a href="https://ajuda.rmbinformatica.com.br/">{{ ui.help | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
-        <a href="{% if locale == 'en' %}{{ '/en/contact/' | relative_url }}{% else %}{{ '/contato.html' | relative_url }}{% endif %}">{{ ui.contact | escape }}</a>
+        <a href="{% if locale == 'en' %}{{ '/en/contact/' | relative_url }}{% elsif locale == 'es' %}{{ '/es/contacto/' | relative_url }}{% else %}{{ '/contato.html' | relative_url }}{% endif %}">{{ ui.contact | escape }}</a>
       </nav>
       <label class="rmb-theme" for="rmb-theme">{{ ui.theme | escape }}
         <select id="rmb-theme">
@@ -77,7 +77,7 @@
       <p><strong>RMB Informática</strong> · Natal/RN, {{ ui.country | escape }}</p>
       <p>{{ ui.since | escape }} 2003 · CNPJ: 05.930.393/0001-56</p>
       <nav class="rmb-footer-links" aria-label="{{ ui.footer | escape }}">
-        <a href="{% if locale == 'en' %}{{ '/en/contact/' | relative_url }}{% else %}{{ '/contato.html' | relative_url }}{% endif %}">{{ ui.contact | escape }}</a>
+        <a href="{% if locale == 'en' %}{{ '/en/contact/' | relative_url }}{% elsif locale == 'es' %}{{ '/es/contacto/' | relative_url }}{% else %}{{ '/contato.html' | relative_url }}{% endif %}">{{ ui.contact | escape }}</a>
         <a href="{{ '/blog/' | relative_url }}">Blog</a>
         <a href="https://ajuda.rmbinformatica.com.br/">{{ ui.help_portal | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
         <a href="https://rmbinformatica.com.br/">{{ ui.tools | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>

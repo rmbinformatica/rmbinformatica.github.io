@@ -1,5 +1,5 @@
 ---
-layout: rmb-preview-localized
+layout: rmb-home-es
 title: RMB Informática
 description: "Infraestructura, software y asistencia técnica con una comunicación clara."
 lang: es

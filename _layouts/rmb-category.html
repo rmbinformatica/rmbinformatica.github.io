@@ -7,6 +7,12 @@ layout: rmb-v2
 {% assign documents = site.pages | concat: site.servicos %}{% for route in page.services %}{% assign item = documents | where: "url", route | first %}{% if item %}<article class="rmb-card"><h3><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></h3><p>{{ item.description | escape }}</p><p><a href="{{ item.url | relative_url }}">Explore service →</a></p></article>{% endif %}{% endfor %}
 </div></div></section><section class="rmb-section"><div class="rmb-container rmb-cta"><h2>Need help choosing a solution?</h2><a class="rmb-button" href="{{ '/en/contact/' | relative_url }}">Talk to RMB</a></div></section>
 
+{% elsif page.lang == 'es' %}
+<section class="rmb-hero"><div class="rmb-container"><nav class="rmb-breadcrumb" aria-label="Ruta de navegación"><a href="{{ '/preview-v2/es/' | relative_url }}">Inicio</a> / Servicios</nav><h1>{{ page.title | escape }}</h1><p>{{ page.description | escape }}</p></div></section>
+<section class="rmb-section"><div class="rmb-container"><h2>Conoce nuestras soluciones</h2><div class="rmb-grid">
+{% assign documents = site.pages | concat: site.servicos %}{% for route in page.services %}{% assign item = documents | where: "url", route | first %}{% if item %}<article class="rmb-card"><h3><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></h3><p>{{ item.description | escape }}</p><p><a href="{{ item.url | relative_url }}">Conocer servicio →</a></p></article>{% endif %}{% endfor %}
+</div></div></section><section class="rmb-section"><div class="rmb-container rmb-cta"><h2>¿Necesitas orientación para elegir?</h2><a class="rmb-button" href="{{ '/es/contacto/' | relative_url }}">Hablar con RMB</a></div></section>
+
 {% else %}
 <section class="rmb-hero"><div class="rmb-container"><nav class="rmb-breadcrumb" aria-label="Localização"><a href="{{ '/preview-v2/' | relative_url }}">Início</a> / Serviços</nav><h1>{{ page.title | escape }}</h1><p>{{ page.description | escape }}</p></div></section>
 <section class="rmb-section"><div class="rmb-container"><h2>Conheça nossas soluções</h2><div class="rmb-grid">

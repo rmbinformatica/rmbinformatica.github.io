@@ -1,0 +1,73 @@
+---
+layout: rmb-v2
+---
+<div class="rmb-home">
+<section class="rmb-hero rmb-home-hero">
+  <div class="rmb-container rmb-hero-inner">
+    <div>
+      <p class="rmb-eyebrow">Ingeniería informática y servicios de TI</p>
+      <h1>Tecnología para que tu empresa funcione mejor.</h1>
+      <p>Desde la infraestructura que mantiene tu empresa conectada hasta el software que simplifica tus procesos: soluciones tecnológicas con experiencia, rigor técnico y comunicación clara.</p>
+      <div class="rmb-actions">
+        <a class="rmb-button" href="{{ '/es/contacto/' | relative_url }}">Hablar de mi proyecto</a>
+        <a class="rmb-button rmb-button-secondary" href="#services">Conocer nuestros servicios</a>
+      </div>
+    </div>
+    <aside class="rmb-hero-panel">
+      <svg class="rmb-hero-network" viewBox="0 0 320 150" fill="none" aria-hidden="true" focusable="false"><g stroke="currentColor" stroke-width="1.5"><path d="M160 75 45 30M160 75 45 120M160 75 275 30M160 75 275 120M160 75 160 12M160 75 160 138"/><rect x="132" y="48" width="56" height="54" rx="10"/><path d="M144 65h32m-32 12h32m-32 12h20"/><rect x="27" y="12" width="36" height="36" rx="8"/><rect x="27" y="102" width="36" height="36" rx="8"/><rect x="257" y="12" width="36" height="36" rx="8"/><rect x="257" y="102" width="36" height="36" rx="8"/></g><g fill="currentColor"><circle cx="45" cy="30" r="4"/><circle cx="45" cy="120" r="4"/><circle cx="275" cy="30" r="4"/><circle cx="275" cy="120" r="4"/><circle cx="160" cy="12" r="3"/><circle cx="160" cy="138" r="3"/><circle class="rmb-network-pulse" cx="160" cy="75" r="7"/></g></svg>
+      <h2>Ingeniería aplicada</h2>
+      <ul><li>Tecnología para empresas desde 2003.</li><li>Con sede en Natal, Brasil, y servicios remotos internacionales.</li><li>Proyectos y soporte técnico para empresas y socios tecnológicos.</li></ul>
+    </aside>
+  </div>
+</section>
+<section class="rmb-section" aria-labelledby="rmb-history-title"><div class="rmb-container"><h2 id="rmb-history-title">Tecnología para empresas desde 2003</h2><p>Fundada en 2003, RMB Informática nació de una trayectoria tecnológica iniciada en 1998, cuando su fundador comenzó a desarrollar soluciones web. Desde entonces hemos ampliado nuestra actividad a infraestructura, redes, sistemas, desarrollo de software y automatización.</p><p>Con sede en Natal, Brasil, ofrecemos servicios remotos a empresas brasileñas e internacionales.</p></div></section>
+<section id="services" class="rmb-section rmb-home-solutions">
+  <div class="rmb-container">
+    <h2>¿Cómo podemos ayudarte?</h2>
+    <p class="rmb-section-intro">No necesitas conocer el nombre técnico de la solución. Cuéntanos qué quieres resolver.</p>
+    <div class="rmb-grid">
+      {% for item in site.data.rmb_home_es.solutions %}
+        <article class="rmb-card rmb-solution-card" data-tone="{{ item.tone | escape }}">
+          <span class="rmb-home-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="28" height="28"><path d="{{ item.icon | escape }}"/></svg></span>
+          <h3>{{ item.title | escape }}</h3><p>{{ item.description | escape }}</p>
+          {% if item.url %}<p><a href="{{ item.url | relative_url }}">Más información</a></p>{% endif %}
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<section class="rmb-section rmb-featured" aria-labelledby="rmb-featured-title">
+  <div class="rmb-container">
+    <p class="rmb-eyebrow">Soluciones para tu operación</p>
+    <h2 id="rmb-featured-title">Servicios destacados</h2>
+    <p class="rmb-section-intro">Conoce servicios para mantener tu empresa conectada, proteger la información y evolucionar tus sistemas.</p>
+    <div class="rmb-featured-grid">
+      {% for item in site.data.rmb_home_es.featured %}
+      <article class="rmb-feature-card{% if forloop.first %} rmb-feature-primary{% endif %}" data-tone="{{ item.tone | escape }}">
+        <span class="rmb-home-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="32" height="32"><path d="{{ item.icon | escape }}"/></svg></span>
+        <p class="rmb-feature-kicker">{{ item.kicker | escape }}</p>
+        <h3><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></h3>
+        <p>{{ item.description | escape }}</p>
+        <a class="rmb-feature-link" href="{{ item.url | relative_url }}" aria-label="Conocer {{ item.title | escape }}">Conocer servicio <span aria-hidden="true">→</span></a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% include rmb-categories.html %}
+<section class="rmb-section">
+  <div class="rmb-container rmb-cta rmb-home-ai">
+    <p class="rmb-eyebrow">Software desarrollado con IA</p>
+    <h2>Tú conoces tu negocio. Nosotros conocemos la ingeniería de software.</h2>
+    <p>¿Has creado una hoja de cálculo, automatización o aplicación con IA? Podemos evaluar tu proyecto y ayudarte a prepararlo para el uso profesional por equipos y clientes.</p>
+    <div class="rmb-actions"><a class="rmb-button" href="{{ '/es/contacto/' | relative_url }}">Presentar mi proyecto</a><a class="rmb-button rmb-button-secondary" href="{{ '/es/servicios/ingenieria-de-soluciones-con-ia/' | relative_url }}">Conocer soluciones de IA</a></div>
+  </div>
+</section>
+<section class="rmb-section">
+  <div class="rmb-container rmb-grid">
+    <article class="rmb-card"><h2>Atención sin fronteras</h2><p>Desde Natal, Brasil, ofrecemos servicios remotos internacionales adaptados a las necesidades de tu operación.</p></article>
+    <article class="rmb-card"><h2>Colaboración B2B</h2><p>Respaldo técnico para empresas tecnológicas, agencias y proveedores, también en modalidad de marca blanca, con responsabilidades bien definidas.</p></article>
+  </div>
+</section>
+
+</div>

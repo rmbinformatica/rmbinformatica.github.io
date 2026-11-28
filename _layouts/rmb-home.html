@@ -28,7 +28,7 @@ layout: rmb-v2
     <p class="rmb-section-intro">Você não precisa conhecer o nome técnico da solução. Conte-nos o que deseja resolver.</p>
     <div class="rmb-grid">
       {% for item in site.data.rmb_home.solutions %}
-        <article class="rmb-card rmb-solution-card">
+        <article class="rmb-card rmb-solution-card" data-tone="{{ item.tone | escape }}">
           <span class="rmb-home-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="28" height="28"><path d="{{ item.icon | escape }}"/></svg></span>
           <h3>{{ item.title | escape }}</h3><p>{{ item.description | escape }}</p>
           {% if item.url %}<p><a href="{{ item.url | relative_url }}">Saiba mais</a></p>{% endif %}
@@ -44,7 +44,7 @@ layout: rmb-v2
     <p class="rmb-section-intro">Conheça serviços para manter sua empresa conectada, proteger informações e evoluir seus sistemas.</p>
     <div class="rmb-featured-grid">
       {% for item in site.data.rmb_home.featured %}
-      <article class="rmb-feature-card{% if forloop.first %} rmb-feature-primary{% endif %}">
+      <article class="rmb-feature-card{% if forloop.first %} rmb-feature-primary{% endif %}" data-tone="{{ item.tone | escape }}">
         <span class="rmb-home-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="32" height="32"><path d="{{ item.icon | escape }}"/></svg></span>
         <p class="rmb-feature-kicker">{{ item.kicker | escape }}</p>
         <h3><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></h3>

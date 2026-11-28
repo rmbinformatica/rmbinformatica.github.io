@@ -48,3 +48,6 @@ Home brasileira com marcos de 1998 e 2003, título SEO e descrição com Natal/R
 
 ## Refinamento visual da home brasileira
 Hierarquia comercial provisória de seis destaques, com MSP em destaque principal; monitoramento, hospedagem, backup, automação e IA como complementares. Gradientes, ilustração SVG própria, ícones, fundos alternados e interação suave respeitando redução de movimento. CSS restrito à home brasileira, mantendo 16 categorias, seis soluções, rotas, identidade e demais páginas. Seleção de destaques editorial, não ranking validado de mercado. Revisão visual em navegadores e aprovação pendentes.
+
+## Experimento cromático da home brasileira
+Paleta complementar experimental aprovada para teste: azul, azul-nuvem, verde, âmbar, petróleo e violeta nos seis cards de soluções e seis destaques. Cores aplicadas ao fundo inteiro, com textos claros e acentos contrastantes nos dois temas. Identidade institucional e categorias preservadas. CSS versionado por build para mitigar cache. Revisão visual e aprovação definitiva pendentes.

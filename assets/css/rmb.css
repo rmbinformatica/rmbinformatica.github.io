@@ -102,3 +102,20 @@ p{margin:0 0 1rem}code,pre{font-family:var(--mono)}pre{overflow:auto}
 @media(min-width:42rem){.rmb-featured-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.rmb-feature-primary{grid-column:span 2}}
 @media(min-width:65rem){.rmb-featured-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.rmb-feature-primary{grid-column:span 2;grid-row:span 2;justify-content:center;padding:2.5rem}.rmb-feature-primary h3{font-size:2rem}.rmb-feature-primary .rmb-feature-link{margin-top:1rem}}
 @media(prefers-reduced-motion:no-preference){.rmb-network-pulse{animation:rmb-network-pulse 2.8s ease-in-out infinite}@keyframes rmb-network-pulse{0%,100%{opacity:.35}50%{opacity:1}}}
+
+/* Experimental home-only semantic palette; reversible after visual review. */
+.rmb-home [data-tone="msp"]{--tone:#0c3f63;--tone-accent:#58ceff}
+.rmb-home [data-tone="cloud"]{--tone:#075985;--tone-accent:#bae6fd}
+.rmb-home [data-tone="security"]{--tone:#14532d;--tone-accent:#86efac}
+.rmb-home [data-tone="automation"]{--tone:#78350f;--tone-accent:#fcd34d}
+.rmb-home [data-tone="diagnostic"],.rmb-home [data-tone="monitor"]{--tone:#134e4a;--tone-accent:#5eead4}
+.rmb-home [data-tone="ai"]{--tone:#4c1d95;--tone-accent:#ddd6fe}
+.rmb-home .rmb-solution-card[data-tone],.rmb-home .rmb-feature-card[data-tone]{background:var(--tone);color:#fff;border:1px solid var(--tone-accent);border-top:4px solid var(--tone-accent);box-shadow:none}
+.rmb-home [data-tone] p{color:#f5f9ff}
+.rmb-home [data-tone] a,.rmb-home [data-tone] .rmb-feature-kicker,.rmb-home [data-tone] .rmb-feature-link{color:var(--tone-accent)}
+.rmb-home [data-tone] h3 a{color:#fff}
+.rmb-home [data-tone] .rmb-home-icon{background:#ffffff12;color:var(--tone-accent);border:1px solid var(--tone-accent)}
+.rmb-home [data-tone] :focus-visible{outline-color:var(--tone-accent)}
+.rmb-home .rmb-feature-primary[data-tone]{background:linear-gradient(135deg,#075985,#0c3f63);box-shadow:0 12px 32px #071e3255}
+.rmb-home .rmb-solution-card[data-tone]:focus-within,.rmb-home .rmb-feature-card[data-tone]:focus-within{border-color:var(--tone-accent);box-shadow:0 0 0 2px var(--tone-accent)}
+@media(hover:hover) and (pointer:fine){.rmb-home .rmb-solution-card[data-tone]:hover,.rmb-home .rmb-feature-card[data-tone]:hover{border-color:var(--tone-accent);box-shadow:0 8px 24px #0003}}

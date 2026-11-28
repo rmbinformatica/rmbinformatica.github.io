@@ -60,6 +60,10 @@ def main():
             assert 'id="rmb-featured-title"' in html and html.count('class="rmb-feature-card') == 6, "Missing featured services"
             assert 'href="/servicos/monitoramento-de-disponibilidade"' in html, route
             assert 'class="rmb-hero-network"' in html, route
+            for tone in ('msp','cloud','security','automation','diagnostic','monitor','ai'):
+                assert f'data-tone="{tone}"' in html, tone
+            assert html.count('data-tone=') == 12, route
+            assert '/assets/css/rmb.css?v=' in html, route
         assert page.lang == lang, f"{route}: wrong HTML language"
         assert page.noindex, f"{route}: missing noindex"
         assert not page.alternates, f"{route}: unexpected SEO alternate"

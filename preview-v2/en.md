@@ -1,7 +1,7 @@
 ---
-layout: rmb-preview-localized
+layout: rmb-home-en
 title: RMB Informática
-description: "Infrastructure, software and technical support with clear communication."
+description: "Remote IT services, business hosting, software development, automation and AI engineering for businesses worldwide."
 lang: en
 translation_key: preview-home
 permalink: /preview-v2/en/

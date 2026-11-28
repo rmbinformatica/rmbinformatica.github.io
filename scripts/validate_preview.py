@@ -68,6 +68,9 @@ def main():
             assert html.count('data-tone=') == 28, route
             assert page.category_tones == {"infra":"msp","msp":"msp","servers":"msp","cloud":"cloud","security":"security","backup":"security","mail":"cloud","software":"automation","devops":"cloud","automation":"automation","data":"diagnostic","finance":"automation","open":"cloud","web":"automation","consulting":"diagnostic","ai":"ai"}, "Incorrect category palette"
             assert '/assets/css/rmb.css?v=' in html, route
+        if lang != "pt-BR":
+            import re
+            assert not re.search(r'\((?:Portuguese|portugués|portoghese|portugais|Portugiesisch)\)\s*</a>', html.split('<div class="rmb-actions">', 1)[-1].split('</div>', 1)[0], re.I), "Unnecessary language qualifier in project CTA"
         assert page.lang == lang, f"{route}: wrong HTML language"
         assert page.noindex, f"{route}: missing noindex"
         assert not page.alternates, f"{route}: unexpected SEO alternate"

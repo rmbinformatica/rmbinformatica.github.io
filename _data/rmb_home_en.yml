@@ -1,0 +1,69 @@
+solutions:
+  - tone: msp
+    icon: 'M4 4h16v6H4z M4 14h16v6H4z M8 7h.01 M8 17h.01 M12 7h4 M12 17h4'
+    title: "My business needs reliable IT"
+    description: "Infrastructure, servers, networks, support and monitoring."
+    url: /en/services/managed-it-services/
+  - tone: cloud
+    icon: 'M5 17a4 4 0 0 1-1-8 6 6 0 0 1 11-3 5 5 0 0 1 3 11z M8 20h8'
+    title: "I need hosting for applications and email"
+    description: "Hosting and cloud services tailored to your business."
+    url: /en/services/hosting-and-cloud/
+  - tone: security
+    icon: 'M12 3 21 7v5c0 5-4 8-9 10-5-2-9-5-9-10V7z M8 12l3 3 5-6'
+    title: "I need to protect my data"
+    description: "Backup, security, connectivity and business continuity planning."
+    url: /en/services/backup-and-continuity/
+  - tone: automation
+    icon: 'M3 3h6v6H3z M15 15h6v6h-6z M9 6h6a3 3 0 0 1 3 3v6 M6 9v6a3 3 0 0 0 3 3h6'
+    title: "I want to automate business processes"
+    description: "Software development, integrations and automation of repetitive tasks."
+    url: /en/services/process-automation/
+  - tone: diagnostic
+    icon: 'M4 19h16 M5 15l4-5 4 3 6-8 M16 5h3v3'
+    title: "My system is slow or hard to maintain"
+    description: "Diagnosis, optimisation, databases and application modernisation."
+    url: /en/services/consulting-and-training/
+  - tone: ai
+    icon: 'M9 3v3 M15 3v3 M9 18v3 M15 18v3 M3 9h3 M3 15h3 M18 9h3 M18 15h3 M6 6h12v12H6z M9 9h6v6H9z'
+    title: "I built a solution with AI and need help"
+    description: "Assessment, repair and production readiness for AI-built applications."
+    url: /en/services/ai-solution-engineering/
+
+featured:
+  - tone: msp
+    kicker: "Managed IT"
+    title: "Managed IT services"
+    description: "Networks, servers, support and monitoring for more reliable operations."
+    url: /en/services/managed-it-services/
+    icon: 'M4 4h16v6H4z M4 14h16v6H4z M8 7h.01 M8 17h.01 M12 7h4 M12 17h4'
+  - tone: monitor
+    kicker: "Availability"
+    title: "Website and application monitoring"
+    description: "Receive alerts and track the availability of essential services."
+    url: /en/services/service-availability-monitoring/
+    icon: 'M2 12h5l3-7 4 14 3-7h5'
+  - tone: cloud
+    kicker: "Cloud infrastructure"
+    title: "Business hosting"
+    description: "Websites, email, applications and virtual servers tailored to your operations."
+    url: /en/services/hosting-and-cloud/
+    icon: 'M5 17a4 4 0 0 1-1-8 6 6 0 0 1 11-3 5 5 0 0 1 3 11z M8 20h8'
+  - tone: security
+    kicker: "Continuity"
+    title: "Backup and recovery"
+    description: "Protect information and prepare to recover services after incidents."
+    url: /en/services/backup-and-continuity/
+    icon: 'M12 3 21 7v5c0 5-4 8-9 10-5-2-9-5-9-10V7z M8 12l3 3 5-6'
+  - tone: automation
+    kicker: "Productivity"
+    title: "Process automation"
+    description: "Reduce repetitive tasks and improve operational consistency."
+    url: /en/services/process-automation/
+    icon: 'M3 3h6v6H3z M15 15h6v6h-6z M9 6h6a3 3 0 0 1 3 3v6 M6 9v6a3 3 0 0 0 3 3h6'
+  - tone: ai
+    kicker: "Software engineering"
+    title: "AI-built software"
+    description: "Assess, rescue and prepare AI-built applications for professional use."
+    url: /en/services/ai-solution-engineering/
+    icon: 'M9 3v3 M15 3v3 M9 18v3 M15 18v3 M3 9h3 M3 15h3 M18 9h3 M18 15h3 M6 6h12v12H6z M9 9h6v6H9z'

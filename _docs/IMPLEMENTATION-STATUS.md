@@ -57,3 +57,6 @@ Após avaliação positiva do responsável, as 16 categorias da home brasileira 
 
 ## Correção do atendimento online
 Removida seção após rodapé. Botões na home e rodapé carregam diretamente o widget existente, sem navegação por âncora. Adaptador de inicialização tardia captura apenas o listener load do script externo identificado por document.currentScript, sem redisparar load global; restaura método nativo após carregamento ou falha. Erros oferecem formulário alternativo. Teste real do widget e entrega Telegram pendentes. Paleta preservada.
+
+## English commercial preview
+55 service translations and 16 category pages, remote-first eligibility, Brazil-specific offerings explicitly contextualised. English home uses the approved colour palette and links to English routes. Contact page offers the existing public company email without enabling an unapproved form backend. Proposal forms remain preview-only. All English commercial pages noindex and excluded from sitemap pending approval; SEO hreflang publication deferred until indexable equivalents exist. Blog/help remain Portuguese. Visual and delivery review pending.

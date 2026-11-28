@@ -1,6 +1,28 @@
 ---
 layout: rmb-v2
 ---
+{% if page.lang == 'en' %}
+{% assign category = site.data.rmb_categories | where: "id", page.category_id | first %}
+{% assign category_page = site.pages | where: "layout", "rmb-category" | where: "category_id", page.category_id | where: "lang", page.lang | first %}
+<section class="rmb-hero"><div class="rmb-container">
+  <nav class="rmb-breadcrumb" aria-label="Breadcrumb"><a href="{{ '/preview-v2/en/' | relative_url }}">Home</a> / {% if category_page %}<a href="{{ category_page.url | relative_url }}">{{ category.labels[page.lang] | escape }}</a>{% else %}{{ category.labels[page.lang] | escape }}{% endif %}</nav>
+  <p class="rmb-eyebrow">{{ page.title | escape }}</p>
+  <h1>{{ page.headline | escape }}</h1><p>{{ page.intro | escape }}</p>
+  <a class="rmb-button" href="#proposal">Request a proposal</a>
+</div></section>
+<section class="rmb-section"><div class="rmb-container rmb-service-grid">
+ <article class="rmb-card"><h2>When we can help</h2><ul>{% for item in page.situations %}<li>{{ item | escape }}</li>{% endfor %}</ul></article>
+ <article class="rmb-card"><h2>What we can offer</h2><ul>{% for item in page.scope %}<li>{{ item | escape }}</li>{% endfor %}</ul></article>
+</div></section>
+<section class="rmb-section"><div class="rmb-container"><h2>How we work</h2><ol class="rmb-process">{% for item in page.process %}<li class="rmb-card">{{ item | escape }}</li>{% endfor %}</ol><p>Remote services tailored to your operational needs. We define pricing, timelines and responsibilities in your proposal.</p></div></section>
+<section class="rmb-section"><div class="rmb-container"><h2>Frequently asked questions</h2>{% for item in page.faq %}<details class="rmb-faq"><summary>{{ item.q | escape }}</summary><p>{{ item.a | escape }}</p></details>{% endfor %}</div></section>
+<section class="rmb-section"><div class="rmb-container rmb-cta"><h2>Let's discuss your requirements</h2><p>Tell us about your environment and what you want to achieve.</p><a class="rmb-button" href="#proposal">Request a proposal</a></div></section>
+{% include rmb-proposal-form.html %}
+<div class="rmb-container"><p>Want to discuss your requirements directly? <a href="{{ '/en/contact/' | relative_url }}">Contact our team</a>.</p></div>
+{% assign documents = site.pages | concat: site.servicos %}
+<section class="rmb-section"><div class="rmb-container"><h2>Related services</h2><div class="rmb-grid">{% for route in page.related %}{% assign english_route = site.data.rmb_en_routes[route] %}{% assign item = documents | where: "url", english_route | where: "lang", "en" | first %}{% if item %}<a class="rmb-card" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>{% endif %}{% endfor %}</div></div></section>
+
+{% else %}
 {% assign category = site.data.rmb_categories | where: "id", page.category_id | first %}
 {% assign category_page = site.pages | where: "layout", "rmb-category" | where: "category_id", page.category_id | where: "lang", page.lang | first %}
 <section class="rmb-hero"><div class="rmb-container">
@@ -19,3 +41,4 @@ layout: rmb-v2
 {% include rmb-proposal-form.html %}
 {% assign documents = site.pages | concat: site.servicos %}
 <section class="rmb-section"><div class="rmb-container"><h2>Serviços relacionados</h2><div class="rmb-grid">{% for route in page.related %}{% assign item = documents | where: "url", route | first %}{% if item %}<a class="rmb-card" href="{{ item.url | relative_url }}">{{ item.title | escape }}</a>{% endif %}{% endfor %}</div></div></section>
+{% endif %}

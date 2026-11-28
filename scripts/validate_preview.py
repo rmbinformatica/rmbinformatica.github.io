@@ -56,7 +56,8 @@ def main():
             assert "1998" in html and "Desde 2003" in html, route
             assert html.count(">Saiba mais</a>") == 6, "Missing home solution link"
             assert 'href="/servicos/hospedagem-e-nuvem/"' in html and 'href="/servicos/consultoria-de-ti-natal"' in html, route
-            assert 'id="rmb-chat-load"' in html and 'src="/assets/js/online-chat.js"' in html, route
+            assert 'data-chat-load' in html and 'src="/assets/js/online-chat.js?v=' in html, route
+            assert 'id="rmb-online-chat"' not in html and 'href="#rmb-online-chat"' not in html, route
             assert 'src="https://www.intergram.xyz/js/widget.js"' not in html, "Chat loaded without user action"
             assert 'application/ld+json' in html, route
             assert 'id="rmb-featured-title"' in html and html.count('class="rmb-feature-card') == 6, "Missing featured services"

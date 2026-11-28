@@ -127,3 +127,5 @@ p{margin:0 0 1rem}code,pre{font-family:var(--mono)}pre{overflow:auto}
 .rmb-home .rmb-category[data-tone] p{color:#f5f9ff}
 .rmb-home .rmb-category[data-tone]:focus-within{border-color:var(--tone-accent);box-shadow:0 0 0 2px var(--tone-accent)}
 @media(hover:hover) and (pointer:fine){.rmb-home .rmb-category[data-tone]:hover{border-color:var(--tone-accent);box-shadow:0 8px 24px #0003}}
+
+.rmb-chat-link{background:none;border:0;padding:0;color:var(--link);text-decoration:underline;text-underline-offset:.2em}.rmb-chat-link:disabled,[data-chat-load]:disabled{cursor:wait;opacity:.75}

@@ -81,7 +81,9 @@
         <a href="https://ajuda.rmbinformatica.com.br/">{{ ui.help_portal | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
         <a href="https://rmbinformatica.com.br/">{{ ui.tools | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
         <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+        {% if locale == "pt-BR" %}<button type="button" class="rmb-chat-link" data-chat-load>Atendimento online</button>{% endif %}
       </nav>
+      {% if locale == "pt-BR" %}<p id="rmb-footer-chat-status" role="status" aria-live="polite" hidden></p>{% endif %}
       <p>© 2003–{{ site.time | date: "%Y" }} RMB Informática. {{ ui.rights | escape }}</p>
     </div>
   </footer>

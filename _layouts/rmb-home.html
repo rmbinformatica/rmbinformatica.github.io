@@ -11,8 +11,9 @@ layout: rmb-v2
       <div class="rmb-actions">
         <a class="rmb-button" href="{{ '/contato.html' | relative_url }}">Conversar sobre meu projeto</a>
         <a class="rmb-button rmb-button-secondary" href="#services">Conhecer os serviços</a>
-        <a class="rmb-button rmb-button-secondary" href="#rmb-online-chat">Atendimento online</a>
+        <button type="button" class="rmb-button rmb-button-secondary" data-chat-load>Atendimento online</button>
       </div>
+      <p id="rmb-chat-status" role="status" aria-live="polite" hidden></p>
     </div>
     <aside class="rmb-hero-panel">
       <svg class="rmb-hero-network" viewBox="0 0 320 150" fill="none" aria-hidden="true" focusable="false"><g stroke="currentColor" stroke-width="1.5"><path d="M160 75 45 30M160 75 45 120M160 75 275 30M160 75 275 120M160 75 160 12M160 75 160 138"/><rect x="132" y="48" width="56" height="54" rx="10"/><path d="M144 65h32m-32 12h32m-32 12h20"/><rect x="27" y="12" width="36" height="36" rx="8"/><rect x="27" y="102" width="36" height="36" rx="8"/><rect x="257" y="12" width="36" height="36" rx="8"/><rect x="257" y="102" width="36" height="36" rx="8"/></g><g fill="currentColor"><circle cx="45" cy="30" r="4"/><circle cx="45" cy="120" r="4"/><circle cx="275" cy="30" r="4"/><circle cx="275" cy="120" r="4"/><circle cx="160" cy="12" r="3"/><circle cx="160" cy="138" r="3"/><circle class="rmb-network-pulse" cx="160" cy="75" r="7"/></g></svg>

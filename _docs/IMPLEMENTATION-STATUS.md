@@ -54,3 +54,6 @@ Paleta complementar experimental aprovada para teste: azul, azul-nuvem, verde, �
 
 ## Extensão da paleta às áreas de atuação
 Após avaliação positiva do responsável, as 16 categorias da home brasileira receberam a mesma paleta semântica aplicada aos 12 cards comerciais. Mapeamento por especialidade em dados centralizados; preservados nomes, ordem, descrições, ícones, URLs e páginas de destino. Demais idiomas e páginas internas não alterados. Aprovação visual e deploy pendentes.
+
+## Correção do atendimento online
+Removida seção após rodapé. Botões na home e rodapé carregam diretamente o widget existente, sem navegação por âncora. Adaptador de inicialização tardia captura apenas o listener load do script externo identificado por document.currentScript, sem redisparar load global; restaura método nativo após carregamento ou falha. Erros oferecem formulário alternativo. Teste real do widget e entrega Telegram pendentes. Paleta preservada.

@@ -1,11 +1,1 @@
-<section id="rmb-online-chat" class="rmb-section" aria-labelledby="rmb-chat-title">
-  <div class="rmb-container rmb-card">
-    <h2 id="rmb-chat-title">Atendimento online</h2>
-    <p>Converse com a RMB Informática sem precisar instalar um aplicativo. Se não houver atendimento imediato, deixe uma mensagem para retorno.</p>
-    <p>Ao abrir o chat, será carregado o serviço externo de comunicação. Evite enviar senhas ou informações confidenciais.</p>
-    <div class="rmb-actions"><button type="button" id="rmb-chat-load" class="rmb-button">Carregar chat</button><a href="{{ '/contato.html' | relative_url }}">Usar formulário de contato</a></div>
-    <p id="rmb-chat-status" role="status" aria-live="polite"></p>
-    <noscript>O chat necessita de JavaScript. Utilize o formulário de contato.</noscript>
-  </div>
-</section>
-<script src="{{ '/assets/js/online-chat.js' | relative_url }}" defer></script>
+<script src="{{ '/assets/js/online-chat.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

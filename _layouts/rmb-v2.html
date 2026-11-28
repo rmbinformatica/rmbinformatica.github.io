@@ -60,7 +60,7 @@
         <a href="{{ home_url | relative_url }}#services">{{ ui.services | escape }}</a>
         <a href="{{ '/blog/' | relative_url }}">{{ ui.blog | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
         <a href="https://ajuda.rmbinformatica.com.br/">{{ ui.help | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
-        <a href="{{ '/contato.html' | relative_url }}">{{ ui.contact | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
+        <a href="{{ '/contato.html' | relative_url }}">{{ ui.contact | escape }}</a>
       </nav>
       <label class="rmb-theme" for="rmb-theme">{{ ui.theme | escape }}
         <select id="rmb-theme">
@@ -76,7 +76,7 @@
       <p><strong>RMB Informática</strong> · Natal/RN, {{ ui.country | escape }}</p>
       <p>{{ ui.since | escape }} 2003 · CNPJ: 05.930.393/0001-56</p>
       <nav class="rmb-footer-links" aria-label="{{ ui.footer | escape }}">
-        <a href="{{ '/contato.html' | relative_url }}">{{ ui.contact | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
+        <a href="{{ '/contato.html' | relative_url }}">{{ ui.contact | escape }}</a>
         <a href="{{ '/blog/' | relative_url }}">Blog</a>
         <a href="https://ajuda.rmbinformatica.com.br/">{{ ui.help_portal | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>
         <a href="https://rmbinformatica.com.br/">{{ ui.tools | escape }}{% if locale != "pt-BR" %} ({{ ui.portuguese | escape }}){% endif %}</a>

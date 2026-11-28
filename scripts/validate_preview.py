@@ -57,6 +57,9 @@ def main():
             assert 'id="rmb-chat-load"' in html and 'src="/assets/js/online-chat.js"' in html, route
             assert 'src="https://www.intergram.xyz/js/widget.js"' not in html, "Chat loaded without user action"
             assert 'application/ld+json' in html, route
+            assert 'id="rmb-featured-title"' in html and html.count('class="rmb-feature-card') == 6, "Missing featured services"
+            assert 'href="/servicos/monitoramento-de-disponibilidade"' in html, route
+            assert 'class="rmb-hero-network"' in html, route
         assert page.lang == lang, f"{route}: wrong HTML language"
         assert page.noindex, f"{route}: missing noindex"
         assert not page.alternates, f"{route}: unexpected SEO alternate"

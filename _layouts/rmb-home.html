@@ -1,7 +1,8 @@
 ---
 layout: rmb-v2
 ---
-<section class="rmb-hero">
+<div class="rmb-home">
+<section class="rmb-hero rmb-home-hero">
   <div class="rmb-container rmb-hero-inner">
     <div>
       <p class="rmb-eyebrow">Engenharia de computação e serviços de TI</p>
@@ -14,19 +15,21 @@ layout: rmb-v2
       </div>
     </div>
     <aside class="rmb-hero-panel">
+      <svg class="rmb-hero-network" viewBox="0 0 320 150" fill="none" aria-hidden="true" focusable="false"><g stroke="currentColor" stroke-width="1.5"><path d="M160 75 45 30M160 75 45 120M160 75 275 30M160 75 275 120M160 75 160 12M160 75 160 138"/><rect x="132" y="48" width="56" height="54" rx="10"/><path d="M144 65h32m-32 12h32m-32 12h20"/><rect x="27" y="12" width="36" height="36" rx="8"/><rect x="27" y="102" width="36" height="36" rx="8"/><rect x="257" y="12" width="36" height="36" rx="8"/><rect x="257" y="102" width="36" height="36" rx="8"/></g><g fill="currentColor"><circle cx="45" cy="30" r="4"/><circle cx="45" cy="120" r="4"/><circle cx="275" cy="30" r="4"/><circle cx="275" cy="120" r="4"/><circle cx="160" cy="12" r="3"/><circle cx="160" cy="138" r="3"/><circle class="rmb-network-pulse" cx="160" cy="75" r="7"/></g></svg>
       <h2>Engenharia aplicada</h2>
       <ul><li>Tecnologia para empresas desde 2003.</li><li>Atendimento presencial em Natal/RN e remoto no Brasil e no exterior.</li><li>Projetos e suporte para empresas e parceiros técnicos.</li></ul>
     </aside>
   </div>
 </section>
 <section class="rmb-section" aria-labelledby="rmb-history-title"><div class="rmb-container"><h2 id="rmb-history-title">Tecnologia para empresas desde 2003</h2><p>Fundada em 2003, a RMB Informática nasceu de uma trajetória tecnológica iniciada em 1998, quando seu fundador começou a desenvolver soluções para a web. Desde então, acompanhamos a evolução da tecnologia, ampliando nossa atuação em infraestrutura, redes, sistemas, desenvolvimento de software e automação.</p><p>Com sede em Natal/RN, oferecemos atendimento presencial na região e serviços remotos no Brasil e no exterior.</p></div></section>
-<section id="services" class="rmb-section">
+<section id="services" class="rmb-section rmb-home-solutions">
   <div class="rmb-container">
     <h2>Como podemos ajudar?</h2>
     <p class="rmb-section-intro">Você não precisa conhecer o nome técnico da solução. Conte-nos o que deseja resolver.</p>
     <div class="rmb-grid">
       {% for item in site.data.rmb_home.solutions %}
-        <article class="rmb-card">
+        <article class="rmb-card rmb-solution-card">
+          <span class="rmb-home-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="28" height="28"><path d="{{ item.icon | escape }}"/></svg></span>
           <h3>{{ item.title | escape }}</h3><p>{{ item.description | escape }}</p>
           {% if item.url %}<p><a href="{{ item.url | relative_url }}">Saiba mais</a></p>{% endif %}
         </article>
@@ -34,13 +37,31 @@ layout: rmb-v2
     </div>
   </div>
 </section>
+<section class="rmb-section rmb-featured" aria-labelledby="rmb-featured-title">
+  <div class="rmb-container">
+    <p class="rmb-eyebrow">Soluções para sua operação</p>
+    <h2 id="rmb-featured-title">Serviços em destaque</h2>
+    <p class="rmb-section-intro">Conheça serviços para manter sua empresa conectada, proteger informações e evoluir seus sistemas.</p>
+    <div class="rmb-featured-grid">
+      {% for item in site.data.rmb_home.featured %}
+      <article class="rmb-feature-card{% if forloop.first %} rmb-feature-primary{% endif %}">
+        <span class="rmb-home-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" width="32" height="32"><path d="{{ item.icon | escape }}"/></svg></span>
+        <p class="rmb-feature-kicker">{{ item.kicker | escape }}</p>
+        <h3><a href="{{ item.url | relative_url }}">{{ item.title | escape }}</a></h3>
+        <p>{{ item.description | escape }}</p>
+        <a class="rmb-feature-link" href="{{ item.url | relative_url }}" aria-label="Conhecer {{ item.title | escape }}">Conhecer serviço <span aria-hidden="true">→</span></a>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 {% include rmb-categories.html %}
 <section class="rmb-section">
-  <div class="rmb-container rmb-cta">
+  <div class="rmb-container rmb-cta rmb-home-ai">
     <p class="rmb-eyebrow">Soluções desenvolvidas com IA</p>
     <h2>Você conhece o seu negócio. Nós conhecemos a engenharia de software.</h2>
     <p>Criou uma planilha, automação ou aplicativo com inteligência artificial e precisa disponibilizá-lo profissionalmente? Podemos avaliar seu projeto e definir os próximos passos para preparar a solução para uso por equipes e clientes.</p>
-    <a class="rmb-button" href="{{ '/contato.html' | relative_url }}">Apresentar meu projeto</a>
+    <div class="rmb-actions"><a class="rmb-button" href="{{ '/contato.html' | relative_url }}">Apresentar meu projeto</a><a class="rmb-button rmb-button-secondary" href="{{ '/servicos/engenharia-de-solucoes-com-ia/' | relative_url }}">Conhecer soluções de IA</a></div>
   </div>
 </section>
 <section class="rmb-section">
@@ -49,3 +70,5 @@ layout: rmb-v2
     <article class="rmb-card"><h2>Parcerias B2B</h2><p>Retaguarda técnica para empresas de tecnologia, agências e provedores, inclusive no modelo white label, com escopo e responsabilidades acordados.</p></article>
   </div>
 </section>
+
+</div>

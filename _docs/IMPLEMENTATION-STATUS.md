@@ -45,3 +45,6 @@ Doze páginas existentes ampliadas e uma nova página independente para o servi�
 
 ## Revisão institucional e SEO local
 Home brasileira com marcos de 1998 e 2003, título SEO e descrição com Natal/RN; dados estruturados de organização. Seis cards com links, hospedagem aponta para categoria e diagnóstico para consultoria. Rodapé com CNPJ histórico e copyright dinâmico localizado. Chat existente carregado por ação explícita do visitante nas páginas PT-BR do redesign, sem telefone divulgado; entrega de mensagens e revisão de privacidade pendentes de teste. Mantidas 16 categorias, URLs históricas e noindex da home de homologação.
+
+## Refinamento visual da home brasileira
+Hierarquia comercial provisória de seis destaques, com MSP em destaque principal; monitoramento, hospedagem, backup, automação e IA como complementares. Gradientes, ilustração SVG própria, ícones, fundos alternados e interação suave respeitando redução de movimento. CSS restrito à home brasileira, mantendo 16 categorias, seis soluções, rotas, identidade e demais páginas. Seleção de destaques editorial, não ranking validado de mercado. Revisão visual em navegadores e aprovação pendentes.

@@ -1,19 +1,57 @@
 solutions:
-  - title: Minha empresa precisa de TI confiável
+  - icon: 'M4 4h16v6H4z M4 14h16v6H4z M8 7h.01 M8 17h.01 M12 7h4 M12 17h4'
+    title: Minha empresa precisa de TI confiável
     description: Administração de infraestrutura, servidores, redes, suporte e monitoramento.
     url: /servicos/servicos-gerenciados-ti/
-  - title: Quero hospedar meus sistemas e e-mails
+  - icon: 'M5 17a4 4 0 0 1-1-8 6 6 0 0 1 11-3 5 5 0 0 1 3 11z M8 20h8'
+    title: Quero hospedar meus sistemas e e-mails
     description: Hospedagem e serviços em nuvem conforme as necessidades da empresa.
     url: /servicos/hospedagem-e-nuvem/
-  - title: Preciso proteger meus dados
+  - icon: 'M12 3 21 7v5c0 5-4 8-9 10-5-2-9-5-9-10V7z M8 12l3 3 5-6'
+    title: Preciso proteger meus dados
     description: Backup, segurança, conectividade e planejamento para continuidade do negócio.
     url: /servicos/backup-e-continuidade/
-  - title: Quero automatizar processos
+  - icon: 'M3 3h6v6H3z M15 15h6v6h-6z M9 6h6a3 3 0 0 1 3 3v6 M6 9v6a3 3 0 0 0 3 3h6'
+    title: Quero automatizar processos
     description: Desenvolvimento de software, integrações e automação de tarefas repetitivas.
     url: /servicos/automacao-de-processos/
-  - title: Meu sistema está lento ou difícil de manter
+  - icon: 'M4 19h16 M5 15l4-5 4 3 6-8 M16 5h3v3'
+    title: Meu sistema está lento ou difícil de manter
     description: Diagnóstico, otimização, bancos de dados e modernização de aplicações.
     url: /servicos/consultoria-de-ti-natal
-  - title: Criei uma solução com IA e preciso de ajuda
+  - icon: 'M9 3v3 M15 3v3 M9 18v3 M15 18v3 M3 9h3 M3 15h3 M18 9h3 M18 15h3 M6 6h12v12H6z M9 9h6v6H9z'
+    title: Criei uma solução com IA e preciso de ajuda
     description: Avaliação, correção e preparação de aplicações desenvolvidas com inteligência artificial.
     url: /servicos/engenharia-de-solucoes-com-ia/
+
+featured:
+  - kicker: "TI gerenciada"
+    title: "Serviços gerenciados de TI"
+    description: "Redes, servidores, suporte e monitoramento para uma operação mais estável."
+    url: /servicos/servicos-gerenciados-ti/
+    icon: 'M4 4h16v6H4z M4 14h16v6H4z M8 7h.01 M8 17h.01 M12 7h4 M12 17h4'
+  - kicker: "Disponibilidade"
+    title: "Monitoramento de sites e sistemas"
+    description: "Receba alertas de falhas e acompanhe a disponibilidade dos serviços essenciais."
+    url: /servicos/monitoramento-de-disponibilidade
+    icon: 'M2 12h5l3-7 4 14 3-7h5'
+  - kicker: "Infraestrutura em nuvem"
+    title: "Hospedagem corporativa"
+    description: "Sites, e-mails, sistemas e servidores virtuais adequados à sua operação."
+    url: /servicos/hospedagem-e-nuvem/
+    icon: 'M5 17a4 4 0 0 1-1-8 6 6 0 0 1 11-3 5 5 0 0 1 3 11z M8 20h8'
+  - kicker: "Continuidade"
+    title: "Backup e recuperação"
+    description: "Proteja informações e prepare sua empresa para recuperar serviços após incidentes."
+    url: /servicos/backup-e-continuidade/
+    icon: 'M12 3 21 7v5c0 5-4 8-9 10-5-2-9-5-9-10V7z M8 12l3 3 5-6'
+  - kicker: "Produtividade"
+    title: "Automação de processos"
+    description: "Reduza tarefas repetitivas e aumente a consistência da operação."
+    url: /servicos/automacao-de-processos/
+    icon: 'M3 3h6v6H3z M15 15h6v6h-6z M9 6h6a3 3 0 0 1 3 3v6 M6 9v6a3 3 0 0 0 3 3h6'
+  - kicker: "Engenharia de software"
+    title: "Soluções desenvolvidas com IA"
+    description: "Avalie, recupere e prepare aplicações criadas com IA para uso profissional."
+    url: /servicos/engenharia-de-solucoes-com-ia/
+    icon: 'M9 3v3 M15 3v3 M9 18v3 M15 18v3 M3 9h3 M3 15h3 M18 9h3 M18 15h3 M6 6h12v12H6z M9 9h6v6H9z'

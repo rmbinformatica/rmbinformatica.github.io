@@ -16,7 +16,9 @@
     "help_portal": "Portal de ajuda",
     "tools": "Ferramentas online",
     "country": "Brasil",
-    "portuguese": "Português"
+    "portuguese": "Português",
+    "since": "Desde",
+    "rights": "Todos os direitos reservados."
   },
   "en": {
     "name": "English",
@@ -35,7 +37,9 @@
     "help_portal": "Help portal",
     "tools": "Online tools",
     "country": "Brazil",
-    "portuguese": "Portuguese"
+    "portuguese": "Portuguese",
+    "since": "Since",
+    "rights": "All rights reserved."
   },
   "es": {
     "name": "Español",
@@ -54,7 +58,9 @@
     "help_portal": "Portal de ayuda",
     "tools": "Herramientas en línea",
     "country": "Brasil",
-    "portuguese": "portugués"
+    "portuguese": "portugués",
+    "since": "Desde",
+    "rights": "Todos los derechos reservados."
   },
   "it": {
     "name": "Italiano",
@@ -73,7 +79,9 @@
     "help_portal": "Portale di assistenza",
     "tools": "Strumenti online",
     "country": "Brasile",
-    "portuguese": "portoghese"
+    "portuguese": "portoghese",
+    "since": "Dal",
+    "rights": "Tutti i diritti riservati."
   },
   "fr": {
     "name": "Français",
@@ -92,7 +100,9 @@
     "help_portal": "Portail d’aide",
     "tools": "Outils en ligne",
     "country": "Brésil",
-    "portuguese": "portugais"
+    "portuguese": "portugais",
+    "since": "Depuis",
+    "rights": "Tous droits réservés."
   },
   "de": {
     "name": "Deutsch",
@@ -111,6 +121,8 @@
     "help_portal": "Hilfeportal",
     "tools": "Online-Tools",
     "country": "Brasilien",
-    "portuguese": "Portugiesisch"
+    "portuguese": "Portugiesisch",
+    "since": "Seit",
+    "rights": "Alle Rechte vorbehalten."
   }
 }

@@ -42,3 +42,6 @@ Onze páginas existentes ampliadas com 15 serviços sujeitos à avaliação pré
 
 ## Monitoramento de disponibilidade
 Doze páginas existentes ampliadas e uma nova página independente para o serviço 157, com formulário localizado em seis idiomas. Diferenciar disponibilidade de métricas internas, logs, testes funcionais completos e atendimento humano. Monitoramento de links depende de pontos de verificação distintos; sinais de rotinas exigem instrumentação. Sem divulgação da ferramenta de implementação, preços ou envio ativo. Implantação e capacidade de atendimento sujeitas à proposta.
+
+## Revisão institucional e SEO local
+Home brasileira com marcos de 1998 e 2003, título SEO e descrição com Natal/RN; dados estruturados de organização. Seis cards com links, hospedagem aponta para categoria e diagnóstico para consultoria. Rodapé com CNPJ histórico e copyright dinâmico localizado. Chat existente carregado por ação explícita do visitante nas páginas PT-BR do redesign, sem telefone divulgado; entrega de mensagens e revisão de privacidade pendentes de teste. Mantidas 16 categorias, URLs históricas e noindex da home de homologação.

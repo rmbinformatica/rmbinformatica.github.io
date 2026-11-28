@@ -46,7 +46,17 @@ def main():
     for lang, route in ROUTES.items():
         path = root / route.lstrip("/") / "index.html"
         page = Page()
-        page.feed(path.read_text(encoding="utf-8"))
+        html = path.read_text(encoding="utf-8")
+        page.feed(html)
+        assert "05.930.393/0001-56" in html and "© 2003–" in html, route
+        if lang == "pt-BR":
+            assert "RMB Informática | Infraestrutura, Suporte de TI e Software em Natal/RN" in html, route
+            assert "1998" in html and "Desde 2003" in html, route
+            assert html.count(">Saiba mais</a>") == 6, "Missing home solution link"
+            assert 'href="/servicos/hospedagem-e-nuvem/"' in html and 'href="/servicos/consultoria-de-ti-natal"' in html, route
+            assert 'id="rmb-chat-load"' in html and 'src="/assets/js/online-chat.js"' in html, route
+            assert 'src="https://www.intergram.xyz/js/widget.js"' not in html, "Chat loaded without user action"
+            assert 'application/ld+json' in html, route
         assert page.lang == lang, f"{route}: wrong HTML language"
         assert page.noindex, f"{route}: missing noindex"
         assert not page.alternates, f"{route}: unexpected SEO alternate"

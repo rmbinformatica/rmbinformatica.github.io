@@ -80,11 +80,63 @@ def main():
         assert page.flags == 6, f"{route}: missing flags"
         assert page.globe_images == {'/assets/brand/globe-light.svg', '/assets/brand/globe-dark.svg'}, f"{route}: wrong globe assets"
         assert page.hreflang == expected, f"{route}: incorrect language selector {page.hreflang}"
+    validate_english(root, urls)
     for asset in ("assets/css/rmb.css", "assets/js/theme.js", "assets/brand/globe-light.svg", "assets/brand/globe-dark.svg"):
         assert (root / asset).is_file(), f"Missing asset {asset}"
     blog = (root / "blog/index.html").read_text(encoding="utf-8")
     assert "rmb-blog-grid" in blog and "assets/css/rmb.css" in blog, "Blog not using redesign"
     print("All six preview pages passed language, navigation, noindex and asset checks.")
+
+def validate_english(root, urls):
+    import json
+    from urllib.parse import urlsplit
+    routes = json.loads(Path("_data/rmb_en_routes.yml").read_text(encoding="utf-8"))
+    assert len(routes) == 71 and len(set(routes.values())) == 71
+    assert not any("/en/services/" in url or "/en/contact/" in url for url in urls)
+    home = "/preview-v2/en/"
+    contact = "/en/contact/"
+    expected = set(routes.values()) | {home, contact}
+    class Links(Page):
+        def __init__(self):
+            super().__init__()
+            self.links = []
+            self.forms = []
+        def handle_starttag(self, tag, attrs):
+            super().handle_starttag(tag, attrs)
+            a = dict(attrs)
+            if tag == "a" and a.get("href"):
+                self.links.append(a["href"])
+            if tag == "form" and a.get("data-proposal-form"):
+                self.forms.append(a)
+    seen = {}
+    for route in expected:
+        html = (root / route.strip("/") / "index.html").read_text(encoding="utf-8")
+        page = Links()
+        page.feed(html)
+        assert page.lang == "en" and page.noindex and not page.analytics and not page.alternates, route
+        assert 'href="/preview-v2/en/#services"' in html, route
+        assert 'href="/en/contact/"' in html, route
+        assert 'href="/contato.html"' not in html, route
+        assert not any(x.startswith("/servicos/") for x in page.links if x != page.hreflang.get("pt-BR")), route
+        if route == home:
+            assert html.count('data-tone=') == 28 and html.count('>Learn more</a>') == 6
+        elif route != contact:
+            if page.forms:
+                assert len(page.forms) == 1 and page.forms[0].get("data-locale") == "en", route
+                assert "Frequently asked questions" in html and "Request a proposal" in html, route
+                assert "Submission is not available yet" in html, route
+            else:
+                assert "Explore our solutions" in html and "Explore service" in html, route
+        seen[route] = {urlsplit(x).path for x in page.links if x.startswith("/en/") or x.startswith("/preview-v2/en/")}
+        assert seen[route] <= expected, (route, seen[route] - expected)
+    reached = {home}
+    while True:
+        new = reached | set().union(*(seen[r] for r in reached))
+        if new == reached:
+            break
+        reached = new
+    assert reached == expected, ("Unreachable English pages", expected - reached)
+    print("English preview: 55 service pages, 16 categories, home and contact reachable.")
 
 if __name__ == "__main__":
     main()
